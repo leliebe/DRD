@@ -23,10 +23,10 @@ function parse_xml_file($file_name)
     $titlepage8 = $xml->text->front->titlePage->docTitle->titlePart[2]->seg[2]->persName->hi;
     $titlepage9 = $xml->text->front->titlePage->docTitle->titlePart[2]->seg[3];
     $byline = $xml->text->front->titlePage->byline . $xml->text->front->titlePage->byline->docAuthor->persName->hi;
-    $imp1 = $xml->text->front->titlePage->imprimatur->seg[0] .
-            $xml->text->front->titlePage->imprimatur->seg[1]->date->hi .
-            $xml->text->front->titlePage->imprimatur->seg[1]->hi .
-            $xml->text->front->titlePage->imprimatur->seg[1]->hi->hi;
+    $imp1 =   $xml->text->front->titlePage->imprimatur->seg[0];
+    $imp2 =   $xml->text->front->titlePage->imprimatur->seg[1];
+    $imp3 =   $xml->text->front->titlePage->imprimatur->seg[2];
+    $imp4 =   $xml->text->front->titlePage->imprimatur->seg[3];
     // $titlepage9 = $xml->text->front->titlePage->docTitle->titlePart[2]->seg[2]->seg;
     echo "<h1 class='tp1'>$titlepage1</h1>";
     echo "<h2 class='tp2'>$titlepage2</h2>";
@@ -34,14 +34,15 @@ function parse_xml_file($file_name)
     echo "<h3 class='tp4'>$titlepage4 $titlepage5</h3>";
     // echo "<h3 class='tp4'>$titlepage4</h3>";
     // echo "<h3 class='tp5'>$titlepage5</h3><br>";
-    echo "<h3 class='tp6'>$titlepage6 $titlepage7 $titlepage8 $titlepage9</h3><br>";
+
+    echo "<h3 class='tp6'>$titlepage6<br></h3>";
     // echo "<h3 class='tp6'>$titlepage6</h3>";
-    // echo "<h3 class='tp7'>$titlepage7</h3>";
-    // echo "<h3 class='tp8'>$titlepage8</h3>";
-    // echo "<h3 class='tp9'>$titlepage9</h3><br>";
-    echo "<p class='by'>$byline</p>";
-    echo "<p class='by'>$imp1</p>";
-    //echo $imp2;
+    echo "<h3 class='tp7 imp-text-row'>$titlepage7</h3>";
+    echo "<h3 class='tp8 imp-text-row'>$titlepage8</h3>";
+    echo "<h3 class='tp9 imp-text-row'>$titlepage9</h3><br>";
+    echo "<p class='text-author'>$byline</p>";
+    echo "<p class='license'>$imp1 $imp2 $imp3 $imp4</p>";
+    //echo "<p class='license'>$imp2</p>";
     //echo $imp3;
     // echo "<h3>Authors: $author1, &nbsp $author2</h3></br>";
     // echo "<h3>Author: $author2</h3></br>";

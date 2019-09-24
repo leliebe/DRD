@@ -54,8 +54,13 @@
         <titlePart type="sub">OR THE <seg>Rape of Lavinia.</seg></titlePart>
         <titlePart type="desc">Acted at the <seg>Theatre Royall,</seg><seg>A TRAGEDY, </seg><seg>Alter'd from <persName xml:id="p73"><hi rend="italic">Mr SHAKESPEARS</hi></persName></seg><seg> Works,</seg></titlePart>
       </docTitle>
-      <byline>By <docAuthor><persName xml:id="p113"><hi rend="italic">Edw. Ravenscroft</hi></persName></docAuthor></byline>
-      <imprimatur><seg>Licensed, </seg><seg><date when="1685-12-21"><hi rend="italic">Dec.</hi> 21, 1685. <hi rend="italic">R. L. S. </hi></date></seg></imprimatur>
+      <byline>By <docAuthor><persName xml:id="p113"><hi rend="italic">Mr. Edw. Ravenscroft</hi></persName></docAuthor></byline>
+      <imprimatur>
+        <seg>Licensed, </seg>
+        <seg>Dec.</seg>
+        <seg>21, 1685.</seg>
+        <seg>R. L. S.</seg>
+      </imprimatur>
       <docImprint>
         <seg><placeName><hi rend="italic">London, </hi></placeName></seg>
         <seg>Printed by <persName xml:id="p150"><hi rend="italic">J. B. </hi></persName> for
