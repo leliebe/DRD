@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <!--Note, you haven't fully edited the teiHeader for this document -->
@@ -284,9 +283,7 @@
                         <seg>But the poor Poet oft'ner does Expose </seg>
                         <seg>More than his Life, his Credit, for Applause. </seg>
                         <seg>The Play's his Vessel, and his Venture, Wit: </seg>
-                        <seg>Hopes are his <placeName ref="lXXXXXXX"><hi rend="roman"
-                                >Indies</hi></placeName>, Rocks and Seas, the <hi rend="roman"
-                                >Pit</hi>. </seg>
+                        <seg>Hopes are his <placeName ref="lXXXXXXX"><hi rend="roman">Indies</hi></placeName>, Rocks and Seas, the <hi rend="roman">Pit</hi>. </seg>
                         <seg>Yet our good-natur'd Author bids me Swear </seg>
                         <seg>He'll Court you still, the more his Fate draws near; </seg>
                         <seg>And cannot chuse but blame their Feeble Rage </seg>
@@ -376,7 +373,7 @@
                     <seg><hi rend="italic">The Countess Reading a Letter.</hi></seg>
                 </stage>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l>HELP me to rail Prodigious minded Burleigh, </l>
                     <l>Prince of bold <hi rend="italic">English</hi> Councils, teach me how </l>
@@ -393,10 +390,10 @@
                     <l>Weak Womans Rage to Blast the Man I Love.</l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l>What means the fairest of the Court, say what </l>
                     <l>More cruel Darts are forming in those Eyes </l>
-                    <l>To make Adoring <name type="person" rend="italic" ref="#r23">Cecil</name> more unhappy? </l>
+                    <l>To make Adoring <name type="role" rend="italic" ref="#r23">Cecil</name> more unhappy? </l>
                     <l>If such a Wretched, and declar'd hard Fate </l>
                     <l>Attends the Man you Love, what then Bright Star </l>
                     <l>H'as your Malignant Beauty yet in Store </l>
@@ -405,7 +402,7 @@
                     <pb n="2"/>
                     <l>Tell me that most unhappy, happy Man, </l>
                     <l>Declare who is this most ungrateful Lover? </l>
-                    <l>And to obey my lovely <name type="person" rend="italic" ref="#r28">Nottingham</name></l>
+                    <l>And to obey my lovely <name type="role" rend="italic" ref="#r28">Nottingham</name></l>
                     <l>I will prefer this dear Cabal, and her </l>
                     <l>To all the other Councils, in the world </l>
                     <l>Nay tho' the Queen, and her two Nations call'd, </l>
@@ -414,13 +411,13 @@
                     <l>Or perish all for one kind look from you. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28">Nottingham</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r28">Nottingham</name></speaker>
                     <l>There spoke the <hi rend="italic">Genius</hi> and the Breath of <placeName rend="italic">England</placeName>. </l>
                     <l>Thou <hi rend="italic">Esculapius</hi> of the Christian World! </l>
                     <l>Methinks the Queen, in all her Majesty, </l>
                     <l>Hemm'd with a Pomp of Rusty Swords,and duller Brains, </l>
                     <l>When thou art absent, is a Naked Monarch, </l>
-                    <l>And fills an idle Throne till <name type="person" rend="italic" ref="#r23">Cecil</name> comes</l>
+                    <l>And fills an idle Throne till <name type="role" rend="italic" ref="#r23">Cecil</name> comes</l>
                     <l>To head her Councils, and inspire her Generalls---</l>
                     <l>Thy uncooth self that seems a Scourge to Nature </l>
                     <l>For so malitiously deforming thee, </l>
@@ -429,12 +426,12 @@
                     <l>Beholds the Cloud, but Wonders at the Light.</l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l>O spare that Angells Voice till the last Day, </l>
                     <l>Such Heav'nly Praise is lost on such a Subject. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28">Nottingham</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r28">Nottingham</name></speaker>
                     <l>Let none presume: to say while <name type="role" rend="italic" ref="#23">Burleigh</name> Lives </l>
                     <l>A Woman wears the Crown; Fourth <hi rend="italic">Richard</hi> rather, , </l>
                     <l>Heir to the Third in Magnanimity, </l>
@@ -443,7 +440,7 @@
                     <l>I hope. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> You Torture me with this Excess---</l>
                     <l>Were but my Flesh Caft in a purer Mould, </l>
                     <l>Then you might fee me Blush, but my hot Blood </l>
@@ -454,7 +451,7 @@
                     <l>Say, shall I guess? Is <name type="role" rend="italic" ref="#21">Essex</name> not the Man?</l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28">Nottingham</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r28">Nottingham</name></speaker>
                     <l>O! Name not <name type="role" rend="italic" ref="#21">Essex</name>, Hell, and Tortures rather, </l>
                     <l>Poysons, and Vultures to the Breast of Man</l> 
          <pb n="3"/>
@@ -464,27 +461,27 @@
                     <l>Than Fury in my Breaft.</l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Tell me the Caufe; </l>
                     <l>Then Cease your Rage, and Study to Revenge. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28">Nottingham</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r28">Nottingham</name></speaker>
                     <l>My Rage! It is the Wing by which I'le Fly </l>
                     <l>To be Reveng'd— I'l nere be Patient more. </l>
                     <l>Lift me my Rage, nay, Mount me to the Stars, </l>
                     <l>Where I may Hunt this <hi rend="italic">Peacock</hi> tho he lies </l>
-                    <l>Close in the Lap of <name type="person" rend="italic" ref="#r26">Juno--Elizabeth</name>, </l>
+                    <l>Close in the Lap of <name type="role" rend="italic" ref="#r26">Juno--Elizabeth</name>, </l>
                     <l>Tho' the Queen Circles him with Charms of Pow'r, </l>
                     <l>And hides her Minion like another <hi rend="italic">Circe</hi>. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
-                    <l>Still well instructed Rage, but pray disclole </l>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <l>Still well instructed Rage, but pray disclose </l>
                     <l>The Reason of the Earls Misfortune. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28">Nottingham</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r28">Nottingham</name></speaker>
                     <l>You are, </l>
                     <l>My Friend the Cabinet of all my Frailties; </l>
                     <l>From you, as from Just Heav'n,I hope for Absolution; </l>
@@ -496,17 +493,17 @@
                     <l>Till Lingering with the Pain of Fierce desire, </l>
                     <l>And Shame that strove to Torture me alike, </l>
                     <l>At last I past the Limits of our Sex, </l>
-                    <l>And (O Kind <name type="person" rend="italic" ref="#r23">Cecil</name> pitty and Forgive me) </l>
+                    <l>And (O Kind <name type="role" rend="italic" ref="#r23">Cecil</name> pitty and Forgive me) </l>
                     <l>Sent this opprobrious Man my Mind a Slave; </l>
                     <l>In a kind Letter Broke the silence of </l>
                     <l>My Love, which rather shou'd have Broke my Heart. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> But pray, what Answer did you get from him? </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28">Nottingham</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r28">Nottingham</name></speaker>
                     <l>Such as has made an Earth-Quake in my Soul, </l>
                     <l>Shook ev'ry Vital in these tender Limbs, </l>
                     <l>And rais'd me to the Storm you found me in. </l>
@@ -515,7 +512,7 @@
                     <l>Just now from Ireland I received this Letter, </l>
                     <l>Which take and Read but now I think, you shall not--- — - s </l>
                     <l>I'll tear it in a thousand pieces first, </l>
-                    <l>Tear it as I wou'd <name type="person" rend="italic" ref="#r21">Essex</name> with my Will,</l>
+                    <l>Tear it as I wou'd <name type="role" rend="italic" ref="#r21">Essex</name> with my Will,</l>
                <pb n="4"/>
                     <l>To Bits, to Morsells Hack the mangl'd Slave, </l>
                     <l>Till every Attome of his Cursed Body</l>
@@ -533,20 +530,20 @@
                     <l>On Earth, and Hell hereafter, if I'm not Reveng'd. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l>Els say she is no Woman, or no Widow.</l> 
                     <stage rend="italic">[Aside.</stage> 
                     <l>The Sacred Guardians of your slighted Beauties, </l>
                     <l>Have had more Pitty on their lovely Charge, </l>
                     <l>Then to behold you swallow'd in his Ruin. </l>
                     <l>The best, and worst that Fortune cou'd propofe; </l>
-                    <l>To you in <name type="person" rend="italic" ref="#r21">Essex</name> Love, was to have brought, </l>
+                    <l>To you in <name type="role" rend="italic" ref="#r21">Essex</name> Love, was to have brought, </l>
                     <l>A helpless, short-liv'd Traytor to your Arms. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28">Nottingham</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r28">Nottingham</name></speaker>
                     <l>Ha! Traytor say you! Speak that Word again---</l>
-                    <l>Yet do not; 'tis enough if <name type="person" rend="italic" ref="#r21">Burleigh</name> says it: </l>
+                    <l>Yet do not; 'tis enough if <name type="role" rend="italic" ref="#r21">Burleigh</name> says it: </l>
                     <l>His Wit has Power to Damn the Man that thinks it, </l>
                     <l>And t'extract Treason from infected Thought. </l>
                     <l>The Nations safety like a Ship he Steers, </l>
@@ -561,99 +558,102 @@
                     <l>My Lord, the Queen expects you straight. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Madam, </l>
                     <l>Be Pleas'd to Attend her Majesty ith' Presence, </l>
                     <l>Where you shall hear such Misdemeanours offer'd, </l>
-                    <l>Such Articles against the Earl of <name type="person" rend="italic" ref="#r21">Essex</name>, </l>
+                    <l>Such Articles against the Earl of <name type="role" rend="italic" ref="#r21">Essex</name>, </l>
                     <l>As will both glad the Nation, and your self. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic">Gentleman</name></speaker>
-                    <l> My Lord, I see the haughty Earl of <name type="person" rend="italic" ref="#r22">Southampton</name> </l>
+                    <l> My Lord, I see the haughty Earl of <name type="role" rend="italic" ref="#r22">Southampton</name> </l>
                     <l>Coming this way. </l>
                 </sp>
                 
                 <pb n="5"/>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Madam, retire. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28">Nottingham</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r28">Nottingham</name></speaker>
                     <l>I goe </l>
                     <l>With greater expectation of delight </l>
                     <l>Than a young Bride-groom on his Marriage Night.</l>
                     <stage>[Exit Countess of Nottingham. </stage>
                 </sp>
+                <sp>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <l><name type="role" rend="italic" ref="#r28">Southampton</name>! he's the chief of <name type="role" rend="italic" ref="#r21">Essex</name> Faction,</l>
+                    <l>His Friend, and Sworn Brother; and I fear </l>
+                    <l>Too much a Friend, and Partner of his Revells</l>
+                    <l>To be a Stranger to the others Guilt---</l> 
+                    <l>Tis not yet time to lop this haughty Bough,</l> 
+                    <l>Till I have shaken first the Tree that bears it.</l>
+                </sp>
+                <stage>Enter <name type="role" rend="italic" ref="#r22">Southampton</name>.</stage>
+                <sp>
+                    <speaker><name type="role" rend="italic" ref="#r22">Southampton</name></speaker>
+                    <l> My Lord, I hear unwelcome News; 'tis said </l>
+                    <l>Some Factious Members of the House, Headed </l>
+                    <l>By you, have voted an Address for leave </l>
+                    <l>T'impeach the Earl of <name type="role" rend="italic" ref="#r23">Essex</name> of strange Articles, </l>
+                    <l>Of Treason. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <l> Treafon, 'tis most true is laid </l>
+                    <l>To <name type="role" rend="italic" ref="#r21">Essex</name> Charge, but that I am the Cause </l>
+                    <l>They do me wrong, th' Occasion is too publick: </l>
+                    <l>For those dread Storms in <placeName rend="italic" ref="#l?????">Ireland</placeName> rais'd by him, </l>
+                    <l>Have Blown so rudely on our <placeName rend="italic">English</placeName> Coasts, </l>
+                    <l>That they have Ship-wrack'd quite the Nations Peace, </l>
+                    <l>And wak'd it's very Statues to abhorring. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" rend="italic" ref="#r22">Southampton</name></speaker>
+                    <l> Meer Argument, your nice, and fine distinctions </l>
+                    <l>To make a good Man Vitious, or a bad </l>
+                    <l>Man Virtuous, ev'n as please the Sophisters---</l>
+                    <l>My Lord, you are ingendring Snakes within you,</l>
+                    <l>I fear you have a subtle stinging Heart; </l>
+                    <l>And give me leave to tell you, that this Treason,</l>
+                    <l>If any, ha's been hatch'd in <name type="role" rend="italic" ref="#23">Burleigh</name>'s School. </l> 
+                    <l>I see Ambition in the fair Pretence, </l>
+                    <l><name type="role" rend="italic" ref="#23">Burleigh</name> in all it's Cunning, dark Disguises,</l>
+                    <l>And envious <name type="role" rend="italic" ref="#23">Cecil</name> ev'ry where. </l>
+                </sp>
                 
                 <!--Pick up with Spell Check here-->
-                
-                
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
-                    <l> Southampton ! he's the chief of </l>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <l>My Lord, my Lord, your Zeal to this bad <name type="role" ref="#r23">Earl</name> </l>
+                    <l>Makes you offend the Queen, and all good men. </l>
+                    <l>Believe it Sir, his Crimes have bin so noted, </l>
+                    <l>So plain, and open to the State, and her,</l>
+                <pb n="6"/>
+                    <l>That he can now no more deceive the Eyes </l>
+                    <l>Of a most Gratious Mistress, or her Council; </l>
+                    <l>Nor can she any longer, if she wou'd, </l>
+                    <l>In pitty of his other parts let Justice wink, </l>
+                    <l>But rouze her self from Cheated slumbering <hi rend="italic">Mercy</hi>, </l>
+                    <l>And start at his most foul Ingratitude. </l>
+                    <l>Nor, does it well become the brave <name type="role" rend="italic" ref="#r22">Southampton</name></l>
+                    <l>To Plead in his behalf; for fear it pulls</l>
+                    <l>Upon himself, suspition of his Crimes. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="role" rend="italic" ref="#r21">Earl of
-                        Essex</name></speaker>
-                    <l> Faction, </l>
-                    <l>His Friend, and Sworn Brother , and I fear </l>
-                    <l>Too much a Friend, and Partner of his Revells To be a Stranger to the others
-                        Guilt . Tis not yet time to lop this haughty Bough, Till I have {hakenfirft
-                        the Tree that bears it.. Enter Southampton. </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" rend="italic" ref="c?">Southampton</name></speaker>
-                    <l> My Lord, Ihear unwelcome News 5 'tis faid </l>
-                    <l>Some Factious Members of theHoufe, Headed </l>
-                    <l>By you, have voted an Address for leave </l>
-                    <l>T'impeach the Earl of BjSex of ftrange Articles, </l>
-                    <l>OfTreafon. </l>
-                </sp>
-                <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
-                    <l> Treafon, 'tis mod true is laid </l>
-                    <l>To Ejjex Charge, but that I am the Caufe </l>
-                    <l>They do me wrong, th' Occafion is too publick: </l>
-                    <l>For thole dread Storms in Ireland rais'd by him, </l>
-                    <l>Have Blown so rudely on our EngUJlo Coafts, </l>
-                    <l>That they have Ship-wrack'd quite the Nations Peace, </l>
-                    <l>And wak'd te's very Statues to abhorring. </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" rend="italic" ref="c?">Southampton</name></speaker>
-                    <l> Meer Argument, your nice, and fine diftincYions </l>
-                    <l>To make a good Man Vitious, or a bad Man Virtuous, ev'naspleafe the
-                        Sophifters- — My Lord, you are ingendring Snakes within you, I fear you have
-                        afubtle flinging Heart 5 And give me leave to tell you, that this Treafon,
-                        If any, ha's been hatch'd in Burleigh's School. I fee Ambition in the fair
-                        Pretence, Burleigh in all it's Cunning, darkDifguifeSj And envious Cecil
-                        ev'ry where. </l>
-                </sp>
-                <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
-                    <l> My Lord, my Lord, your Zeal to this bad Earl i </l>
-                    <l>Makes- you offend the Queen, and all good men,. </l>
-                    <l>Believe it Sir, his Crimes have bin lb noted. </l>
-                    <l>So plain, and open to the State, and her, , THatt 6 The Vnbappy Favourite,
-                        That he can now no more deceive the Eyes Of a most Gratious Miftress, or her
-                        Council 5 Nor can (he any longer, if (he worfd, In pitty of his other parts
-                        let Juftice wink, But rouze her felf from Cheated numbering Mercy, And (tart
-                        at his most foul tngratitud j . Nor, does it well become the brave
-                        Southampton To Plead in his behalf 5 foi fear it pulls Upon himfel£
-                        fufpition of his Crimes. Sou. Hold in my Fire, and fcprch not through my
-                        Ribs, Quench, if thou canft, the Burning Furious Pain — . I cannot if I
-                        wou'd, but muft unload Some of the Torture Now by my Wrong'd (elf, And </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" rend="italic" ref="#r21">Earl of
-                        Essex</name></speaker>
-                    <l>j much more Wrong'd, I Swear 'tis falfe, Falfe, as the Rules by which Vile
-                        Statef-men Govern, fc </l>
-                    <l>Falfe as their Arts, by which the Traytors Rife, </l>
-                    <l>By Cheating Nations, and Deftrqying Kings, </l>
-                    <l>And falfe Impofing on the Common Crew. </l>
+                    <speaker><name type="role" rend="italic" ref="#r22">Southampton</name></speaker>
+                    <l>Hold in my Fire, and scorch not through my Ribs, </l> 
+                    <l>Quench, if thou canst, the Burning Furious Pain---</l>
+                    <l>I cannot if I wou'd, but must unload </l> 
+                    <l>Some of the Torture---Now by my Wrong'd self,</l> 
+                    <l>And Essex, much more Wrong'd, I Swear 'tis false, </l>
+                    <l>False, as the Rules by which Vile States-men Govern, </l>
+                    <l>False as their Arts, by which the Traytors Rise, </l>
+                    <l>By Cheating Nations, and Destroying Kings, </l>
+                    <l>And false Imposing on the Common Crew. </l>
                     <l/>
                 </sp>
                 <sp>
@@ -674,7 +674,7 @@
                     <l>The merit that's in one poor Hair of his. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Thank you, my Lord— -fee I can bear the fcandal, </l>
                     <l>And cannot chufe but fmile, to fee you Rage. </l>
                 </sp>
@@ -684,7 +684,7 @@
                     <l>And ha's not Spirit enough to Feign a Paflion. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> It is the Token of my Innocence. But let Southampton have a fpecial Care </l>
                     <l>To keep hisclofe Defigns from Cecils way, </l>
                     <l>Leaft hedifturb the Genious of the Nation As Or, the Earl of </l>
@@ -720,7 +720,7 @@
                     <l>They dare. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> To dare, mod high Illuftrious Prinee(s, r </l>
                     <l>Is fuch a Virtue Spanyard. never knew, </l>
                     <l>His Courage is as Cold-as he is Hot, </l>
@@ -755,7 +755,7 @@
                     <l>The Gout. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> O Faithless, incouragious Hands ! </l>
                     <l>They (liou'd have both been Burnt for Hereticks. </l>
                 </sp>
@@ -794,7 +794,7 @@
                         Tumbled down together. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Juft Heav'n that never ceas'd to have a Care </l>
                     <l>Of your raoft Gracious Majefty, and Kingdoms, </l>
                     <l>By Valliant Souldiers, and by faithful Leaders, </l>
@@ -810,7 +810,7 @@
                     <l/>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> None better than the laft, that feems too ill </l>
                     <l>To be repeated in your Gracious hearing. </l>
                     <l/>
@@ -826,7 +826,7 @@
                     <l>Begins to Conjure up a Storm. 3 •- J • </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> How foon your Gracious Majefty forgets </l>
                     <l>Crimes done by any of your Subjects! </l>
                 </sp>
@@ -838,7 +838,7 @@
                     <l>Was not that all ? , </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> And that he met Tyrone </l>
                     <l>At his Requeft, and treated with him Private. </l>
                     <l>A Ford dividing them, they both Rode in, </l>
@@ -868,7 +868,7 @@
                     <l>other Members of the Houfe, * </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Mod Royal Madam, here's the gallant Kaxdeigh^ </l>
                     <l>With others in Commiffion from the Houfe, </l>
                     <l>Who 'ttend your Majefty with fome few Bills </l>
@@ -909,7 +909,7 @@
                         read what they contain. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> An Aft for jetting, and eSlablifhing [Cecil takes the Papers </l>
                     <l>A Strong Militia, out ofevry County, and reads the Contents, And likewife for
                         levying a new Army </l>
@@ -921,7 +921,7 @@
                     <l>My Dear, and loving People, I will pass it. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> This fecond Aft is for the fpeedy raifing </l>
                     <l>Two Hundred Thoufand Pounds to pay the Army, </l>
                     <l>And to be ordered as the Queen (hall pleafe$ </l>
@@ -930,7 +930,7 @@
                         Subjects ! It (hall pass. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> The third has feveral Articles at large, </l>
                     <l>With an Address Subfcrib'd, most humbly offer d </l>
                     <l>For the Impeaching Robert Earl of </l>
@@ -998,7 +998,7 @@
                         more— — Attend me in the Houfe to morrow. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Moft Mighty Queen ! Bleft and Ador'd by all, </l>
                     <l>Torment not lb your RoyalBreaft withPaffion-i </l>
                     <l>Not all of us, our Lives, Eftates, and Country </l>
@@ -1018,7 +1018,7 @@
                         clofe Defign : For I am fure thou know'ft it. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Madam — •* §£ueei Be dumb 5 I will hear no Excufes.- I could turn Cynnick,
                         and outrage the Wind, Fly from all Courts, from Bufiness, and Mankind 9
                         Leave all like Chaos in Confufion hurl'd : For 'tis not Reafon now that
@@ -1173,7 +1173,7 @@
                     <l> then Arriv d > </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> He is. / </l>
                 </sp>
                 <sp>
@@ -1182,7 +1182,7 @@
                         Come (ay you! Who elfe came with him? </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Some few Attendants. </l>
                 </sp>
                 <sp>
@@ -1202,7 +1202,7 @@
                     <l> that I FavouVd feeks my Life. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Wil't pleafe your Majefty to fee the Earl. </l>
                 </sp>
                 <sp>
@@ -1210,7 +1210,7 @@
                     <l> No. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Shall I publifti ftraight your Royal Order, </l>
                     <l>That may forbid his coming to the Court, </l>
                     <l>Until your Majefty Command him } </l>
@@ -1266,7 +1266,7 @@
                     <l>Betwixt bold Subjects, and a Monarchs Right, </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> May't pleafe your Majefty, the Earl is come </l>
                     <l>And waits your Pleafure. Queen Let him. be admitted Now now fupport thy
                         Royalty, And hold thy Greatness firm 3 but oh, how heavy A Load is State
@@ -1393,7 +1393,7 @@
                         Enter to them Burleigh and Rawleigh. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Hear Robert Earl of Effx, </l>
                     <l>Hear what the Queen, my Lord, by us pronounces? </l>
                     <l>She now diverts you of your Offices, </l>
@@ -1410,7 +1410,7 @@
                     <l>By an unlucky hand thrown quite away. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Alfo her Pleafure is, that in obedience </l>
                     <l>To her Commands, you fend your Staff by us, </l>
                     <l>Then leave the Court, and ftirr no farther then </l>
@@ -1453,7 +1453,7 @@
                         into fuch hands 5 For Cowards ftfil are cruel and malitious. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> This I dare tell,- and that Southampton (aid it. </l>
                 </sp>
                 <sp>
@@ -1478,7 +1478,7 @@
                     <l>She favours none but Worthlels Perfons. > </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Muft we return this ftubborn Anfwer to her? </l>
                     <l>Youl not obey her Majefty, nor here </l>
                     <l>Refign your Staff of Offices to us ? Fffl Tell her what ere thy malice can
@@ -1492,7 +1492,7 @@
                         him I will appeal to her </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Youl not believe us, Nor 7 be Earl ofESex. 23 Nor that it was by her Command
                         we came. </l>
                 </sp>
@@ -1502,7 +1502,7 @@
                     <l>. I do not. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Fare you well my Lords. [Exeunt Burleigh and Rawleigh. Ef. Go thou </l>
                     <l>My brave Southampton, follow to the Queen, </l>
                     <l>And quickly e're my cruel Foes are heard, </l>
@@ -1721,7 +1721,7 @@
                     <l>And fav'd a Queen and Kingdoms by thy Wifdom* </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> But what the Roman Senate then alio w'd 5 </l>
                     <l>Nay,, and proud Cicero himlelf to FuIvm\ </l>
                     <l>Fulvia the lovely Saver of her Countrey, </l>
@@ -1733,7 +1733,7 @@
                     <l>I: came t attend the Queen, where is (he gone?. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> She went to her Clofet, where, (he's now alone*. </l>
                     <l>As (he paft by, I faw her lovely Eyes </l>
@@ -1746,11 +1746,11 @@
                     <l>Some fad remains upon her dewy Gheeks </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> What (houkl theReafoabe /. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> At Fjfex anfweiv </l>
                     <l>What faid (he then h Bnrl: No doubt th' affront had flung her 3 , </l>
@@ -1769,18 +1769,18 @@
                     <l> fent for to the Court. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Then I am loft, and my defigns unravelFd. </l>
                     <l>If once (he fees him, all's undone again — </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Behold the Clofet opens — fee the Queen — ~ </l>
                     <l>Tis dangerous to interrupt her — let's Retire. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Be you not feen 5 lie wait within her call. Enter- the Queen alone as from
                         her Clofet, Exit Burleigh. Quee. Where am I now ? Why wander I alone > </l>
@@ -1795,7 +1795,7 @@
                         dear Nottingham, I'de been alone; ^- </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Pardon this bold Intrufion, but my Duty) Urges me farther On my Knees I
                         firft. Beg Pardon that I am so bold to ask it, </l>
@@ -1809,18 +1809,18 @@
                         Tell me, what fay's the World oFFffix coming ? </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Much they do blame htm For t, but think him brave. guee. What, when the Tray
                         tor ferv'dmethus! </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Indeed, it was not well. Quee. Not well 5 and was that all > </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> It was a very bold, and heinous fault. Quee. I was it not and fuch a bafe
                         Contempt </l>
@@ -1848,7 +1848,7 @@
                         againft this Man. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Since you will give me leave, I will be plain, </l>
                     <l>And tell your Majefty what all the World </l>
@@ -1856,7 +1856,7 @@
                         him,and me? </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Of you they fpeak no worfe, than of dead Saints, </l>
                     <l>And Worfhip you no left than as their God, \ </l>
@@ -1897,7 +1897,7 @@
                     </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Did not your Majefty Command me fpeak Quee. Ldid, but then I faw thee on a
                         fuddak, </l>
@@ -1910,7 +1910,7 @@
                     <l>Difcharg'd unmannerly upon my face. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Pardon bright Queen, most Royal and belov 'd, </l>
                     <l>The manner of expreffing of my Duty } </l>
@@ -1929,14 +1929,14 @@
                         head, and yet Not wiftito (ave the miferable Wretch ! </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> I was too blame. Qu. No more- Thou feelt thy Queen, the World, and Deftiny </l>
                     <l>It felf againft this one bad Man, and him </l>
                     <l>Thou canft not pity nor excufe. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Madam Qtteen. Begone, I do forgive thee } and bid Rutland [Exit Not- </l>
                     <l>Come to me ftraight ha! what have I difclos'd? " tingham. Why have I chid my
@@ -2401,7 +2401,7 @@
                     <l>Actus Quartus, Scoem prima. Cotmtep Nottingham, Rawleigk €. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l>^^IR) did you ever fee so flrange a Scene As E^bcboldness } Nay, and which is
                         more </l>
@@ -2414,7 +2414,7 @@
                         Place. C. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> She's of a Nature wondrous in her Sex^, Not hafty to admire the Beauties,
                         Wifdom 9 Valour, and Parts in others though extrearn, Becaufe there's so
@@ -2497,7 +2497,7 @@
                     <l> Are the Rebellious Earles then apprehended }> </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> They are, thanks to the Almighty Powers, </l>
                     <l>And the Eternal 5 Fortune of yourMajefty, </l>
                 </sp>
@@ -2550,7 +2550,7 @@
                         me Safe $4fide. The City fay'ft! What did he in the City? </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> There, as I learn't from many that confefr 3 </l>
                     <l>He was infbrm'd the Citizens would rife, </l>
                     <l>Which to promote, he went difguis'd like one </l>
@@ -2615,14 +2615,14 @@
                     <l>Where is the Earl ? </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Under fufficient Guard </l>
                     <l>In order to his fending to the Tower. Sueeti* Ha, In the Tower ! How durft
                         they fend him thece </l>
                     <l>Without my Order? - </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Th'Earles are yet without </l>
                     <l>In the Lieutenants Cuftody, who waites </l>
                     <l>But to receive your Majefties Command </l>
@@ -2638,7 +2638,7 @@
                         fpeed Yet hold. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> The Queen's diftradted how to fave the Earl — ? </l>
                     <l>Her Study puts my Hatred on the Wrack. </l>
@@ -2655,7 +2655,7 @@
                     <l>Of which I was the cruel Caufe, Condemn him > </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Her Rage Ebbs out,and Pity flows apace. [Afide. Qmen. Do what you will my
                         Stars, do as you pleafe - </l>
@@ -3098,7 +3098,7 @@
                     <l>What makes her here ? </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Where is my Lord of </l>
                 </sp>
@@ -3116,7 +3116,7 @@
                     <l>How faires the Queen > Are her Refolves yet (redraft } </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> No, when (he heard that Efjex was Condemn'd, </l>
                     <l>She ftarted and look'd pale, then blufhing red, </l>
@@ -3150,7 +3150,7 @@
                     <l> Exit Rawleigh and Guards, </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Pray bring me to my Lord. Lieut, Madam, I will acquaint him that y 'are
                         here. Exit Lieut Nott, Now Dragons- Blood diftill through all my veins. </l>
@@ -3168,7 +3168,7 @@
                     <l>No favour at your hands. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> No more my Lord, the Queen, </l>
                     <l>The Gratious Queen commends her Pitty coyou 5 </l>
@@ -3201,7 +3201,7 @@
                     <l> </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Ha is this true ! How he undoes my Hopes ! [Afide, </l>
                     <l>And is that all ) have you not one Requeft </l>
@@ -3232,7 +3232,7 @@
                     <l>She'd then deny me nothing I cou'd ask. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> O give it me my Lord, and quickly let </l>
                     <l>Me bear it to the Queen, and ask your Life. Ejf. Hold generous Mad a m, I
@@ -3256,7 +3256,7 @@
                     <l>My Life's the purchafe that the Queen will have fbr't. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Doubt you my care my Lord } I hope you do not, Eff. I will no more fufpecr.
                         my Fate, nor you : </l>
@@ -3272,7 +3272,7 @@
                     <l>Both my good Queen and you. Exit EfTex, </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Farewell my Lord Yes, a much longer Life than thine I hope. </l>
                     <l>And if thou chance to dream of fuch ftrange things^ </l>
@@ -3292,7 +3292,7 @@
                     <l> '</l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Ha! that's unlucky She come to the Tower t Y, et 'tis no matter 5 fee him I
                         am fore She will not, or at w.orft will be perfwaded* Enter the </l>
@@ -3310,7 +3310,7 @@
                     <l>Quick, tell me, haft thou done as I commanded? </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Yes Madam, I have (een, and fpoke with him*. </l>
                 </sp>
@@ -3319,7 +3319,7 @@
                     <l> And what has he faid to thee for himfelf ? </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> At my firft converfe with him I did find him; </l>
                     <l>TSlot totally defpairing, nor complaining 5- </l>
@@ -3330,7 +3330,7 @@
                     <l>When thou awakeft him with the Hopes of Pitty > </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l>. To my firft Queftion put by your Command; </l>
                     <l>Which was to know if he were fatisfied </l>
@@ -3347,13 +3347,13 @@
                     <l>They wou'd have quickly found his Innocence, Quem. Ha! </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> That was but the Prologue, mark what follows^ Quem. What, durft he be so
                         bold to brand my Juftice ! </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> I pray'd that he wou'd urge that Senceno more 3 . </l>
                     <l>But fince he was Condemn'd and ftood in need </l>
@@ -3365,7 +3365,7 @@
                         him 1 hope*, </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> No, not at all, but as I've feen a Lyon </l>
                     <l>That has beenplay'd withall with gentle ftroaks 3 </l>
@@ -3403,7 +3403,7 @@
                         pardon me But coud he fay all this ! </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> He did, and more. </l>
                     <l>But 'tis no matter, 'twill not be believd </l>
@@ -3438,7 +3438,7 @@
                     <l>His Life > </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> No, but far worfe than I have told you. </l>
                 </sp>
@@ -3462,7 +3462,7 @@
                         $% No Mng, no Token, nor no Meffage by thee? </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Not any on the forfeit of my Life. </l>
                 </sp>
@@ -3474,7 +3474,7 @@
                         pardon me y Forget my Rage, thy Queen is fbrry fbr't. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> I wou'd your Majefty in ftead of me. </l>
                     <l>Had fent a Perfon that you cou d confide in, </l>
@@ -3489,7 +3489,7 @@
                         my Medea 5) And thou wilt then oblige thy Queen for ever. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Firft Sign an Order for his Execution. </l>
                 </sp>
@@ -3510,7 +3510,7 @@
                     <l> That was well thought on ! </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> This' is but the leafr. </l>
                     <l>The next will be a fatal ftroak, a blow indeed, </l>
@@ -3544,7 +3544,7 @@
                     <l>She'll not continue in this mind a Moment. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Thent (hall be done this Moment Who attends? Bid the Lieutenant have his
                         Prifoners ready. Exit Officer. Now we may hope to fee fair Day es again In
                         England, when this hov ring Cloud is vaniftiL, Which hung so long betwixt
@@ -3573,7 +3573,7 @@
                     <l>Since we muft dye my Lord, to dye together. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> The Queen, my Lord SW^/^/0# 3 has been pleas d </l>
                     <l>To grant particular Mercy to your Perfbn 5 </l>
                     <l>And has by us lent you a Reprieve from Death, </l>
@@ -3676,7 +3676,7 @@
                     <l>That we (hall never live to want. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> My Lord, </l>
                     <l>Prepare, the very utmost Time's at hand, </l>
                     <l>And we mud: ftraight perform the Queens Command </l>
@@ -3807,7 +3807,7 @@
                         her weight — — ~ Support her all </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> My Lord (he will recover ? </l>
                     <l>Pray leave her with her Women, and make ufe </l>
                     <l>Of this so kind an Opportunity </l>
@@ -3815,7 +3815,7 @@
                     <l>Moft Barbarous Cecil. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> See my Lord, </l>
                     <l>Shefoon will come t'her felf, and you mud leave her — Z </l>
                     <l>.Hafte, away. Lieut. Make way there. Eff Look to her Faithful Servants, while
@@ -3882,7 +3882,7 @@
                     <l>The Ring been in its ftead. [Reads to her feljT^ C. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Ha ! I'm betray'd. [Afide. , </l>
                 </sp>
@@ -3904,7 +3904,7 @@
                     <l>Worfe than a thoufand deaths torment thy Soul. C.</l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Madam </l>
                 </sp>
@@ -3925,7 +3925,7 @@
                     <l> Ghoft be ftill before thy Eye. -> C. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> I do confess </l>
                 </sp>
@@ -3941,12 +3941,12 @@
                     <l>I leave you all with greater Plagues at home. Exit </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r28"
+                    <speaker><name type="role" rend="italic" ref="#r28"
                         >Nottingham</name></speaker>
                     <l> Enter Burleigh and Rawleigh. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="person" rend="italic" ref="#r23">Burleigh</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> Madam your Orders came too late The Earl was Dead ® cen. Then I wi(h thou
                         wer't dead that fay 'ft it, But The Earl of Effete j ? But [H be jnft and
                         curfe none but my felf . What faid he when he came so fbon to dye > f?«r/.

@@ -9,10 +9,10 @@
         </sch:rule>
         
         <sch:rule context="tei:body//tei:speaker/@xml:id">
-            <sch:let name="indexDoc" value="doc('raw.githubusercontent.com/DRD/?????????')"/>
+            <sch:let name="IndexDoc" value="doc('raw.githubusercontent.com/DRD/DRD_Index.xml)"/>
             <sch:let name="roleIDs" value="$IndexDoc//tei:listRole/tei:role/@xml:id"/>
             <sch:let name="roleRefValues" value="for $i in $roleIDs return concat('#', $i)"/>
-            <sch:assert text=". = $roleRefValues">
+            <sch:assert test=". = $roleRefValues">
                 Acceptable values: <sch:value-of select="string-join($roleRefValues, ', ')"/>
             </sch:assert>
         </sch:rule>
