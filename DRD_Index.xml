@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Standoff Markup for Digital Restoration Drama</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Digital Restoration Drama</p>        
+         </publicationStmt>
+         <sourceDesc>
+            <p>A list of names, roles, and places in plays catalogued in Digital Restoration Drama</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <list type="person">
+            <person xml:id="p1">
+               <forename>John</forename>
+               <surname>Suckling</surname>
+            </person>
+            <person xml:id="p2">
+               <forename>T.</forename>
+               <surname>W.</surname>
+            </person>
+            <person xml:id="p3">
+               <forename>Humphrey</forename>
+               <surname>Moseley</surname>
+            </person>
+            <person xml:id="p4">
+               <forename>Anonymous</forename>
+            </person>
+            <person xml:id="p5">
+               <forename>Joseph</forename>
+               <surname>Arrowsmith</surname>
+            </person>
+         </list>
+         
+         <list type="role">
+            <role xml:id="r1">
+               <roleName>Saturninus</roleName>
+               <roleDesc>Son of the Deceased Emperor</roleDesc>               
+            </role>
+            <role xml:id="r2">
+               <roleName>Bassianus</roleName>
+               <roleDesc>Son of the Deceased Emperor</roleDesc>
+            </role>
+            <role xml:id="r3">
+               <roleName>Titus Andronicus</roleName>
+               <roleDesc>An Old Roman General</roleDesc>
+            </role>
+            <role xml:id="r4">
+               <roleName>Marcus Andronicus</roleName>
+               <roleDesc>A Tribune, Brother to Titus</roleDesc>
+            </role>
+            <role xml:id="r5">
+               <roleName>Emilius</roleName>
+               <roleDesc>A Tribune</roleDesc>
+            </role>
+            <role xml:id="rX">
+               <roleName></roleName>
+               <roleDesc></roleDesc>
+            </role>
+         </list>
+         <list type="place">
+            <location>
+               <street>Cornhill, over against the Royal Exchange</street>
+               <sign>the Golden Ball</sign>
+            </location>
+         </list>
+      </body>
+  </text>
+</TEI>
