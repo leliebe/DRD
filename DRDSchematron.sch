@@ -9,7 +9,7 @@
         </sch:rule>
         
         <sch:rule context="tei:body//tei:speaker/@xml:id">
-            <sch:let name="IndexDoc" value="doc('raw.githubusercontent.com/DRD/DRD_Index.xml)"/>
+            <sch:let name="IndexDoc" value="doc('https://raw.githubusercontent.com/leliebe/DRD/master/DRD_Index.xml?token=ANBHELUSA2P26G7SZK3QA7K5ZW75I')"/>
             <sch:let name="roleIDs" value="$IndexDoc//tei:listRole/tei:role/@xml:id"/>
             <sch:let name="roleRefValues" value="for $i in $roleIDs return concat('#', $i)"/>
             <sch:assert test=". = $roleRefValues">

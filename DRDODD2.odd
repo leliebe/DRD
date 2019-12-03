@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD file to generate Relax NG for DRD play texts</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <!-- Restriction of elements used in project -->
+      <schemaSpec ident="DRDODD" start="TEI">
+        <desc/>
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="namesdates"></moduleRef>
+
+  <!--"ref" restriction section-->
+        <sch:rule context="tei:body//tei:speaker/@xml:id">
+          <sch:let name="IndexDoc" value="doc('https://raw.githubusercontent.com/leliebe/DRD/master/DRD_Index.xml?token=ANBHELUSA2P26G7SZK3QA7K5ZW75I')"/>
+          <sch:let name="roleIDs" value="$IndexDoc//tei:listRole/tei:role/@xml:id"/>
+          <sch:let name="roleRefValues" value="for $i in $roleIDs return concat('#', $i)"/>
+          <sch:assert test=". = $roleRefValues">
+            Acceptable values: <sch:value-of select="string-join($roleRefValues, ', ')"/>
+          </sch:assert>
+        </sch:rule>
+      
+ <!--Element restriction section-->         
+       <elementSpec ident="sp" module="core" mode="change"> 
+          <!--This elementSpec restricts the elements that can appear in "sp" to "speaker", "l", and "stage"-->
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="speaker"/>
+              <elementRef key="l"/>
+              <elementRef key="stage"/>
+            </sequence>
+          </content>
+        </elementSpec>
+      
+      <elementSpec ident="prologue" module="core" mode="change">
+        <!--This elementSpec restricts the elements that can appear in "prologue" to "head", "p", and "l"-->
+        <content>
+          <sequence preserveOrder="false">
+            <elementRef key="head"/>
+            <elementRef key="p"/>
+            <elementRef key="l"/>
+          </sequence>
+        </content>
+        <exemplum>
+          <prologue>
+          <head>
+            <seg>PROLOGUE,</seg>
+            <seg>Spoken by <persName ref="p159">Major <hi rend="italic"
+              >Mohun</hi></persName>, the First Four Dayes.</seg>
+          </head>
+          <p><hi rend="italic">
+            <l>THE Merchant, joyful with the Hopes of Gain, </l>
+            <l>Ventures his Life and Fortunes on the Main; </l>
+            <l>But the poor Poet oft'ner does Expose </l>
+            <l>More than his Life, his Credit, for Applause. </l>
+            <l>The Play's his Vessel, and his Venture, Wit: </l>
+            <l>Hopes are his <placeName><hi rend="roman">Indies</hi></placeName>, Rocks and Seas, the <hi rend="roman">Pit</hi>. </l>
+            <l>Yet our good-natur'd Author bids me Swear </l>
+            <l>He'll Court you still, the more his Fate draws near; </l>
+            <l>And cannot chuse but blame their Feeble Rage </l>
+            <l>That Crow at you, upon their Dunghill Stage; </l>
+            <l>A certain sign they merit to be Curft, </l>
+            <l>When, to excuse their faults, they cry Whore first. </l>
+            <l>So oft in their dull Prologues, 'tis exprest, </l>
+            <l>That Critick now's become no more a Jeast; </l>
+            <l>Methinks self-intrest in 'em more should Rule; </l>
+            <l>There's none so impudent to ask a Dole, </l>
+            <l>And then to call his Benefactor Fool? </l>
+            <l>They Merit to be Damn'd as well as Poor, </l>
+            <l>For who that's in a Storm, and hears it roar, </l>
+            <l>But then would Pray, that never pray'd before? </l>
+            <l>Yet Seas are calm some times; and You, like those, </l>
+            <l>Are necessary Friends, but Cursed Foes: </l>
+            <l>But if amongst you all he has no Friend, </l>
+            <l>He humbly begs that you would be so kind, </l>
+            <l>Lay Malice by, and use him as you find. </l>
+          </hi>
+          </p>
+        </exemplum>
+        <remarks>
+          "Head" should be used for all titles, prefatory material, speakers, etc.
+          "p" should be used to mark indented segments of the prologue. Many prologues will only have one "p".
+          "l" should be used for each individual line of the prologue, regardless of whether it is poetry or prose.
+        </remarks>
+      </elementSpec>
+        
+        <elementSpec ident="epilogue" module="core" mode="change">
+          <!--This elementSpec restricts the elements that can appear in "epilogue" to "head", "p", and "l"-->
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="head"/>
+              <elementRef key="p"/>
+              <elementRef key="l"/>
+            </sequence>
+          </content>
+        </elementSpec>
+        
+     </schemaSpec>
+    </body>
+  </text>
+</TEI>

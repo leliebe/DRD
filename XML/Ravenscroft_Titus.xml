@@ -159,8 +159,8 @@
     </set>
     <salute>
   <pb n="ii"/>
-    <title><p>TO THE READER.</p></title>
-    <p><persName>READER,</persName></p>
+    <title>TO THE READER.</title>
+    <persName>READER,</persName>
     <p rend="text-indent: 2em;"><seg>I think it a greater theft to Rob the dead of their Praise then </seg>
     <seg>the Living of their Money: That I may not appear Guilty of such </seg>
     <seg>a Crime, 'tis necessary I should acquaint you, that there is a Play in </seg>
@@ -638,11 +638,11 @@ to keep the page numbers if they are given, and then include other numbers when 
     </sp>
     <sp>
       <speaker><name type="person" rend="italic" ref="#r16">Chiron</name></speaker>
-      <l>Was ever <placeName rend="italic">Cythia</name> half so Barbarous?</l>
+      <l>Was ever <placeName rend="italic">Cythia</placeName> half so Barbarous?</l>
     </sp>
     <sp>
       <speaker><name type="person" rend="italic" ref="#r17">Demetrius</name></speaker>
-      <l>Oppose not <placeName rend="italic">Cythia</name> to Ambitious <placeName rend="italic">Rome</placeName>,</l>
+      <l>Oppose not <placeName rend="italic">Cythia</placeName> to Ambitious <placeName rend="italic">Rome</placeName>,</l>
       <stage rend="align(right)"><name type="person" rend="italic" ref="#r3">Titus</name> goes up to the Tomb</stage>
       <l><name type="person" rend="italic" ref="#r15">Alarbus</name> goes to rest and we survive</l>
       <pb n="5" />
@@ -652,7 +652,7 @@ to keep the page numbers if they are given, and then include other numbers when 
       <speaker><name type="person" rend="italic" ref="#r18">Aron</name></speaker>
       <l>To tremble said you? did you say to tremble></l>
       <l>No, Madam stand resolv'd, but hope withall,</l>
-      <l>That the same Gods that Arm'd the Queen of <placeName rend="italic">Troy</name></l>
+      <l>That the same Gods that Arm'd the Queen of <placeName rend="italic">Troy</placeName></l>
       <l>With opportunity of Sharp revenge</l>
       <l>Upon the <hi rend="italic">Thracian</hi> Tyrant in his Tent</l>
       <l>May favour <name type="person" rend="italic" ref="#r14">Tamora</name> the Queen of Goths</l>
@@ -854,7 +854,7 @@ to keep the page numbers if they are given, and then include other numbers when 
         <l>Thy Name, and Honourable Family,</l>
         <l><name type="person" rend="italic" ref="#r11">Lavinia</name> will I make my Empress,</l>
         <l><placeName rend="italic">Rome</placeName><hi rend="italic">s</hi> Royall Mistress, Mistress of my heart,</l>
-        <l>And in the Sacred <placeName rend="italic">Patheon<!--need to double check this --></name> her Espouse;</l>
+        <l>And in the Sacred <placeName rend="italic">Patheon<!--need to double check this --></placeName> her Espouse;</l>
         <l>Tell me <name type="person" rend="italic" ref="#r3">Andronicus</name> doth this motion please thee?</l>
       </sp>
       <sp>
@@ -1419,7 +1419,7 @@ to keep the page numbers if they are given, and then include other numbers when 
         <l>Stand up <name type="person" rend="italic" ref="#r11">Lavinia</name>, thou shalt be my guest,</l>
         <l>With all thy Friends, <name type="person" rend="italic" ref="#r2">Bassianus</name> not excepted,</l>
         <pb n="15" />
-        <l>If <placeName rend="italic">Romes</name> great Court can Entertain two Brides.</l>
+        <l>If <placeName rend="italic">Romes</placeName> great Court can Entertain two Brides.</l>
         <l>But first impart a Smile to <name type="person" rend="italic" ref="#r2">Bassianus</name>,</l>
         <l>His looks are still contracted.</l>
         <l>Come <name type="person" rend="italic" ref="#r12">Tamora</name>, this is a day of Triumph,</l>
@@ -4489,7 +4489,7 @@ to keep the page numbers if they are given, and then include other numbers when 
         </sp>
         <sp>
           <speaker><name type="person" rend="italic" ref="#r18">Goth</name></speaker>
-          <l>If not concern'd for <placeName rend="italic">Romes</name> dishonour</l>
+          <l>If not concern'd for <placeName rend="italic">Romes</placeName> dishonour</l>
           <l>In a polluted Empress, Lustfull <name type="person" rend="italic" ref="#r12">Tamora</name>,</l>
           <l>At least, incited by your private Wrongs,</l>
           <l>Torment the Villain; Add to his pain one more</l>

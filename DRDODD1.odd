@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DRD ODD</title>
+        <title>Title</title>
       </titleStmt>
       <publicationStmt>
         <p>Publication Information</p>
@@ -24,12 +25,13 @@
         <moduleRef key="tei"/>
         <moduleRef key="textstructure"/>
         <moduleRef key="namesdates" include="persName placeName "></moduleRef>
-      </schemaSpec>
-      
+
+  <!--"ref" restriction section-->
+        <!--REPLACE THIS WITH SCHEMATRON THAT LOOKS TO THE STANDOFF-->
       <elementSpec ident="persName" module="namesdates" mode="change">
         <content> 
           <textNode/>
-          <elementRef key="placeName"/>
+          <elementRef key="persName"/>
         </content>
         <attList>
           <attDef indent="ref">
@@ -50,17 +52,41 @@
         </attList>
       </elementSpec>
       
-      <elementSpec ident="body" mode="change">
-        <content>
-          <textNode/>
-          <elementRef key="title"/> <!--This allows titles to appear under body elements-->
-        </content>
-          
-       
-        
-        
-      </elementSpec>
+ <!--Element restriction section-->         
+       <elementSpec ident="sp" module="core" mode="change"> 
+          <!--This elementSpec restricts the elements that can appear in "sp" to "speaker", "l", and "stage"-->
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="speaker"/>
+              <elementRef key="l"/>
+              <elementRef key="stage"/>
+            </sequence>
+          </content>
+        </elementSpec>
       
+      <elementSpec ident="prologue" module="core" mode="change">
+        <!--This elementSpec restricts the elements that can appear in "prologue" to "head", "p", and "l"-->
+        <content>
+          <sequence preserveOrder="false">
+            <elementRef key="head"/>
+            <elementRef key="p"/>
+            <elementRef key="l"/>
+          </sequence>
+        </content>
+      </elementSpec>
+        
+        <elementSpec ident="epilogue" module="core" mode="change">
+          <!--This elementSpec restricts the elements that can appear in "epilogue" to "head", "p", and "l"-->
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="head"/>
+              <elementRef key="p"/>
+              <elementRef key="l"/>
+            </sequence>
+          </content>
+        </elementSpec>
+        
+     </schemaSpec>
     </body>
   </text>
 </TEI>
