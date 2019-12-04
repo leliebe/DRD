@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,7 +33,23 @@
             </sequence>
           </content>
         </elementSpec>
+        
+        <!--"ref" restriction section-->
+        <constraintSpec ident="body" scheme="isoschematron">
+          <constraint>
+        <sch:rule context="tei:body//tei:speaker/@xml:id">
+          <sch:let name="IndexDoc" value="doc('https://raw.githubusercontent.com/leliebe/DRD/master/DRD_Index.xml?token=ANBHELUSA2P26G7SZK3QA7K5ZW75I')"/>
+          <sch:let name="persIDs" value="$IndexDoc//tei:listPerson/tei:role/@xml:id"/>
+          <sch:let name="persRefValues" value="for $i in $persIDs return concat('#', $i)"/>
+          <sch:assert test=". = $persRefValues">
+            Acceptable values: <sch:value-of select="string-join($persRefValues, ', ')"/>
+          </sch:assert>
+        </sch:rule>
+          </constraint>
+        </constraintSpec>
       </schemaSpec>
+
+
     </body>
   </text>
 </TEI>

@@ -83,11 +83,10 @@
                     </bibl>
                 </epigraph>
                 <docImprint>
-                    <seg><placeName><hi rend="italic">London,</hi></placeName></seg>
-                    <seg>Printed for <persName ref="#p154"><hi rend="italic">Richard
-                            Bentley</hi></persName> and <persName ref="#p155"><hi rend="italic">Mary
-                                Magnes</hi></persName> in <placeName ref="l17"><hi rend="italic"
-                                >Russel-street</hi></placeName></seg>
+                    <placeName><hi rend="italic">London,</hi></placeName>
+                    <lb/>
+                    Printed for <persName ref="#p154"><hi rend="italic">Richard Bentley</hi></persName> and <persName rend="italic" ref="#p155">>Mary Magnes</hi></persName> in <placeName ref="l17"><hi rend="italic"
+                                >Russel-street</hi></placeName>
                     <seg>near the <hi rend="italic">Piazza</hi> in <hi rend="italic"
                             >Covent-Garden</hi>, 1682.</seg>
                 </docImprint>
@@ -938,12 +937,6 @@
                     <l>Thanks to </l>
                     <l>My Dear, and loving People, I will pass it. </l>
                 </sp>
-                
-                
-                <!--Spell check starts here-->
-                
-                
-                
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
                     <l> This second Act is for the speedy raising </l>
@@ -954,7 +947,7 @@
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
-                    <l>What mean my giving Subjects ! It shall pass. </l>
+                    <l>What mean my giving Subjects! It shall pass. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
@@ -972,91 +965,98 @@
                         <l>Of all the awful courage of a Queen;</l>
                     </lg>
                     <stage rend="italic">Aside.</stage>
-                    <l>But Ile recover---Say my <name type="role" rend="italic" ref="#r28">Nottinham</name> you well aflur'd I am awake ? C 2 Bless i2 The ZJnbapfy Favourite,
-                        Bless me, and fay it is a Horry'd Vifion, That I am not upon the Throne Ha /
-                        Is'tnot fo? — Yes, Tray tors, lie obey you — — - [She rifes in a Rage* Here,
-                        fit you in my Place 5 take Burleigh's Staff, </l>
-                    <l>The Chancellor's Seal, and </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" rend="italic" ref="#r21">Earl of
-                        Essex</name></speaker>
-                    <l> valiant Head, </l>
-                    <l>And leave me none but fuch as are your (elves, </l>
-                    <l>Knaves for my Counfell, Fools for Megiftrates, </l>
-                    <l>And Cowards for Commanders 4i — Oh my Heart I </l>
+                    <l>But I'le recover---Say my <name type="role" rend="italic" ref="#r28">Nottinham</name>, </l>
+                    <l>And <name type="role" rend="italic" ref="#r27">Rutland</name>, did you ever hear the like!</l>
+                    <l>But are you well assur'd I am awake? </l>
+                    <lb n="12"/>
+                    <l>Bless me, and say it is a Horry'd Vision,</l>
+                    <l>That I am not upon the Throne---</l>
+                    <l>Ha! Is't not so?—Yes, Traytors, I'le obey you---</l>
+                    <stage rend="italic">[She rises in a Rage.</stage>
+                    <l>Here, sit you in my Place; take <name type="role" rend="italic" ref="#r23">Burleigh</name>'s Staff, </l>
+                    <l>The Chancellor's Seal, and <name type="role" rend="italic" ref="#r21">Essex</name> valiant Head, </l>
+                    <l>And leave me none but such as are your selves, </l>
+                    <l>Knaves for my Counsell, Fools for Megistrates, </l>
+                    <l>And Cowards for Commanders---Oh my Heart! </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r22">Southampton</name></speaker>
-                    <l> O horry'd impofition on a Throne ! </l>
-                    <l/>
-                </sp>
-                <sp>
-                    <speaker><name type="role" rend="italic" ref="#r21">Earl of
-                        Essex</name></speaker>
-                    <l> 5 that has so bravely ferv'd the Nation ! </l>
-                    <l>That I may boldly fay, Drake did not more, </l>
+                    <l>O horry'd imposition on a Throne! </l>
+                    <l><name type="role" rend="italic" ref="#r21">Essex</name>; that has so bravely serv'd the Nation! </l>
+                    <l>That I may boldly say, <name>Drake</name> did not more, </l>
                     <l>That has so often beat it's Foes on Land, </l>
                     <l>Stood like a Promontary in its defence, </l>
-                    <l>And lail'd with Dragons Wings to Guard the Seas 5 </l>
-                    <l/>
+                    <l>And sail'd with Dragons Wings to Guard the Seas; </l>
+                    <l><name type="role" rend="italic" ref="#r21">Essex</name>! That took as many Towns in <name type="place">Spain</name></l> 
+                        <l> As all this Island holds, begger'd their Fleet </l>
+                    <l>That came with Loads of half their Mines in <name type="place">India</name>, </l>
+                    <l>And took a mighty Carrack of such Value, </l>
+                    <l>That held more Gold in its Prodigious Deck </l>
+                    <l>Than serv'd the Nation's Riot in a Year.</l>
                 </sp>
                 <sp>
-                    <speaker><name type="role" rend="italic" ref="#r21">Earl of
-                        Essex</name></speaker>
-                    <l> ! That took as many Towns in Spain > As all this Iiland holds, begger'd
-                        their Fleet </l>
-                    <l>That came with Loads of half their Mines in India^ </l>
-                    <l>And took a mighty Carrack of fuch Value, </l>
-                    <l>That held more Qold in its Prodigious Deck </l>
-                    <l>Than ferv'd the Nation's Riot in a Year. Quee. Ingrateful People ! Take away
-                        my Life 5 Tis that you'd have: fori have Reign'd too long — You too well
-                        know that I'm a Woman, elfe You durst not ufe me thus Had you but fear'd
-                        Your Queen as you did once my Royal Father,, </l>
-                    <l>Or had I but the Spirit of that Monarch,. </l>
-                    <l>With one short Syllible I (hou'd have ram'd </l>
+                    <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
+                    <l>Ingrateful People! Take away my Life;</l>
+                    <l>'Tis that you'd have: for I have Reign'd too long---</l>
+                    <l>You too well know that I'm a Woman, else </l>
+                    <l>You durst not use me thus---Had you but fear'd</l>
+                    <l>Your Queen as you did once my Royal Father, </l>
+                    <l>Or had I but the Spirit of that Monarch, </l>
+                    <l>With one short Syllible I shou'd have ram'd </l>
                     <l>Your Impudent Petitions down your Throats, </l>
                     <l>And made four hundred of your Factious Crew </l>
                     <l>Tremble, and grovle on the Earth for fear. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="c?">Rawleigh</name></speaker>
-                    <l> Thus prostrate at your Feet we beg forPardon^ </l>
-                    <l>And humbly Crave your Majesties Forgiveness. [Petitioners kneel, Quee. No
-                        more— — Attend me in the Houfe to morrow. </l>
+                    <l>Thus prostrate at your Feet we beg for Pardon, </l>
+                    <l>And humbly Crave your Majesties Forgiveness.</l>
+                    <stage rend="italic">[Petitioners kneel.</stage> 
+                </sp>
+                <sp>
+                    <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
+                    <l>No more---Attend me in the House to morrow. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
-                    <l> Most Mighty Queen ! Blest and Ador'd by all, </l>
-                    <l>Torment not lb your RoyalBreast withPaffion-i </l>
+                    <l>Most Mighty Queen! Blest and Ador'd by all, </l>
+                    <l>Torment not so your Royal Breast with Passion: </l>
                     <l>Not all of us, our Lives, Estates, and Country </l>
-                    <l>Are worth the least disturbance of your mind. Quee. Are you become a Pleader
-                        for fuch. Traytors. !. . . HaT ; t//y the Earl 0/ </l>
+                    <l>Are worth the least disturbance of your mind.</l>
                 </sp>
                 <sp>
-                    <speaker><name type="role" rend="italic" ref="#r21">Earl of
-                        Essex</name></speaker>
-                    <l>. Ha ! I fufpect that Cecil too is envious, And £/^x is too great for thee to
-                        grow, . A Shrub that never (hall belook'd upon, Whilst </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" rend="italic" ref="#r21">Earl of
-                        Essex</name></speaker>
-                    <l>, that's a Cedar stands so nigh Tell me, why was not I acquainted with This
-                        clofe Defign : For I am fure thou know'st it. </l>
+                    <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
+                    <l>Are you become a Pleader for such Traytors!</l>
+               <pb n="13"/>
+                    <l>Ha! I suspect that <name type="role" rend="italic" ref="#r23">Cecil</name> too is envious, </l>
+                    <l>And <name type="role" rend="italic" ref="#r21">Essex</name> is too great for thee to grow,---</l>
+                    <l>A Shrub that never shall belook'd upon,</l> 
+                    <l>Whilst <name type="role" rend="italic" ref="#r21">Essex</name>, that's a Cedar stands so night---</l>
+                    <l>Tell me, why was not I acquainted with </l>
+                    <l>This close Design: For I am sure thou know'st it. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
-                    <l> Madam — •* §£ueei Be dumb 5 I will hear no Excufes.- I could turn Cynnick,
-                        and outrage the Wind, Fly from all Courts, from Bufiness, and Mankind 9
-                        Leave all like Chaos in Confufion hurl'd : For 'tis not Reafon now that
-                        Rules the World : There's Order in all States but Man below, And all things
-                        elfe do to Superiors bow 5 Trees, Plants, and Fruits, rejoyce beneath the
-                        Sun, Rivers, and Seas are guided by the Moon$ The Lyon Rules through Shades
-                        and ev ry Green, And Fishes own the Dolphin fbrtheir Queen 5 But Man the
-                        veryer Monster, Worihips still No God but Lust, no Monarch but his Will.</l>
+                    <l> Madam---</l>
                 </sp>
-                <stage>[Exeunt omncs. Ftnis A£lu4 (pr'tmi.</stage>
+                <sp>
+                    <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
+                    <l>Be dumb; I will hear no Excufes.---</l>
+                    <l>I could turn Cynnick, and outrage the Wind, </l>
+                    <l>Fly from all Courts, from Business, and Mankind, </l>
+                    <l>Leave all like Chaos in Confusion hurl'd: </l> 
+                    <l>For 'tis not Reason now that Rules the World: </l>
+                    <l>There's Order in all States but Man below, </l>
+                    <l>And all things else do to Superiors bow; </l>
+                    <l>Trees, Plants, and Fruits, rejoyce beneath the Sun, </l>
+                    <l>Rivers, and Seas are guided by the Moon; </l>
+                    <l>The Lyon Rules through Shades and ev'ry Green, </l>
+                    <l>And Fishes own the Dolphin for their Queen; </l>
+                    <l>But Man the veryer Monster, Worihips still </l>
+                    <l>No God but Lust, no Monarch but his Will.</l>
+                    <stage rend="italic">[Exeunt omnes. </stage>
+                </sp>
+                <stage rend="italic">Finis Actus Primi.</stage>
             </div>
             <div>
                 <stage>Actus Secundus, Scena prima.</stage>
