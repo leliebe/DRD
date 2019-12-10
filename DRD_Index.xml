@@ -24,6 +24,7 @@
   </teiHeader>
   <text>
       <body>
+         <list>
          <listPerson>
             <person xml:id="p1">
                <persName>
@@ -348,7 +349,8 @@
                </persona>
             </person>
          </listPerson>
-         <listPlace>
+         </list>
+         <list type="place">
             <location xml:id="loc1">
                <street>Cornhill, over against the Royal Exchange</street>
                <sign>the Golden Ball</sign>
@@ -466,7 +468,7 @@
 								<country></country>
 								<region></region>
 							</location>
-       	</listPlace>
+       	         </list>
       </body>
   </text>
 </TEI>

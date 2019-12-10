@@ -22,39 +22,64 @@
         <moduleRef key="core"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="drama"/>
+      
         <!--Element restriction section-->
-          <!--This elementSpec restricts the elements that can appear in "sp" to "speaker", "l", and "stage"-->
-          <elementSpec ident="sp" module="core" mode="change">
-            <content>
+       <!--The following elementSpec allows "front" to include "titlePage", "salute" (for dedicatory epistles), "castList", "prologue" and "epilogue" elements.-->
+        <elementSpec ident="front" module="textstructure" mode="change">
+          <content>
             <sequence preserveOrder="false">
-              <elementRef key="speaker"/>
-              <elementRef key="l"/>
-              <elementRef key="stage"/>
+            <elementRef key="titlePage" minOccurs="1" maxOccurs="1"/>
+            <elementRef key="salute" minOccurs="0" maxOccurs="5"/>
+            <elementRef key="castList" minOccurs="0" maxOccurs="1"/>
+            <elementRef key="prologue" minOccurs="0" maxOccurs="5"/>
+            <elementRef key="epilogue" minOccurs="0" maxOccurs="5"/>
+            <elementRef key="pb" minOccurs="0" maxOccurs="unbounded"/>
+            <elementRef key="set" minOccurs="0" maxOccurs="3"/>
+            </sequence>
+          </content>
+        </elementSpec>   
+        <elementSpec ident="salute" module="textstructure" mode="change">
+          <content>
+            <sequence preserveOrder="false">
+            <elementRef key="head" minOccurs="0" maxOccurs="5"/>
+            <elementRef key="p" minOccurs="0" maxOccurs="unbounded"/>
             </sequence>
           </content>
         </elementSpec>
-        <!--This elementSpec restricts the elements that can appear in "castList" to "head", "castGroup", and "castItem"-->
+        <!--The following elementSpec restricts the elements that can appear in "sp" to "speaker", "l", "pb", and "stage"-->
+          <elementSpec ident="sp" module="core" mode="change">
+            <content>
+            <sequence preserveOrder="false">
+              <elementRef key="speaker" minOccurs="1" maxOccurs="1"/>
+              <elementRef key="l" minOccurs="1" maxOccurs="unbounded"/>
+              <elementRef key="stage" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="pb" minOccurs="0" maxOccurs="unbounded"/>
+            </sequence>
+          </content>
+        </elementSpec>
+        <!--The following elementSpec restricts the elements that can appear in "castList" to "head", "castGroup", and "castItem"-->
         <elementSpec ident="castList" module="core" mode="change">
           <content>
             <sequence preserveOrder="false">
               <elementRef key="head"/>
               <elementRef key="castGroup"/>
-              <elementRef key="castItem"/>
             </sequence>
           </content>
         </elementSpec>
-        <!--This elementSpec restricts the elements that can appear in "prologue" to "head", "seg", "p", and "l"-->
+        <!--The following elementSpec restricts the elements that can appear in "prologue" to "head", "seg", "p", and "l"-->
         <elementSpec ident="prologue" module="core" mode="change">
           <content>
             <sequence preserveOrder="false">
               <elementRef key="head"/>
               <elementRef key="seg"/>
               <elementRef key="p"/>
-              <elementRef key="l"/>
             </sequence>
           </content>
         </elementSpec>
-        <!--This elementSpec restricts the elements that can appear in "epilogue" to "head", "seg", "p", and "l"-->
+        <!--The following elementSpec restricts the elements that can appear in "epilogue" to "head", "seg", "p", and "l"-->
         <elementSpec ident="epilogue" module="core" mode="change">
           <content>
             <sequence preserveOrder="false">
@@ -65,13 +90,55 @@
             </sequence>
           </content>
         </elementSpec>
-        <!--This elementSpec restricts the elements that can appear in "div type='scene'" to "head"-->
-        <elementSpec ident="div" type="scene" module="core" mode="change">
+        <!--The following elementSpec restricts the elements that can appear in "div'" to "head", "stage", "seg", "sp", "p", and "pb". Note: "div" is only used for scene breaks.-->
+        <elementSpec ident="div" module="textstructure" mode="change">
           <content>
             <sequence preserveOrder="false">
-              <elementRef key="head"/>
+              <elementRef key="head" minOccurs="1" maxOccurs="unbounded"/>
+              <elementRef key="stage" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="seg" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="sp" minOccurs="1" maxOccurs="unbounded"/>
+              <elementRef key="p" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="l" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="pb" minOccurs="0" maxOccurs="unbounded"/>
             </sequence>
           </content>
+        </elementSpec>
+        <!--The following elementSpec restricts the elements that can appear in "head'" to "head", "stage", "seg", "sp", "p", "pb", and "lb".-->
+        <elementSpec ident="div" module="textstructure" mode="change">
+          <content>
+            <sequence preserveOrder="false">
+            <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
+            <elementRef key="stage" minOccurs="0" maxOccurs="unbounded"/>
+            <elementRef key="seg" minOccurs="0" maxOccurs="unbounded"/>
+            <elementRef key="sp" minOccurs="1" maxOccurs="unbounded"/>
+            <elementRef key="p" minOccurs="0" maxOccurs="unbounded"/>
+            <elementRef key="l" minOccurs="0" maxOccurs="unbounded"/>
+            <elementRef key="pb" minOccurs="0" maxOccurs="unbounded"/>
+            <elementRef key="lb" minOccurs="0" maxOccurs="unbounded"/>
+            </sequence>
+          </content>
+        </elementSpec>
+        <!--Attribute restriction section-->
+        <!--The following elementSpec requires "div" elements to include an "n" attribute-->
+        <elementSpec ident="div" module="textstructure" mode="change">
+          <attList>
+            <attDef ident="n" mode="change" usage="req"></attDef>
+          </attList>
+        </elementSpec>
+        <!--The following elementSpec requires "pb" elements to include an "n" attribute-->
+        <elementSpec ident="pb" module="core" mode="change">
+          <attList>
+            <attDef ident="n" mode="change" usage="req"></attDef>
+          </attList>
+        </elementSpec>
+        <!--The following elementSpec requires "name" elements to include an "n" attribute-->
+        <elementSpec ident="name" module="core" mode="change">
+          <attList>
+            <attDef ident="ref" mode="change" usage="req"></attDef>
+            <attDef ident="type" mode="change" usage="opt"></attDef>
+            <attDef ident="rend" mode="change" usage="opt"></attDef>
+          </attList>
         </elementSpec>
         <!--"ref" restriction section-->
         <constraintSpec ident="body" scheme="isoschematron">
