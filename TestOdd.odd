@@ -22,10 +22,10 @@
         <moduleRef key="core"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure"/>
-        <!--Element restriction section-->         
-        <elementSpec ident="sp" module="core" mode="change"> 
+        <!--Element restriction section-->
           <!--This elementSpec restricts the elements that can appear in "sp" to "speaker", "l", and "stage"-->
-          <content>
+          <elementSpec ident="sp" module="core" mode="change">
+            <content>
             <sequence preserveOrder="false">
               <elementRef key="speaker"/>
               <elementRef key="l"/>
@@ -33,7 +33,46 @@
             </sequence>
           </content>
         </elementSpec>
-        
+        <!--This elementSpec restricts the elements that can appear in "castList" to "head", "castGroup", and "castItem"-->
+        <elementSpec ident="castList" module="core" mode="change">
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="head"/>
+              <elementRef key="castGroup"/>
+              <elementRef key="castItem"/>
+            </sequence>
+          </content>
+        </elementSpec>
+        <!--This elementSpec restricts the elements that can appear in "prologue" to "head", "seg", "p", and "l"-->
+        <elementSpec ident="prologue" module="core" mode="change">
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="head"/>
+              <elementRef key="seg"/>
+              <elementRef key="p"/>
+              <elementRef key="l"/>
+            </sequence>
+          </content>
+        </elementSpec>
+        <!--This elementSpec restricts the elements that can appear in "epilogue" to "head", "seg", "p", and "l"-->
+        <elementSpec ident="epilogue" module="core" mode="change">
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="head"/>
+              <elementRef key="seg"/>
+              <elementRef key="p"/>
+              <elementRef key="l"/>
+            </sequence>
+          </content>
+        </elementSpec>
+        <!--This elementSpec restricts the elements that can appear in "div type='scene'" to "head"-->
+        <elementSpec ident="div" type="scene" module="core" mode="change">
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="head"/>
+            </sequence>
+          </content>
+        </elementSpec>
         <!--"ref" restriction section-->
         <constraintSpec ident="body" scheme="isoschematron">
           <constraint>
