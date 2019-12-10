@@ -44,70 +44,87 @@
                   <surname>Moseley</surname>
                </persName>
             </person>
-            
-            <!-->
             <person xml:id="p4">
                <forename>Anonymous</forename>
             </person>
             <person xml:id="p5">
+							<persName role="histPers">
                <forename>Joseph</forename>
                <surname>Arrowsmith</surname>
-            </person>
-            
-            
-            <person xml:id="p112">
+						 </persName>
+            </person>  <person xml:id="p112">
+							<persName role="histPers">
                <forename>John</forename>
                <surname>Dryden</surname>
+						 </persName>
             </person>
-            
-            <person xml:id="p154">
+					  <person xml:id="p154">
+							<persName role="histPers">
                <forename>Langley</forename>
                <surname>Curtis</surname>
+						 </persName>
             </person>
             <person xml:id="p155">
+							<persName role="histPers">
                <forename>Richard</forename>
                <surname>Bentley</surname>
+						 </persName>
             </person>
             <person xml:id="p156">
+							<persName role="histPers">
                <forename>Mary</forename>
                <surname>Magnes</surname>
+						 </persName>
             </person>
             <person xml:id="p157">
-               <forename></forename>
+							<persName role="histPers">
+               <forename>Thomas</forename>
                <surname>Clarke</surname>
+						 </persName>
             </person>
             <person xml:id="p158">
-               <forename></forename>
+							<persName role="histPers">
+               <forename>Philip</forename>
                <surname>Gryffin</surname>
+						 </persName>
             </person>
-            <-->
             <person xml:id="p159">
+							<persName role="histPers">
                <forename>Michael</forename>
                <surname>Mohun</surname>
                <state type="rank">Major</state>
+						 </persName>
             </person>
-           <!-->
             <person xml:id="p160">
-               <forename></forename>
+							<persName role="histPers">
+               <forename>Thomas</forename>
                <surname>Disney</surname>
+						 </persName>
             </person>
-            <person xml:id="p161">
-               <forename></forename>
+						<person xml:id="p161">
+							<persName role="histPers">
+               <forename>Anne</forename>
                <surname>Quyn</surname>
+						 </persName>
             </person>
             <person xml:id="p162">
-               <forename></forename>
+							<persName role="histPers">
+               <forename>Sarah</forename>
                <surname>Cook</surname>
+						 </persName>
             </person>
             <person xml:id="p163">
-               <forename></forename>
+							<persName role="histPers">
+               <forename>Mary</forename>
                <surname>Corbett</surname>
+						 </persName>
             </person>
             <person xml:id="p164">
+							<persName role="histPers">
                <forename>Ann</forename>
                <surname>Stuart</surname>
+						  </persName>
             </person>
-            <-->
             <person xml:id="p165">
                <persName role="histPers">
                   <forename>Elizabeth</forename>
@@ -171,7 +188,7 @@
                </persona>
             </person>
             <!--What should be done with characters like this, who have no historical persona attached? -->
-            
+
             <person xml:id="p170">
                <persName>
                   <forename></forename>
@@ -181,7 +198,7 @@
                <roleName xml:id="r27" source="#txt403">Countess of Rutland</roleName>
                <roleDesc>Secretly married to the Earl of Essex</roleDesc>
             </person>
-            <!--I'll need to do more research on this person. There was no 
+            <!--I'll need to do more research on this person. There was no
                Countess of Rutland married to Robert Devereaux. Elizabeth Walsingham,
                who was his wife, had a daughter who became the Countess of Rutland...-->
             <person xml:id="p171">
@@ -195,18 +212,31 @@
                   <roleDesc></roleDesc>
                </persona>
             </person>
-            
-            
-            <person xml:id="p1001">
+						<person xml:id="p172">
+							<persName role="histPers">
+								<forename>Charles</forename>
+								<surname>Stuart</surname>
+								<state type="rank">King of England, Scotland, and Ireland</state>
+							</persName>
+						</person>
+						<person xml:id="p173">
+							<persName role="histPers">
+								<forename>Catherine</forename>
+								<surname>Stuart</surname>
+								<state type="rank">Queen of England, Scotland, and Ireland</state>
+								<state type="origin">of Braganza</state>
+							</persName>
+						</person>
+						<person xml:id="p1001">
                <persName role="ProjectMember">
                   <forename>Lauren</forename>
                   <surname>Liebe</surname>
                </persName>
             </person>
-            <person >
+            <person>
                <persona xml:id="r1" source="txt#434">
                   <roleName>Saturninus</roleName>
-                  <roleDesc>Son of the Deceased Emperor</roleDesc>  
+                  <roleDesc>Son of the Deceased Emperor</roleDesc>
                </persona>
             </person>
             <person >
@@ -387,12 +417,56 @@
                <street>Russel-street near the Piazza in Covent-Garden</street>
                <sign></sign>
             </location>
-            <location xml:id="loc18">
-               <street></street>
-               <sign></sign>
-               <LatLongPoint>40.4637° N, 3.7492° W</LatLongPoint>
-            </location>
-         </listPlace>
+						<location xml:id="loc18">
+							<street></street>
+							<sign></sign>
+							<city></city>
+							<country>Spain</country>
+							<region></region>
+						</location>
+						<location xml:id="loc19">
+							<street></street>
+							<sign></sign>
+							<city></city>
+							<country></country>
+							<region>Indies</region>
+						</location>
+						<location xml:id="loc20">
+							<street></street>
+							<sign></sign>
+							<city></city>
+							<country>England</country>
+							<region></region>
+						</location>
+						<location xml:id="loc21">
+								<street></street>
+								<sign></sign>
+								<city></city>
+								<country>Ireland</country>
+								<region></region>
+							</location>
+							<location xml:id="loc22">
+								<street></street>
+								<sign></sign>
+								<city></city>
+								<country>Italy</country>
+								<region></region>
+							</location>
+							<location xml:id="loc23">
+								<street></street>
+								<sign></sign>
+								<city></city>
+								<country>Greece</country>
+								<region></region>
+							</location>
+							<location xml:id="loc19">
+								<street></street>
+								<sign></sign>
+								<city>Rome</city>
+								<country></country>
+								<region></region>
+							</location>
+       	</listPlace>
       </body>
   </text>
 </TEI>
