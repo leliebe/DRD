@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Standoff Markup for Digital Restoration Drama</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority><name ref="p1001">Lauren Liebe</name></authority>
+            <pubPlace>College Station, TX</pubPlace>
+            <date>Fall 2019</date>
+            <availability>
+               <p>This work is licensed under a Creative Commons  Attribution 4.0 International
+                  License and may be freely reused with attribution.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A list of people (historical persons and roles), places, and texts in plays and paratexts catalogued in Digital Restoration Drama</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <listPerson>
+            <person xml:id="p1">
+               <persName>
+                  <forename>John</forename>
+                  <surname>Suckling</surname>
+                  <state type="rank">Sir</state>
+               </persName>
+            </person>
+            <person xml:id="p2">
+               <persName>
+                  <forename>T.</forename>
+                  <surname>W.</surname>
+               </persName>
+            </person>
+            <person xml:id="p3">
+               <persName>
+                  <forename>Humphrey</forename>
+                  <surname>Moseley</surname>
+               </persName>
+            </person>
+            
+            <!-->
+            <person xml:id="p4">
+               <forename>Anonymous</forename>
+            </person>
+            <person xml:id="p5">
+               <forename>Joseph</forename>
+               <surname>Arrowsmith</surname>
+            </person>
+            
+            
+            <person xml:id="p112">
+               <forename>John</forename>
+               <surname>Dryden</surname>
+            </person>
+            
+            <person xml:id="p154">
+               <forename>Langley</forename>
+               <surname>Curtis</surname>
+            </person>
+            <person xml:id="p155">
+               <forename>Richard</forename>
+               <surname>Bentley</surname>
+            </person>
+            <person xml:id="p156">
+               <forename>Mary</forename>
+               <surname>Magnes</surname>
+            </person>
+            <person xml:id="p157">
+               <forename></forename>
+               <surname>Clarke</surname>
+            </person>
+            <person xml:id="p158">
+               <forename></forename>
+               <surname>Gryffin</surname>
+            </person>
+            <-->
+            <person xml:id="p159">
+               <forename>Michael</forename>
+               <surname>Mohun</surname>
+               <state type="rank">Major</state>
+            </person>
+           <!-->
+            <person xml:id="p160">
+               <forename></forename>
+               <surname>Disney</surname>
+            </person>
+            <person xml:id="p161">
+               <forename></forename>
+               <surname>Quyn</surname>
+            </person>
+            <person xml:id="p162">
+               <forename></forename>
+               <surname>Cook</surname>
+            </person>
+            <person xml:id="p163">
+               <forename></forename>
+               <surname>Corbett</surname>
+            </person>
+            <person xml:id="p164">
+               <forename>Ann</forename>
+               <surname>Stuart</surname>
+            </person>
+            <-->
+            <person xml:id="p165">
+               <persName role="histPers">
+                  <forename>Elizabeth</forename>
+                  <surname>Tudor</surname>
+               </persName>
+               <persona role="character" xml:id="r26" source="#txt403">
+                  <roleName>Queen Elizabeth</roleName>
+               </persona>
+               <persona role="character" xml:id="r???ADDFROMVIRTUEBETRAYED" source="#txt282">
+                  <roleName>Queen Elizabeth</roleName>
+               </persona>
+            </person>
+            <person xml:id="p166">
+               <persName role="histPers">
+                  <forename>Robert</forename>
+                  <surname>Devereaux</surname>
+                  <state type="rank">Earl of Essex</state>
+               </persName>
+               <persona>
+                  <roleName xml:id="r21" source="#txt403">Earl of Essex</roleName>
+                  <roleDesc></roleDesc>
+               </persona>
+            </person>
+            <person xml:id="p167">
+               <persName role="histPers">
+                  <forename>Henry</forename>
+                  <surname>Wriothesley</surname>
+                  <state type="rank">Earl of Southampton</state>
+               </persName>
+               <persona>
+                  <roleName xml:id="r22" source="#txt403">Earl of Southampton</roleName>
+                  <roleDesc></roleDesc>
+               </persona>
+            </person>
+            <person xml:id="p168">
+               <persName role="histPers">
+                  <forename>William</forename>
+                  <surname>Cecil</surname>
+                  <state type="rank">Baron Burleigh</state>
+               </persName>
+               <persona>
+                  <roleName xml:id="r23" source="#txt403">Burleigh</roleName>
+                  <roleDesc></roleDesc>
+               </persona>
+            </person>
+            <person xml:id="p169">
+               <persName role="histPers">
+                  <forename>Walter</forename>
+                  <surname>Raleigh</surname>
+                  <state type="rank">Sir</state>
+               </persName>
+               <persona>
+                  <roleName xml:id="r24" source="#txt403">Walter Rawleigh</roleName>
+                  <roleDesc></roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona>
+                  <roleName xml:id="r25" source="#txt403">Lieutenant of the Tower</roleName>
+                  <roleDesc></roleDesc>
+               </persona>
+            </person>
+            <!--What should be done with characters like this, who have no historical persona attached? -->
+            
+            <person xml:id="p170">
+               <persName>
+                  <forename></forename>
+                  <surname></surname>
+                  <state></state>
+               </persName>
+               <roleName xml:id="r27" source="#txt403">Countess of Rutland</roleName>
+               <roleDesc>Secretly married to the Earl of Essex</roleDesc>
+            </person>
+            <!--I'll need to do more research on this person. There was no 
+               Countess of Rutland married to Robert Devereaux. Elizabeth Walsingham,
+               who was his wife, had a daughter who became the Countess of Rutland...-->
+            <person xml:id="p171">
+               <persName role="histPers">
+                  <forename>Catherine</forename>
+                  <surname>Howard</surname>
+                  <state type="rank">Countess of Nottingham</state>
+               </persName>
+               <persona>
+                  <roleName xml:id="r28" source="#txt403">Countess of Nottingham</roleName>
+                  <roleDesc></roleDesc>
+               </persona>
+            </person>
+            
+            
+            <person xml:id="p1001">
+               <persName role="ProjectMember">
+                  <forename>Lauren</forename>
+                  <surname>Liebe</surname>
+               </persName>
+            </person>
+            <person >
+               <persona xml:id="r1" source="txt#434">
+                  <roleName>Saturninus</roleName>
+                  <roleDesc>Son of the Deceased Emperor</roleDesc>  
+               </persona>
+            </person>
+            <person >
+               <persona xml:id="r2" source="txt#434">
+                  <roleName>Bassianus</roleName>
+                  <roleDesc>Son of the Deceased Emperor</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r3" source="txt#434">
+                  <roleName>Titus Andronicus</roleName>
+                  <roleDesc>An Old Roman General</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r4" source="txt#434">
+                  <roleName>Marcus Andronicus</roleName>
+                  <roleDesc>A Tribune, Brother to Titus</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r5" source="txt#434">
+                  <roleName>Emilius</roleName>
+                  <roleDesc>A Tribune</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r6" source="txt#434">
+                  <roleName>Lucius</roleName>
+                  <roleDesc>Son of Titus</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r7" source="txt#434">
+                  <roleName>Mutius</roleName>
+                  <roleDesc>Son of Titus</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r8" source="txt#434">
+                  <roleName>Martius</roleName>
+                  <roleDesc>Son of Titus</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r9" source="txt#434">
+                    <roleName>Quintus</roleName>
+                  <roleDesc>Son of Titus</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r10" source="txt#434">
+                   <roleName>Junius</roleName>
+                   <roleDesc>Son of Lucius, a Child</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r11" source="txt#434">
+                  <roleName>Lavinia</roleName>
+                  <roleDesc>Daughter of Titus</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r12" source="txt#434">
+                  <roleName>Tamora</roleName>
+                  <roleDesc>Queen of Goths</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r14" source="txt#434">
+                  <roleName>Alarbus</roleName>
+                  <roleDesc>A Mute</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r15" source="txt#434">
+               <roleName>Chiron</roleName>
+               <roleDesc>The Queen's Son</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r16" source="txt#434">
+               <roleName>Demetrius</roleName>
+               <roleDesc>The Queen's Son</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r17" source="txt#434">
+               <roleName>Aron</roleName>
+               <roleDesc>A Moor in favour with Tamora</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r18" source="txt#434">
+               <roleName>A Goth</roleName>
+               <roleDesc>A Common Souldier</roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r19" source="txt#434">
+               <roleName>His Wife</roleName>
+               <roleDesc></roleDesc>
+               </persona>
+            </person>
+            <person>
+               <persona xml:id="r20" source="txt#434">
+               <roleName>A Blackamoor Infant</roleName>
+               <roleDesc></roleDesc>
+               </persona>
+            </person>
+         </listPerson>
+         <listPlace>
+            <location xml:id="loc1">
+               <street>Cornhill, over against the Royal Exchange</street>
+               <sign>the Golden Ball</sign>
+            </location>
+            <location xml:id="loc2">
+               <street>Chancery Lane</street>
+               <sign>Judges Head</sign>
+            </location>
+            <location xml:id="loc3">
+               <street>Russel Street in Covent Garden</street>
+               <sign></sign>
+            </location>
+            <location xml:id="loc4">
+               <street>the lower Walk of the New Exchange in the Strand</street>
+               <sign>the Pope's Head</sign>
+            </location>
+            <location xml:id="loc5">
+               <street>against the Globe Tavern in Fleet Street</street>
+               <sign>the Marigold</sign>
+            </location>
+            <location xml:id="loc6">
+               <street>the lower Walk of the New Exchange</street>
+               <sign>the Blue Anchor</sign>
+            </location>
+            <location xml:id="loc7">
+               <street>St. Paul's Churchyard</street>
+               <sign>the Red Lion</sign>
+            </location>
+            <location xml:id="loc8">
+               <street>St. Paul's Churchyard</street>
+               <sign>the Ship</sign>
+            </location>
+            <location xml:id="loc9">
+               <street>The Royal Exchange, Fleet Street, and Westminster Hall</street>
+               <sign></sign>
+            </location>
+            <location xml:id="loc10">
+               <street>Inner Temple Gate</street>
+               <sign></sign>
+            </location>
+            <location xml:id="loc11">
+               <street>Dorset Garden Theatre</street>
+               <sign></sign>
+            </location>
+            <location xml:id="loc12">
+               <street>At Court</street>
+               <sign></sign>
+            </location>
+            <location xml:id="loc13">
+               <street>Theatre in Lincoln's Inn Fields</street>
+               <sign></sign>
+            </location>
+            <location xml:id="loc14">
+               <street>Theatre Royal, Bridges Street</street>
+               <sign></sign>
+            </location>
+            <location xml:id="loc15">
+               <street>Theater Royal, Drury Lane</street>
+               <sign></sign>
+            </location>
+            <location xml:id="loc16">
+               <street>Ludgate Hill</street>
+               <sign></sign>
+            </location>
+            <location xml:id="loc17">
+               <street>Russel-street near the Piazza in Covent-Garden</street>
+               <sign></sign>
+            </location>
+            <location xml:id="loc18">
+               <street></street>
+               <sign></sign>
+               <LatLongPoint>40.4637° N, 3.7492° W</LatLongPoint>
+            </location>
+         </listPlace>
+      </body>
+  </text>
+</TEI>
