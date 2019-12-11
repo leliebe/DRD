@@ -24,7 +24,6 @@
   </teiHeader>
   <text>
       <body>
-         <list>
          <listPerson>
             <person xml:id="p1">
                <persName>
@@ -53,7 +52,14 @@
                <forename>Joseph</forename>
                <surname>Arrowsmith</surname>
 						 </persName>
-            </person>  <person xml:id="p112">
+            </person>  
+            <person xml:id="p8">
+               <persName role="histPers">
+                  <forename>John</forename>
+                  <surname>Banks</surname>
+               </persName>
+            </person>
+            <person xml:id="p112">
 							<persName role="histPers">
                <forename>John</forename>
                <surname>Dryden</surname>
@@ -349,8 +355,7 @@
                </persona>
             </person>
          </listPerson>
-         </list>
-         <list type="place">
+         <listPlace>
             <location xml:id="loc1">
                <street>Cornhill, over against the Royal Exchange</street>
                <sign>the Golden Ball</sign>
@@ -468,7 +473,13 @@
 								<country></country>
 								<region></region>
 							</location>
-       	         </list>
+       	         </listPlace>
+         <listText>
+            <text xml:id="pt403">
+               <title>The Unhappy Favourite; or, The Earl of Essex</title>
+               <author ref="#p8">John Banks</author>
+            </text> 
+         </listText>
       </body>
   </text>
 </TEI>
