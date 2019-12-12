@@ -234,6 +234,27 @@
 								<state type="origin">of Braganza</state>
 							</persName>
 						</person>
+                  <person xml:id="p174">
+                     <persona>
+                        <roleName xml:id="r29" source="#txt403">Gentleman</roleName>
+                        <roleDesc></roleDesc>
+                     </persona>
+                  </person>
+            <person xml:id="p175">
+               <persona>
+                  <roleName xml:id="r30" source="#txt403">Lord Chancellor</roleName>
+                  <roleDesc></roleDesc>
+               </persona>
+               <!--This is probably a historical person as well, but they come on stage only for one scene, in which they have no speaking lines. Without the stage directions, it isn't even clear
+               that they are the Lord Chancellor-->
+            </person>
+            <person xml:id="p176">
+               <persName role="histPers">
+                  <forename>Francis</forename>
+                  <surname>Drake</surname>
+                  <state type="rank">Sir</state>
+               </persName>
+            </person>
 						<person xml:id="p1001">
                <persName role="ProjectMember">
                   <forename>Lauren</forename>
@@ -466,13 +487,20 @@
 								<country>Greece</country>
 								<region></region>
 							</location>
-							<location xml:id="loc19">
+							<location xml:id="loc24">
 								<street></street>
 								<sign></sign>
 								<city>Rome</city>
 								<country></country>
 								<region></region>
 							</location>
+                     <location xml:id="loc25">
+                        <street></street>
+                        <sign></sign>
+                        <city>London</city>
+                        <country></country>
+                        <region></region>
+                   </location>
        	         </listPlace>
          <listText>
             <text xml:id="pt403">

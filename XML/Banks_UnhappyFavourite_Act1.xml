@@ -25,22 +25,21 @@
             <publicationStmt>
                 <publisher>Digital Restoration Drama</publisher>
                 <address>
-                    <addrLine><!--Website goes here--></addrLine>
-                    <addrLine><!--email goes here--></addrLine>
+                    <addrLine>www.digitalrestorationdrama.com</addrLine>
+                    <addrLine>digitalrestorationdrama@gmail.com</addrLine>
                 </address>
                 <availability>
                     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed
                         under a Creative Commons Attribution-ShareAlike 4.0 International
                         License.</licence>
-                    <!--What do I have to do to make certain this is available under Creative Commons? -->
                 </availability>
-                <date><!--Date of publication/upload goes here --></date>
+                <date>2020</date>
             </publicationStmt>
             <sourceDesc>
                 <biblFull>
                     <titleStmt>
-                        <title>The Unhappy Favourite; or, The Earl of Essex</title>
-                        <author>John Banks</author>
+                        <title>The Unhappy Favourite: or, The Earl of ESSEX.</title>
+                        <author>John Bankes</author>
                     </titleStmt>
                     <publicationStmt>
                         <publisher>Richard Bentley</publisher>
@@ -56,6 +55,9 @@
                 </biblFull>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc status="draft">
+            <change when="2019-12-10" who="#p1001">Initial transcription of Act 1; Acts 2-5 transcribed but in need of OCR cleaning.</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
@@ -80,17 +82,17 @@
                     </bibl>
                 </epigraph>
                 <docImprint>
-                    <placeName><hi rend="italic">London,</hi></placeName>
+                    <placeName ref="loc25"><hi rend="italic">London,</hi></placeName>
                     <lb/>
-                    Printed for <persName rend="italic" ref="#p154">Richard Bentley</persName> and <persName rend="italic" ref="#p155">>Mary Magnes</persName> in <placeName ref="l17"><hi rend="italic"
+                    Printed for <persName rend="italic" ref="#p154">Richard Bentley</persName> and <persName rend="italic" ref="#p155">>Mary Magnes</persName> in <placeName ref="locl17"><hi rend="italic"
                                 >Russel-street</hi></placeName>
-                    <seg>near the <hi rend="italic">Piazza</hi> in <hi rend="italic"
-                            >Covent-Garden</hi>, 1682.</seg>
+                    <lb/>near the <hi rend="italic">Piazza</hi> in <hi rend="italic">Covent-Garden</hi>, 1682.
                 </docImprint>
             </titlePage>
             <pb n="ii"/>
             <salute>
                 <head>
+                    <p>
                     <persName ref="#p164">
                         <seg>To the Most High, and Most Illustrious</seg>
                         <seg>PRINCESS</seg>
@@ -99,8 +101,9 @@
                         <seg>Daughter to His</seg>
                         <seg>Royal Highness.</seg>
                     </persName>
+                    </p>
                 </head>
-                <head><hi rend="italic">MADAM,</hi></head>
+                <p> rend="italic">MADAM,</p>
                 <p>
                     <seg>I Humbly lay before your Highness Feet </seg>
                     <seg>an Unhappy Favourite, but 'tis in Your </seg>
@@ -173,7 +176,7 @@
                 <p>Your Highness's Most Obedient,</p>
                 <p>Most humble, and</p>
                 <p>Most Devoted Servant,</p>
-                <p><persName ref="#p8"><hi rend="italic">John Banks</hi></persName></p>
+                <p><persName ref="#p888"><hi rend="italic">John Banks</hi></persName></p>
             </salute>
             <castList>
                 <head>PERSONS REPRESENTED</head>
@@ -302,48 +305,48 @@
             <prologue>
                 <head>
                     <seg>PROLOGUE</seg>
-                    <seg>Spoken to the <persName ref="#pXXXXXXXX">King</persName> and <persName
-                            ref="#pXXXXXXXX">Queen</persName> at their coming</seg>
+                    <seg>Spoken to the <persName ref="#p172">King</persName> and <persName
+                            ref="#p173">Queen</persName> at their coming</seg>
                     <seg>to the House, and Written on purpose</seg>
                     <seg>By <persName ref="#p112">Mr. <hi rend="italic"
                         >DRYDEN</hi></persName>.</seg>
                 </head>
                 <p>
                     <hi rend="italic">
-                        <seg>WHEN first the Ark was Landed on the Shore, </seg>
-                        <seg>And Heaven had vow'd to curse the Ground no more, </seg>
-                        <seg>When Tops of Hills the Longing Patriarch saw, </seg>
-                        <seg>And the new Scene of Earth began to draw; </seg>
+                        <l>WHEN first the Ark was Landed on the Shore, </l>
+                        <l>And Heaven had vow'd to curse the Ground no more, </l>
+                        <l>When Tops of Hills the Longing Patriarch saw, </l>
+                        <l>And the new Scene of Earth began to draw; </l>
                         <seg>The Dove was sent to View the Waves Decrease, </seg>
-                        <seg>And first brought back to Man the Pledge of Peace: </seg>
-                        <seg>Tis needless to apply when those appear </seg>
-                        <seg>Who bring the Olive, and who Plant it here. </seg>
-                        <seg>We have before our eyes the Royal Dove, </seg>
-                        <seg>Still Innocence is Harbinger to Love, </seg>
-                        <seg>The Ark is open'd to dismiss the Train, </seg>
-                        <seg>And People with a better Race the Plain. </seg>
-                        <seg>Tell me you Powers, why should vain Man pursue, </seg>
-                        <seg>With endless Toyl, each object that is new, </seg>
-                        <seg>And for the seeming substance leave the true--- </seg>
-                        <seg>Why should he quit for hopes his certain good, </seg>
-                        <seg>And loath the Manna of his dayly food? </seg>
-                        <seg>Must England still the Scene of Changes be, </seg>
-                        <seg>Tost and Tempestuous like our Ambient Sea? </seg>
-                        <seg>Must still our Weather and our Wills agree? </seg>
-                        <seg>Without our Blood our Liberties we have, </seg>
-                        <seg>Who that is Free would Fight to be a Slave? </seg>
-                        <seg>Or what can Wars to after Times Assure, </seg>
-                        <seg>Of which our Present Age is not secure? </seg>
-                        <seg>All that Our Monarch would for us Ordain, </seg>
-                        <seg>Is but t'Injoy the Blessings of his Reign. </seg>
-                        <seg>Our Land's an Eden, and the Main's our Fence, </seg>
-                        <seg>While we Preserve our State of Innocence; </seg>
-                        <seg>That lost, then Beasts their Brutal Force employ, </seg>
-                        <seg>And first their Lord, and then themselves destroy: </seg>
-                        <seg>What Civil Broils have cost we knew too well, </seg>
-                        <seg>Oh let it be enough that once we fell, </seg>
-                        <seg>And every Heart conspire with every Tongue, </seg>
-                        <seg>Still to have such a King, and this King Long. </seg>
+                        <l>And first brought back to Man the Pledge of Peace: </l>
+                        <l>Tis needless to apply when those appear </l>
+                        <l>Who bring the Olive, and who Plant it here. </l>
+                        <l>We have before our eyes the Royal Dove, </l>
+                        <l>Still Innocence is Harbinger to Love, </l>
+                        <l>The Ark is open'd to dismiss the Train, </l>
+                        <l>And People with a better Race the Plain. </l>
+                        <l>Tell me you Powers, why should vain Man pursue, </l>
+                        <l>With endless Toyl, each object that is new, </l>
+                        <l>And for the seeming substance leave the true--- </l>
+                        <l>Why should he quit for hopes his certain good, </l>
+                        <l>And loath the Manna of his dayly food? </l>
+                        <l>Must England still the Scene of Changes be, </l>
+                        <l>Tost and Tempestuous like our Ambient Sea? </l>
+                        <l>Must still our Weather and our Wills agree? </l>
+                        <l>Without our Blood our Liberties we have, </l>
+                        <l>Who that is Free would Fight to be a Slave? </l>
+                        <l>Or what can Wars to after Times Assure, </l>
+                        <l>Of which our Present Age is not secure? </l>
+                        <l>All that Our Monarch would for us Ordain, </l>
+                        <l>Is but t'Injoy the Blessings of his Reign. </l>
+                        <l>Our Land's an Eden, and the Main's our Fence, </l>
+                        <l>While we Preserve our State of Innocence; </l>
+                        <l>That lost, then Beasts their Brutal Force employ, </l>
+                        <l>And first their Lord, and then themselves destroy: </l>
+                        <l>What Civil Broils have cost we knew too well, </l>
+                        <l>Oh let it be enough that once we fell, </l>
+                        <l>And every Heart conspire with every Tongue, </l>
+                        <l>Still to have such a King, and this King Long. </l>
                     </hi>
                 </p>
             </prologue>
@@ -396,7 +399,7 @@
                     <l>I will prefer this dear Cabal, and her </l>
                     <l>To all the other Councils, in the world </l>
                     <l>Nay tho' the Queen, and her two Nations call'd, </l>
-                    <l>And sinking <placeName rend="italic" ref="#l????">England</placeName> stood this hour in need </l>
+                    <l>And sinking <placeName rend="italic" ref="#loc20">England</placeName> stood this hour in need </l>
                     <l>For this supporting Head, they all shou'd sue, </l>
                     <l>Or perish all for one kind look from you. </l>
                 </sp>
@@ -544,7 +547,7 @@
                     </sp>
                 <stage>Enter a Gentleman. </stage>
                 <sp>
-                    <speaker><name type="role" rend="italic">Gentleman</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r29">Gentleman</name></speaker>
                     <l>My Lord, the Queen expects you straight. </l>
                 </sp>
                 <sp>
@@ -556,7 +559,7 @@
                     <l>As will both glad the Nation, and your self. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="role" rend="italic">Gentleman</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r29">Gentleman</name></speaker>
                     <l> My Lord, I see the haughty Earl of <name type="role" rend="italic" ref="#r22">Southampton</name> </l>
                     <l>Coming this way. </l>
                 </sp>
@@ -596,7 +599,7 @@
                     <l> Treafon, 'tis most true is laid </l>
                     <l>To <name type="role" rend="italic" ref="#r21">Essex</name> Charge, but that I am the Cause </l>
                     <l>They do me wrong, th' Occasion is too publick: </l>
-                    <l>For those dread Storms in <placeName rend="italic" ref="#l?????">Ireland</placeName> rais'd by him, </l>
+                    <l>For those dread Storms in <placeName rend="italic" ref="#loc21">Ireland</placeName> rais'd by him, </l>
                     <l>Have Blown so rudely on our <placeName rend="italic">English</placeName> Coasts, </l>
                     <l>That they have Ship-wrack'd quite the Nations Peace, </l>
                     <l>And wak'd it's very Statues to abhorring. </l>
@@ -691,7 +694,7 @@
                     <l>And <name type="role" rend="italic" ref="#r21">Essex</name>'s Foes shee drives like Mists away.</l>
                 </sp>
                 <stage rend="italic">
-                    <seg>Enter the <name type="role" ref="#r26">Queen</name>, <name type="role" rend="roman" ref="#r23">Burleigh</name>, <name>Lord Chancellor,</name> <name type="role" ref="#r28">Countess of <hi rend="roman">Nottingham</hi></name>,</seg>
+                    <seg>Enter the <name type="role" ref="#r26">Queen</name>, <name type="role" rend="roman" ref="#r23">Burleigh</name>, <name ref="#r30">Lord Chancellor,</name> <name type="role" ref="#r28">Countess of <hi rend="roman">Nottingham</hi></name>,</seg>
                     <seg><name type="role" rend="italic" ref="#r27">Countess of <hi rend="roman">Rutland</hi></name>, Lords and Attendants, Queen</seg> 
                     <seg>on a Chair of State, Guards.</seg>
                 </stage>
@@ -769,7 +772,7 @@
                     <speaker><name type="role" rend="italic" ref="#r22">Southampton</name></speaker>
                     <l> Long live that Day, and never be forgotten </l>
                     <l>The gallant How'r, when to th' immortal Fame </l>
-                    <l>Of <name type="place" rend="italic" ref="#loc????">England</name>, and the more immortal <hi rend="italic">Drake</hi>, </l>
+                    <l>Of <name type="place" rend="italic" ref="#loc20">England</name>, and the more immortal <name ref="#p176">Drake</name>, </l>
                     <l>That Proud Armado was Destroy'd; yet was </l>
                     <l>The Fight not half so dreadful as th' Event </l>
                     <l>Was pleasant. When the first Broad sids were giv'n, </l>
@@ -798,14 +801,14 @@
                     <l>Of your most Gracious Majesty, and Kingdoms, </l>
                     <l>By Valliant Souldiers, and by faithful Leaders, </l>
                     <l>Confounded in one day the vast designs </l>
-                    <l>Of <name type="place" rend="italic" ref="#loc???">Italy</name>, and <name type="place" rend="italic" ref="#loc18">Spain</name> against our Liberties; </l>
+                    <l>Of <name type="place" rend="italic" ref="#loc22">Italy</name>, and <name type="place" rend="italic" ref="#loc18">Spain</name> against our Liberties; </l>
                     <l>So may <hi rend="italic">Tyrone</hi>, and <hi rend="italic">Irish</hi> Rebells fall, </l>
                     <l>And so may all your Captains henceforth prove </l>
                     <l>To be as Loyal, and as stout Commanders. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
-                    <l> Is there no fresher News from <name type="place" rend="italic" ref="#loc???">Ireland</name> yet? </l>
+                    <l> Is there no fresher News from <name type="place" rend="italic" ref="#loc21">Ireland</name> yet? </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
@@ -848,7 +851,7 @@
                     <l>But was deny'd to hear what pass'd between them---</l>
                     <l>What follow'd then the Parly? was the Truce, </l>
                     <l>So shameful, (if I may be bold to call </l>
-                    <l>It so,) both to your Majesty and <name type="place" rend="italic" ref="#loc????">England</name>? </l>
+                    <l>It so,) both to your Majesty and <name type="place" rend="italic" ref="#loc20">England</name>? </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
@@ -859,7 +862,7 @@
                     <l>From th' Author's many Virtues or Misfortunes, </l>
                     <l>Yet you must all confess that he is brave, </l>
                     <l>Valliant as any, and 'as done as much </l>
-                    <l>For you, as e're <name type="role" rend="italic" ref="#r???">Alcides</name> did for <name type="place" rend="italic" ref="#r23">Greece</name>. </l>
+                    <l>For you, as e're <hi>Alcides</hi> did for <name type="place" rend="italic" ref="#loc23">Greece</name>. </l>
                     <l>Yet I'le not hide his Faults, but Blame him too, </l>
                     <l>And therefore I have sent him Chiding Letters, </l>
                     <l>Forbidding him to leave the Kingdom till </l>
@@ -894,7 +897,7 @@
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r24">Rawleigh</name></speaker>
                     <l> Long live the bright Imperial Majesty </l>
-                    <l>Of <name type="place" rend="italic" ref="#loc????">England</name>, Virgin Star of Christendome,</l>
+                    <l>Of <name type="place" rend="italic" ref="#loc20">England</name>, Virgin Star of Christendome,</l>
                 <pb n="11"/>    
                     <l>Blessing, and Guide of all your Subjects Lives, </l>
                     <l>Who with the Sun may sooner be extinguish'd </l>
@@ -961,7 +964,7 @@
                     <l>But I'le recover---Say my <name type="role" rend="italic" ref="#r28">Nottinham</name>, </l>
                     <l>And <name type="role" rend="italic" ref="#r27">Rutland</name>, did you ever hear the like!</l>
                     <l>But are you well assur'd I am awake? </l>
-                    <lb n="12"/>
+                    <pb n="12"/>
                     <l>Bless me, and say it is a Horry'd Vision,</l>
                     <l>That I am not upon the Throne---</l>
                     <l>Ha! Is't not so?—Yes, Traytors, I'le obey you---</l>
@@ -976,13 +979,13 @@
                     <speaker><name type="role" rend="italic" ref="#r22">Southampton</name></speaker>
                     <l>O horry'd imposition on a Throne! </l>
                     <l><name type="role" rend="italic" ref="#r21">Essex</name>; that has so bravely serv'd the Nation! </l>
-                    <l>That I may boldly say, <name>Drake</name> did not more, </l>
+                    <l>That I may boldly say, <name ref="#p176">Drake</name> did not more, </l>
                     <l>That has so often beat it's Foes on Land, </l>
                     <l>Stood like a Promontary in its defence, </l>
                     <l>And sail'd with Dragons Wings to Guard the Seas; </l>
-                    <l><name type="role" rend="italic" ref="#r21">Essex</name>! That took as many Towns in <name type="place">Spain</name></l> 
+                    <l><name type="role" rend="italic" ref="#r21">Essex</name>! That took as many Towns in <name type="place" ref="#loc18">Spain</name></l> 
                         <l> As all this Island holds, begger'd their Fleet </l>
-                    <l>That came with Loads of half their Mines in <name type="place">India</name>, </l>
+                    <l>That came with Loads of half their Mines in <name type="place" ref="#loc19">India</name>, </l>
                     <l>And took a mighty Carrack of such Value, </l>
                     <l>That held more Gold in its Prodigious Deck </l>
                     <l>Than serv'd the Nation's Riot in a Year.</l>

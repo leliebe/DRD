@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/TestOdd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../out/TestOdd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -13,7 +15,7 @@
                 <edition n="1">Text transcribed using TypeWright on 18thconnect.org</edition>
                 <editor>Lauren Liebe</editor>
                 <respStmt>
-                    <resp>TypeWright text reviewed and corrected by</resp> <persName xml:id="p1001">Lauren Liebe</persName>
+                    <resp>TypeWright text reviewed and corrected by</resp> <persName ref="#p1001">Lauren Liebe</persName>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -52,9 +54,9 @@
       <docTitle>
         <titlePart type="main">Titus Andronicus,</titlePart>
         <titlePart type="sub">OR THE <seg>Rape of Lavinia.</seg></titlePart>
-        <titlePart type="desc">Acted at the <seg>Theatre Royall,</seg><seg>A TRAGEDY, </seg><seg>Alter'd from <persName xml:id="p73"><hi rend="italic">Mr SHAKESPEARS</hi></persName></seg><seg> Works,</seg></titlePart>
+        <titlePart type="desc">Acted at the <seg>Theatre Royall,</seg><seg>A TRAGEDY, </seg><seg>Alter'd from <persName ref="#p73"><hi rend="italic">Mr SHAKESPEARS</hi></persName></seg><seg> Works,</seg></titlePart>
       </docTitle>
-      <byline>By <docAuthor><persName xml:id="p113"><hi rend="italic">Mr. Edw. Ravenscroft</hi></persName></docAuthor></byline>
+      <byline>By <docAuthor><persName ref="#p113"><hi rend="italic">Mr. Edw. Ravenscroft</hi></persName></docAuthor></byline>
       <imprimatur>
         <seg>Licensed, </seg>
         <seg>Dec.</seg>
@@ -63,9 +65,9 @@
       </imprimatur>
       <docImprint>
         <seg><placeName><hi rend="italic">London, </hi></placeName></seg>
-        <seg>Printed by <persName xml:id="p150"><hi rend="italic">J. B. </hi></persName> for
-        <persName xml:id="p151"><hi rend="italic">J. Hindmarsh</hi></persName>, at the <placeName xml:id="lsign1"><hi rend="italic">Golden-Ball</hi></placeName></seg>
-        <seg>in <placeName xml:id="lst1"><hi rend="italic">Cornhill</hi></placeName>, over against the <hi rend="italic">Royal-Exchange</hi>, <date when="1687">1687</date></seg></docImprint>
+        <seg>Printed by <persName ref="#p150"><hi rend="italic">J. B. </hi></persName> for
+        <persName ref="#p151"><hi rend="italic">J. Hindmarsh</hi></persName>, at the <placeName ref="#lsign1"><hi rend="italic">Golden-Ball</hi></placeName></seg>
+        <seg>in <placeName ref="#lst1"><hi rend="italic">Cornhill</hi></placeName>, over against the <hi rend="italic">Royal-Exchange</hi>, <date when="1687">1687</date></seg></docImprint>
     </titlePage>
     <castList>
     <!--With the cast list, I have tried to represent the fact that there are several different bracketed groups in the original text. Is this the best way to handle that? -->
@@ -74,46 +76,46 @@
           <head>Romans</head>
           <castGroup rend="braced">
             <castItem>
-              <role><name type="person" rend="italic" xml:id="c1">Saturninus</name></role>
+              <role><name type="person" rend="italic" ref="#c1">Saturninus</name></role>
             </castItem>
             <castItem>
-              <role><name type="person" rend="italic" xml:id="c2">Bassianus</name></role>
+              <role><name type="person" rend="italic" ref="#c2">Bassianus</name></role>
            </castItem>
              <roleDesc><hi rend="italic">Sons of the Deceased Emperor</hi></roleDesc>
           </castGroup>
           <castItem>
-            <role><name type="person" rend="italic" xml:id="c3">Titus Andronicus</name></role>
+            <role><name type="person" rend="italic" ref="#c3">Titus Andronicus</name></role>
             <roleDesc><hi rend="italic">An Old Roman General</hi></roleDesc>
           </castItem>
           <castItem>
-            <role><name type="person" rend="italic" xml:id="c4">Marcus Andronicus</name></role>
+            <role><name type="person" rend="italic" ref="#c4">Marcus Andronicus</name></role>
             <roleDesc><hi rend="italic">A Tribune, Brother to</hi> Titus</roleDesc>
           </castItem>
           <castItem>
-            <role><name type="person" rend="italic" xml:id="c5">Emillius</name></role>
+            <role><name type="person" rend="italic" ref="#c5">Emillius</name></role>
             <roleDesc><hi rend="italic">A Tribune</hi></roleDesc>
           </castItem>
       <castGroup rend="braced">
         <castItem>
-          <role><name type="person" rend="italic" xml:id="c6">Lucius</name></role>
+          <role><name type="person" rend="italic" ref="#c6">Lucius</name></role>
         </castItem>
         <castItem>
-          <role><name type="person" rend="italic" xml:id="c7">Mutius</name></role>
+          <role><name type="person" rend="italic" ref="#c7">Mutius</name></role>
         </castItem>
         <castItem>
-          <role><name type="person" rend="italic" xml:id="c8">Martius</name></role>
+          <role><name type="person" rend="italic" ref="#c8">Martius</name></role>
         </castItem>
         <castItem>
-          <role><name type="person" rend="italic" xml:id="c9">Quintus</name></role>
+          <role><name type="person" rend="italic" ref="#c9">Quintus</name></role>
         </castItem>
           <roleDesc><hi rend="italic">The Sons of</hi> Titus</roleDesc>
       </castGroup>
       <castItem>
-        <role><name type="person" rend="italic" xml:id="c10">Junius</name></role>
+        <role><name type="person" rend="italic" ref="#c10">Junius</name></role>
         <roleDesc><hi rend="italic">Son of</hi> Lucius, <hi rend="italic">a Child</hi></roleDesc>
       </castItem>
       <castItem>
-        <role><name type="person" rend="italic" xml:id="c11">Lavinia</name></role>
+        <role><name type="person" rend="italic" ref="#c11">Lavinia</name></role>
         <roleDesc>Daughter of Titus</roleDesc>
       </castItem>
       <castItem><seg>A Roman Captain, Other Captains, Senators, Tribunes,</seg> <seg>Plebeans, and Guards. A Dead Son of Titus</seg></castItem>
@@ -121,35 +123,35 @@
     <castGroup>
       <head>Goths</head>
       <castItem>
-        <role><name type="person" rend="italic" xml:id="c12">Tamora</name></role>
+        <role><name type="person" rend="italic" ref="#c12">Tamora</name></role>
         <roleDesc>Queen of Goths</roleDesc>
       </castItem>
       <castGroup rend="braced">
       <castItem>
-        <role><name type="person" rend="italic" xml:id="c14">Alarbus</name></role>
+        <role><name type="person" rend="italic" ref="#c14">Alarbus</name></role>
         <roleDesc>A Mute</roleDesc>
       </castItem>
       <castItem>
-        <role><name type="person" rend="italic" xml:id="c15">Chiron</name></role>
+        <role><name type="person" rend="italic" ref="#c15">Chiron</name></role>
       </castItem>
       <castItem>
-        <role><name type="person" rend="italic" xml:id="c16">Demetrius</name></role>
+        <role><name type="person" rend="italic" ref="#c16">Demetrius</name></role>
       </castItem>
       <roleDesc>The Queens Sons</roleDesc>
     </castGroup>
     <castItem>
-      <role><name type="person" rend="italic" xml:id="c17">Aron</name></role>
+      <role><name type="person" rend="italic" ref="#c17">Aron</name></role>
       <roleDesc>A Moor in favour with Tamora, and her General</roleDesc>
     </castItem>
     <castItem>
-      <role><name type="person" rend="italic" xml:id="c18">A Goth</name></role>
+      <role><name type="person" rend="italic" ref="#c18">A Goth</name></role>
       <roleDesc>A Common Souldier</roleDesc>
     </castItem>
     <castItem>
-      <role><name type="person" rend="italic" xml:id="c19">His Wife</name></role>
+      <role><name type="person" rend="italic" ref="#c19">His Wife</name></role>
     </castItem>
     <castItem>
-      <role><name type="person" rend="italic" xml:id="c20">A Blackamoor Infant</name></role>
+      <role><name type="person" rend="italic" ref="#c20">A Blackamoor Infant</name></role>
     </castItem>
     <roleDesc>All brought Captives to Rome by Titus</roleDesc>
 </castGroup>
@@ -157,10 +159,12 @@
     <set>
       <seg>The Scene <hi rend="italic">ROME</hi>.</seg>
     </set>
+    <pb n="ii"/>
     <salute>
-  <pb n="ii"/>
-    <title>TO THE READER.</title>
-    <persName>READER,</persName>
+    <head>
+      <p>TO THE READER.</p>
+    </head>
+    <p>READER,</p>
     <p rend="text-indent: 2em;"><seg>I think it a greater theft to Rob the dead of their Praise then </seg>
     <seg>the Living of their Money: That I may not appear Guilty of such </seg>
     <seg>a Crime, 'tis necessary I should acquaint you, that there is a Play in </seg>
@@ -202,9 +206,9 @@
   </p>
   <p rend="align(right)">Adieu.</p>
   </salute>
-
+    <pb n="iv"/>
             <prologue>
-                <pb n="iv"/>
+               
                 <head rend="align(center)">PROLOGUE, Spoken in <hi rend="italic">Lent</hi>.</head>
                 <p>
                     <l>Gallants, in this Godly Time of <hi rend="italic">Lent</hi>,</l>
