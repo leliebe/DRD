@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../out/TestOdd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/leliebe/DRD/master/out/TestOdd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
-    <!--Note, you haven't fully edited the teiHeader for this document -->
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -171,7 +170,7 @@
                 <p>Your Highness's Most Obedient,</p>
                 <p>Most humble, and</p>
                 <p>Most Devoted Servant,</p>
-                <p><persName ref="#p888"><hi rend="italic">John Banks</hi></persName></p>
+                <p><persName ref="#p8"><hi rend="italic">John Banks</hi></persName></p>
             </salute>
             <castList>
                 <head>PERSONS REPRESENTED</head>
@@ -735,7 +734,7 @@
                     <l>They shou'd have both been Burnt for Hereticks. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
+                    <speaker><name type="role" rend="italic" ref="#r2688">Queen</name></speaker>
                     <l>But when this huge, and mighty Fleet was ready, </l>
                     <l>Altars were strip'd of shining Ornaments. </l>
                     <l>Their Images, their Pictures, Palls, and Hangings </l>

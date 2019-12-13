@@ -5,11 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-12-13T01:06:17Z. .
-TEI Edition: Version 3.5.0. Last updated on
-	29th January 2019, revision 3c0c64ec4
-TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
-  
+Schema generated from ODD source 2019-12-13T01:33:49Z. .  
 --><!---->
    <define name="macro.paraContent">
       <zeroOrMore>
@@ -428,6 +424,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 context="tei:*[@when]">
         <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
       </sch:rule>
@@ -440,6 +437,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 context="tei:*[@from]">
         <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
       </sch:rule>
@@ -452,6 +450,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 context="tei:*[@to]">
         <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
       </sch:rule>
@@ -479,6 +478,7 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 context="tei:*[@calendar]">
             <sch:assert test="string-length(.) gt 0">
 @calendar indicates the system or calendar to which the date represented by the content of this element
@@ -1171,6 +1171,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 context="tei:*[@subtype]">
         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
       </sch:rule>
@@ -1202,6 +1203,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
             <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
           </sch:rule>
@@ -1350,6 +1352,7 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 context="tei:*[@spanTo]">
             <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
 The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
@@ -1395,6 +1398,7 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns="http://www.tei-c.org/ns/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                 context="tei:*[@schemeVersion]">
             <sch:assert test="@scheme and not(@scheme = 'free')">
               @schemeVersion can only be used if @scheme is specified.
@@ -3539,6 +3543,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )">
         Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
       </report>
@@ -3551,6 +3556,7 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.
       </report>
@@ -3755,6 +3761,7 @@ Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] for
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                       context="tei:desc[ @type eq 'deprecationInfo']">
 	              <sch:assert test="../@validUntil">Information about a
 	deprecation should only be present in a specification element
@@ -4277,6 +4284,7 @@ Sample values include: 1] suspension; 2] contraction; 3] brevigraph; 4] superscr
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="@target and @cRef">Only one of the
 attributes @target and @cRef may be supplied on <name/>.</report>
             </rule>
@@ -4301,6 +4309,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="@target and @cRef">Only one of the
 	attributes @target' and @cRef' may be supplied on <name/>
                </report>
@@ -4393,6 +4402,7 @@ attributes @target and @cRef may be supplied on <name/>.</report>
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                       context="tei:list[@type='gloss']">
 	              <sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
             </sch:rule>
@@ -5154,6 +5164,7 @@ Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] s
                            xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                            test="@target and count( child::* ) &gt; 0">
 If the @target attribute on <sch:name/> is used, the
 relatedItem element must be empty</sch:report>
@@ -5168,6 +5179,7 @@ relatedItem element must be empty</sch:report>
                            xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                            test="@target or child::*">A relatedItem element should have either a 'target' attribute
         or a child element to indicate the related bibliographic item</sch:assert>
             </rule>
@@ -5202,6 +5214,7 @@ relatedItem element must be empty</sch:report>
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="ancestor::tei:l[not(.//tei:note//tei:l[. = current()])]">
         Abstract model violation: Lines may not contain lines or lg elements.
       </report>
@@ -5262,6 +5275,7 @@ relatedItem element must be empty</sch:report>
                            xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                            test="count(descendant::tei:lg|descendant::tei:l|descendant::tei:gap) &gt; 0">An lg element
         must contain at least one child l, lg or gap element.</sch:assert>
             </rule>
@@ -5273,6 +5287,7 @@ relatedItem element must be empty</sch:report>
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="ancestor::tei:l[not(.//tei:note//tei:lg[. = current()])]">
         Abstract model violation: Lines may not contain line groups.
       </report>
@@ -5378,6 +5393,24 @@ relatedItem element must be empty</sch:report>
       <element name="speaker">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a specialized form of heading or label, giving the name of one or more speakers in a dramatic text or fragment. [3.12.2. Core Tags for Drama]</a:documentation>
          <ref name="macro.phraseSeq"/>
+         <sch:pattern xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
+            <sch:rule context="tei:body/tei:div/tei:sp/tei:speaker/tei:name/@ref"
+                      role="warning">
+               <sch:let name="IndexDoc"
+                        value="doc('https://raw.githubusercontent.com/leliebe/DRD/master/DRD_Index.xml')"/>
+               <sch:let name="roleIDs"
+                        value="$IndexDoc//tei:listPerson/tei:person/tei:persona/@xml:id"/>
+               <sch:let name="roleRefValues" value="for $i in $roleIDs return concat('#', $i)"/>
+               <sch:assert test=". = $roleRefValues">
+            Acceptable values: <sch:value-of select="string-join($persRefValues, ', ')"/> If this is a new role, it needs to be added to the database.
+          </sch:assert>
+            </sch:rule>
+         </sch:pattern>
          <ref name="att.global.attributes"/>
          <empty/>
       </element>
@@ -6062,6 +6095,7 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="not(@marks) and not (tei:p)">
 On <name/>, either the @marks attribute should be used, or a paragraph of description provided</report>
             </rule>
@@ -7488,6 +7522,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="ancestor::tei:l">
         Abstract model violation: Lines may not contain higher-level structural elements such as div.
       </report>
@@ -7500,6 +7535,7 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)">
         Abstract model violation: p and ab may not contain higher-level structural elements such as div.
       </report>
@@ -10461,12 +10497,13 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
             <ref name="desc"/>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddex1-relation-reforkeyorname-constraint-assert-10">
+                  id="oddex1-relation-reforkeyorname-constraint-assert-11">
             <rule context="tei:relation">
                <assert xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="@ref or @key or @name">One of the attributes  'name', 'ref' or 'key' must be supplied</assert>
             </rule>
          </pattern>
@@ -10477,6 +10514,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="@active and @mutual">Only one of the attributes @active and @mutual may be supplied</report>
             </rule>
          </pattern>
@@ -10487,6 +10525,7 @@ Sample values include: 1] primary; 2] other; 3] paid; 4] unpaid</a:documentation
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="@passive and not(@active)">the attribute 'passive' may be supplied only if the attribute 'active' is supplied</report>
             </rule>
          </pattern>
@@ -10853,6 +10892,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="not(count(*) gt 0)">An objectIdentifier must contain at minimum a single piece of locating or identifying information.</report>
             </rule>
          </pattern>
@@ -11030,7 +11070,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. Links]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddex1-link-linkTargets3-constraint-assert-11">
+                  id="oddex1-link-linkTargets3-constraint-assert-12">
             <rule context="tei:link">
                <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:xi="http://www.w3.org/2001/XInclude"
@@ -11038,6 +11078,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
                            xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns="http://www.tei-c.org/ns/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                           xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                            test="contains(normalize-space(@target),' ')">You must supply at least two values for @target or  on <sch:name/>
                </sch:assert>
             </rule>
@@ -11073,6 +11114,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum         |parent::tei:item         |parent::tei:note         |parent::tei:q         |parent::tei:quote         |parent::tei:remarks         |parent::tei:said         |parent::tei:sp         |parent::tei:stage         |parent::tei:cell         |parent::tei:figure)">
         Abstract model violation: ab may not occur inside paragraphs or other ab elements.
       </report>
@@ -11085,6 +11127,7 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="ancestor::tei:l or ancestor::tei:lg">
         Abstract model violation: Lines may not contain higher-level divisions such as p or ab.
       </report>
@@ -11248,12 +11291,13 @@ Suggested values include: 1] d (days) ; 2] h (hours) ; 3] min (minutes) ; 4] s (
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddex1-join-joinTargets3-constraint-assert-12">
+                  id="oddex1-join-joinTargets3-constraint-assert-13">
             <rule context="tei:join">
                <assert xmlns:xi="http://www.w3.org/2001/XInclude"
                        xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:math="http://www.w3.org/1998/Math/MathML"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
                        test="contains(@target,' ')">
 You must supply at least two values for @target on <name/>
                </assert>
@@ -11787,20 +11831,4 @@ Suggested values include: 1] light; 2] sound; 3] prop; 4] block</a:documentation
          <ref name="TEI"/>
       </choice>
    </start>
-   <sch:pattern xmlns:xi="http://www.w3.org/2001/XInclude"
-                xmlns:svg="http://www.w3.org/2000/svg"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:sch="http://purl.oclc.org/dsdl/schematron">
-        <sch:rule context="tei:body//tei:speaker/@ref">
-          <sch:let name="IndexDoc"
-                  value="doc('https://raw.githubusercontent.com/leliebe/DRD/master/DRD_Index.xml?token=ANBHELUSA2P26G7SZK3QA7K5ZW75I')"/>
-          <sch:let name="persIDs"
-                  value="$IndexDoc//tei:listPerson/tei:person/tei:persona/@xml:id"/>
-          <sch:let name="persRefValues" value="for $i in $persIDs return concat('#', $i)"/>
-          <sch:assert test=". = $persRefValues">
-            Acceptable values: <sch:value-of select="string-join($persRefValues, ', ')"/>
-          </sch:assert>
-        </sch:rule>
-            </sch:pattern>
 </grammar>

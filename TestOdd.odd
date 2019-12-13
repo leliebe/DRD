@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
+  xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
   xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:sch="http://purl.oclc.org/dsdl/schematron">
@@ -904,24 +906,28 @@
             <attDef ident="rend" mode="change" usage="opt"></attDef>
           </attList>
         </elementSpec>
-        <!--"ref" restriction section-->
-        <constraintSpec ident="body" scheme="schematron">
-          <constraint>
-            <sch:pattern>
-        <sch:rule context="tei:body//tei:speaker/@ref">
-          <sch:let name="IndexDoc" value="doc('https://raw.githubusercontent.com/leliebe/DRD/master/DRD_Index.xml?token=ANBHELUSA2P26G7SZK3QA7K5ZW75I')"/>
-          <sch:let name="persIDs" value="$IndexDoc//tei:listPerson/tei:person/tei:persona/@xml:id"/>
-          <sch:let name="persRefValues" value="for $i in $persIDs return concat('#', $i)"/>
-          <sch:assert test=". = $persRefValues">
-            Acceptable values: <sch:value-of select="string-join($persRefValues, ', ')"/>
+        <!--"ref" restriction section. Currently, the following Schematron element doesn't 
+          work (document reads as valid, even when using invalid ref numbers. Needs further debugging-->
+        <elementSpec ident="speaker" module="drama" mode="change">
+          <constraintSpec ident="WrongMissingRef" scheme="schematron">
+           <constraint>
+             <sch:pattern>
+            <sch:rule context="tei:body/tei:div/tei:sp/tei:speaker/tei:name/@ref" role="warning">
+          <sch:let name="IndexDoc" value="doc('https://raw.githubusercontent.com/leliebe/DRD/master/DRD_Index.xml')"/>
+          <sch:let name="roleIDs" value="$IndexDoc//tei:listPerson/tei:person/tei:persona/@xml:id"/>
+          <sch:let name="roleRefValues" value="for $i in $roleIDs return concat('#', $i)"/>
+          <sch:assert test=". = $roleRefValues">
+            Acceptable values: <sch:value-of select="string-join($persRefValues, ', ')"/> If this is a new role, it needs to be added to the database.
           </sch:assert>
         </sch:rule>
-            </sch:pattern>
-          </constraint>
+      </sch:pattern>
+            </constraint>
         </constraintSpec>
+        </elementSpec>
       </schemaSpec>
 
 
     </body>
   </text>
 </TEI>
+</sch:schema>
