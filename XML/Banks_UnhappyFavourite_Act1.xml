@@ -132,12 +132,9 @@
                     <seg>And when You vouchsafe to cast your Eyes on </seg>
                     <seg>those beneath You, they speak their own Excel-</seg>
                     <seg>lencies with greater Art and Eloquence, and </seg>
-                    <seg>attract more Admiration than ever <persName ref="#pXXXXXXX"><hi
-                                rend="italic">Virgil</hi></persName> did in </seg>
-                    <seg>his Divinest Flight of Fancy, then <persName ref="#pXXXXXXX"><hi
-                                rend="italic">Ovid</hi></persName> in speak-</seg>
-                    <seg>ing of his Princess, or <persName ref="#pXXXXXXX"><hi rend="italic"
-                                >Appelles</hi></persName> in drawing of his </seg>
+                    <seg>attract more Admiration than ever <hi rend="italic">Virgil</hi> did in </seg>
+                    <seg>his Divinest Flight of Fancy, then <hi rend="italic">Ovid</hi> in speak-</seg>
+                    <seg>ing of his Princess, or <hi rend="italic">Appelles</hi> in drawing of his </seg>
                     <seg><hi rend="italic">Venus</hi>; Nor are Your Virtues, or Your Royal </seg>
                     <seg>Blood less admirable, sprung from the Inestima-</seg>
                     <seg>ble Fountain of so many Illustrious Plantagenets, </seg>
@@ -163,9 +160,7 @@
                     <seg>but will Conclude, in hopes that, when hereafter </seg>
                     <seg>I may chance to Record the Memory of a Prin-</seg>
                     <seg>cess, whose Beauty, Fortune and Merits are grea-</seg>
-                    <seg>ter than <persName ref="#pXXXXXXX"><hi rend="italic">Homer</hi></persName>
-                        ever feign'd, or <persName ref="#pXXXXXXX"><hi rend="italic"
-                            >Tasso</hi></persName> Copy'd, I </seg>
+                    <seg>ter than <hi rend="italic">Homer</hi> ever feign'd, or <hi rend="italic">Tasso</hi> Copy'd, I </seg>
                     <seg>may have leave to draw her Pattern from your </seg>
                     <seg>Highness, and when that is done, the rest of my </seg>
                     <seg>Life shall be employed in Prayers for your Eter-</seg>
@@ -185,8 +180,6 @@
                     <role>
                         <name ref="#r21"><hi rend="italic">The Earl of</hi> Essex.</name>
                     </role>
-                </castItem>
-                <castItem>
                     <actor><persName ref="#p157"><hi rend="italic">Mr</hi>.
                         Clarke</persName>.</actor>
                 </castItem>
@@ -194,8 +187,6 @@
                     <role>
                         <name ref="#r22"><hi rend="italic">Earl of</hi> Southampton.</name>
                     </role>
-                </castItem>
-                <castItem>
                     <actor><persName ref="#p158"><hi rend="italic">Mr</hi>.
                         Gryffin</persName>.</actor>
                 </castItem>
@@ -203,8 +194,6 @@
                     <role>
                         <name ref="#r23">Burleigh</name>
                     </role>
-                </castItem>
-                <castItem>
                     <actor><persName ref="#p159"><hi rend="italic">Major</hi>
                         Mohun</persName>.</actor>
                 </castItem>
@@ -212,8 +201,6 @@
                     <role>
                         <name ref="#r24"><hi rend="italic">Sir</hi> Walter Rawleigh.</name>
                     </role>
-                </castItem>
-                <castItem>
                     <actor><persName ref="#p160"><hi rend="italic">Mr</hi>.
                         Disney</persName>.</actor>
                 </castItem>
@@ -227,28 +214,20 @@
                     <role>
                         <name ref="#r26"><hi rend="italic">Queen</hi> Elizabeth</name>
                     </role>
-                </castItem>
-                <castItem>
                     <actor><persName ref="#p161"><hi rend="italic">Mrs</hi>. Quyn</persName>.</actor>
                 </castItem>
                 <castItem>
                     <role>
                         <name ref="#r27"><hi rend="italic">Countess of</hi> Rutland</name>
                     </role>
-                </castItem>
-                <castItem>
                     <roleDesc><hi rend="italic">Secretly Married to the Earl of</hi>
                         Essex.</roleDesc>
-                </castItem>
-                <castItem>
                     <actor><persName ref="#p162"><hi rend="italic">Mrs</hi>. Cook</persName>.</actor>
                 </castItem>
                 <castItem>
                     <role>
                         <name ref="#r28"><hi rend="italic">Countess of</hi> Nottingham</name>
                     </role>
-                </castItem>
-                <castItem>
                     <actor><persName ref="#p163"><hi rend="italic">Mrs</hi>.
                         Corbett</persName>.</actor>
                 </castItem>
@@ -278,7 +257,7 @@
                         <l>But the poor Poet oft'ner does Expose </l>
                         <l>More than his Life, his Credit, for Applause. </l>
                         <l>The Play's his Vessel, and his Venture, Wit: </l>
-                        <l>Hopes are his <placeName ref="lXXXXXXX"><hi rend="roman">Indies</hi></placeName>, Rocks and Seas, the <hi rend="roman">Pit</hi>. </l>
+                        <l>Hopes are his <placeName ref="loc19"><hi rend="roman">Indies</hi></placeName>, Rocks and Seas, the <hi rend="roman">Pit</hi>. </l>
                         <l>Yet our good-natur'd Author bids me Swear </l>
                         <l>He'll Court you still, the more his Fate draws near; </l>
                         <l>And cannot chuse but blame their Feeble Rage </l>
@@ -438,7 +417,7 @@
                     <l>Were but my Flesh Cast in a purer Mould, </l>
                     <l>Then you might fee me Blush, but my hot Blood </l>
                     <l>Burn't with continual thought, does inward Glow; </l>
-                    <l>Thought like the Sun still goes its daily Round, </l> 
+                    <l>Thought like the Sun still goes its daily Round, </l>
                     <l>And Scorches, as in India to the Root.---</l>
                     <l>But to the Wretched Cause of your disturbance; </l>
                     <l>Say, shall I guess? Is <name type="role" rend="italic" ref="#21">Essex</name> not the Man?</l>
@@ -446,7 +425,7 @@
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r28">Nottingham</name></speaker>
                     <l>O! Name not <name type="role" rend="italic" ref="#21">Essex</name>, Hell, and Tortures rather, </l>
-                    <l>Poysons, and Vultures to the Breast of Man</l> 
+                    <l>Poysons, and Vultures to the Breast of Man</l>
          <pb n="3"/>
                     <l>Are not so Cruel as the Name of <name type="role" rend="italic" ref="#21">Essex</name>---</l>
                     <l>Speak good my Lord; nay, never speak nor think </l>
@@ -500,7 +479,7 @@
                     <l>Such as has made an Earth-Quake in my Soul, </l>
                     <l>Shook ev'ry Vital in these tender Limbs, </l>
                     <l>And rais'd me to the Storm you found me in. </l>
-                    <l>At first he Charm'd me with a Thousand Hopes, </l> 
+                    <l>At first he Charm'd me with a Thousand Hopes, </l>
                     <l>Else 'twas my Love thought all his Actions so---</l>
                     <l>Just now from Ireland I received this Letter, </l>
                     <l>Which take and Read but now I think, you shall not--- — - s </l>
@@ -509,23 +488,23 @@
                <pb n="4"/>
                     <l>To Bits, to Morsells Hack the mangl'd Slave, </l>
                     <l>Till every Attome of his Cursed Body</l>
-                    <stage rend="italic">[Tears the Letter in Rage.</stage> 
+                    <stage rend="italic">[Tears the Letter in Rage.</stage>
                     <l>Sever'd, and Flew like Dust before the Wind.</l>
                     <l>Now do I Bless the Chance, all else may blame </l>
                     <l>Me for; Revealing of my Foolish Passion---</l>
                     <l>Did I e're think these celebrated Charmes </l>
                     <l>Which I so often have been Blest, and Prais'd for </l>
-                    <l>Shoud once be destin'd to so mean a Price </l> 
+                    <l>Shoud once be destin'd to so mean a Price </l>
                     <l>As a Refusal!---Are there Friends above </l>
-                    <l>That Protect Innocence, and injur'd Love? </l> 
+                    <l>That Protect Innocence, and injur'd Love? </l>
                     <l>Hear me, and Curse me, straight with Wrinkl'd Age, </l>
-                    <l>With Leoprosie, Derision, all your Plagues </l> 
+                    <l>With Leoprosie, Derision, all your Plagues </l>
                     <l>On Earth, and Hell hereafter, if I'm not Reveng'd. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
-                    <l>Els say she is no Woman, or no Widow.</l> 
-                    <stage rend="italic">[Aside.</stage> 
+                    <l>Els say she is no Woman, or no Widow.</l>
+                    <stage rend="italic">[Aside.</stage>
                     <l>The Sacred Guardians of your slighted Beauties, </l>
                     <l>Have had more Pitty on their lovely Charge, </l>
                     <l>Then to behold you swallow'd in his Ruin. </l>
@@ -543,7 +522,7 @@
                     <l>When Tempests Blow, rais'd by designs of falfe, </l>
                     <l>And Ignorant States-men; by his Wit alone </l>
                     <l>They'r all Disperst, and by his Breath she Sayls, </l>
-                    <l>His Prosperous Councils all her gentle Gales.</l> 
+                    <l>His Prosperous Councils all her gentle Gales.</l>
                     </sp>
                 <stage>Enter a Gentleman. </stage>
                 <sp>
@@ -563,7 +542,7 @@
                     <l> My Lord, I see the haughty Earl of <name type="role" rend="italic" ref="#r22">Southampton</name> </l>
                     <l>Coming this way. </l>
                 </sp>
-                
+
                 <pb n="5"/>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
@@ -581,8 +560,8 @@
                     <l><name type="role" rend="italic" ref="#r28">Southampton</name>! he's the chief of <name type="role" rend="italic" ref="#r21">Essex</name> Faction,</l>
                     <l>His Friend, and Sworn Brother; and I fear </l>
                     <l>Too much a Friend, and Partner of his Revells</l>
-                    <l>To be a Stranger to the others Guilt---</l> 
-                    <l>Tis not yet time to lop this haughty Bough,</l> 
+                    <l>To be a Stranger to the others Guilt---</l>
+                    <l>Tis not yet time to lop this haughty Bough,</l>
                     <l>Till I have shaken first the Tree that bears it.</l>
                 </sp>
                 <stage>Enter <name type="role" rend="italic" ref="#r22">Southampton</name>.</stage>
@@ -612,7 +591,7 @@
                     <l>My Lord, you are ingendring Snakes within you,</l>
                     <l>I fear you have a subtle stinging Heart; </l>
                     <l>And give me leave to tell you, that this Treason,</l>
-                    <l>If any, ha's been hatch'd in <name type="role" rend="italic" ref="#23">Burleigh</name>'s School. </l> 
+                    <l>If any, ha's been hatch'd in <name type="role" rend="italic" ref="#23">Burleigh</name>'s School. </l>
                     <l>I see Ambition in the fair Pretence, </l>
                     <l><name type="role" rend="italic" ref="#23">Burleigh</name> in all it's Cunning, dark Disguises,</l>
                     <l>And envious <name type="role" rend="italic" ref="#23">Cecil</name> ev'ry where. </l>
@@ -636,10 +615,10 @@
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r22">Southampton</name></speaker>
-                    <l>Hold in my Fire, and scorch not through my Ribs, </l> 
+                    <l>Hold in my Fire, and scorch not through my Ribs, </l>
                     <l>Quench, if thou canst, the Burning Furious Pain---</l>
-                    <l>I cannot if I wou'd, but must unload </l> 
-                    <l>Some of the Torture---Now by my Wrong'd self,</l> 
+                    <l>I cannot if I wou'd, but must unload </l>
+                    <l>Some of the Torture---Now by my Wrong'd self,</l>
                     <l>And <name type="role" rend="italic" ref="#r21">Essex,</name> much more Wrong'd, I Swear 'tis false, </l>
                     <l>False, as the Rules by which Vile States-men Govern, </l>
                     <l>False as their Arts, by which the Traytors Rise, </l>
@@ -676,7 +655,7 @@
                     <l>Least he disturb the <hi rend="italic">Genious</hi> of the Nation</l>
                 <pb n="7"/>
                     <l>As you were pleas'd to call me; and beware</l>
-                    <l>The Fate of <name type="role" rend="italic" ref="#r21">Essex</name>.</l> 
+                    <l>The Fate of <name type="role" rend="italic" ref="#r21">Essex</name>.</l>
                     <stage>[Exit <name type="role" rend="italic" ref="#r23">Burleigh</name>. </stage>
                 </sp>
                 <sp>
@@ -695,7 +674,7 @@
                 </sp>
                 <stage rend="italic">
                     <seg>Enter the <name type="role" ref="#r26">Queen</name>, <name type="role" rend="roman" ref="#r23">Burleigh</name>, <name ref="#r30">Lord Chancellor,</name> <name type="role" ref="#r28">Countess of <hi rend="roman">Nottingham</hi></name>,</seg>
-                    <seg><name type="role" rend="italic" ref="#r27">Countess of <hi rend="roman">Rutland</hi></name>, Lords and Attendants, Queen</seg> 
+                    <seg><name type="role" rend="italic" ref="#r27">Countess of <hi rend="roman">Rutland</hi></name>, Lords and Attendants, Queen</seg>
                     <seg>on a Chair of State, Guards.</seg>
                 </stage>
                 <sp>
@@ -729,10 +708,10 @@
                     <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
                     <l>Spoke like true <name type="role" rend="italic" ref="#r23">Cecil</name> still, old Protestant---</l>
                     <l>But, Oh ! It Joyes me with the dear Remembrance </l>
-                    <l>Of this Romantick huge Invasion. </l> 
-                    <l>From the Popes Closset where 'twas first Begot, </l> 
+                    <l>Of this Romantick huge Invasion. </l>
+                    <l>From the Popes Closset where 'twas first Begot, </l>
                     <l>Bulls, Absolutions, Pardons, frightful Banns </l>
-                    <l>Flew o're the Continent, and Narrow Seas, </l> 
+                    <l>Flew o're the Continent, and Narrow Seas, </l>
                     <l>Some to Reward, and others to Torment, </l>
                     <l>Nay,worse, the Inquisition was let loose </l>
                     <l>To Teach the very Atheists Purgatory. </l>
@@ -784,12 +763,12 @@
                     <l>Bursting like Thunder, and almost as high,</l>
                     <l>And then did Shiver in a Thousand Pieces,</l>
                     <l>Whilst from her Belly Crouds of Living Creatures </l>
-                    <l>Broak like untimely Births, and fill'd the Skye: </l> 
+                    <l>Broak like untimely Births, and fill'd the Skye: </l>
                     <l>Then might be seen a <hi rend="italic">Spanyard</hi> catch his Fellow, </l>
                     <l>And Wrestling in the Air fall down together; </l>
                     <l>A Priest for safety Riding on a Cross, </l>
                     <l>Another that had none, crossing himself;</l>
-                    <l>Fryers with long big sleeves like Magpyes Wings </l> 
+                    <l>Fryers with long big sleeves like Magpyes Wings </l>
                     <l>That bore them up, came gently Sailing down: </l>
                     <l>One with a Don that held him by the Arms, </l>
                     <l>And Cry 'd, Confess me straight; but as he just </l>
@@ -898,7 +877,7 @@
                     <speaker><name type="role" rend="italic" ref="#r24">Rawleigh</name></speaker>
                     <l> Long live the bright Imperial Majesty </l>
                     <l>Of <name type="place" rend="italic" ref="#loc20">England</name>, Virgin Star of Christendome,</l>
-                <pb n="11"/>    
+                <pb n="11"/>
                     <l>Blessing, and Guide of all your Subjects Lives, </l>
                     <l>Who with the Sun may sooner be extinguish'd </l>
                     <l>From the bright Orb he Rules in, than their Queen </l>
@@ -918,7 +897,7 @@
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r23">Burleigh</name></speaker>
-                    <l><hi rend="italic">An Act for setling, and establishing</hi></l> 
+                    <l><hi rend="italic">An Act for setling, and establishing</hi></l>
                     <stage>[<name type="role" rend="italic" ref="#r23">Cecil</name> takes the Papers and reads the Contents.</stage>
                     <l><hi rend="italic">A Strong Militia, out of ev'ry County,</hi></l>
                     <l><hi>And likewise for levying a new Army </hi></l>
@@ -953,7 +932,7 @@
                     <l>Of several Misdemeaners of High Treason. </l>
                 </sp>
                 <sp>
-                    <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>     
+                    <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
                     <l>Ha! </l>
                     <lg rend="braced">
                         <l>This unthought Blast has shockt me like an Ague--- </l>
@@ -983,7 +962,7 @@
                     <l>That has so often beat it's Foes on Land, </l>
                     <l>Stood like a Promontary in its defence, </l>
                     <l>And sail'd with Dragons Wings to Guard the Seas; </l>
-                    <l><name type="role" rend="italic" ref="#r21">Essex</name>! That took as many Towns in <name type="place" ref="#loc18">Spain</name></l> 
+                    <l><name type="role" rend="italic" ref="#r21">Essex</name>! That took as many Towns in <name type="place" ref="#loc18">Spain</name></l>
                         <l> As all this Island holds, begger'd their Fleet </l>
                     <l>That came with Loads of half their Mines in <name type="place" ref="#loc19">India</name>, </l>
                     <l>And took a mighty Carrack of such Value, </l>
@@ -1007,7 +986,7 @@
                     <speaker><name type="role" rend="italic" ref="c?">Rawleigh</name></speaker>
                     <l>Thus prostrate at your Feet we beg for Pardon, </l>
                     <l>And humbly Crave your Majesties Forgiveness.</l>
-                    <stage rend="italic">[Petitioners kneel.</stage> 
+                    <stage rend="italic">[Petitioners kneel.</stage>
                 </sp>
                 <sp>
                     <speaker><name type="role" rend="italic" ref="#r26">Queen</name></speaker>
@@ -1026,7 +1005,7 @@
                <pb n="13"/>
                     <l>Ha! I suspect that <name type="role" rend="italic" ref="#r23">Cecil</name> too is envious, </l>
                     <l>And <name type="role" rend="italic" ref="#r21">Essex</name> is too great for thee to grow,---</l>
-                    <l>A Shrub that never shall belook'd upon,</l> 
+                    <l>A Shrub that never shall belook'd upon,</l>
                     <l>Whilst <name type="role" rend="italic" ref="#r21">Essex</name>, that's a Cedar stands so night---</l>
                     <l>Tell me, why was not I acquainted with </l>
                     <l>This close Design: For I am sure thou know'st it. </l>
@@ -1040,7 +1019,7 @@
                     <l>Be dumb; I will hear no Excufes.---</l>
                     <l>I could turn Cynnick, and outrage the Wind, </l>
                     <l>Fly from all Courts, from Business, and Mankind, </l>
-                    <l>Leave all like Chaos in Confusion hurl'd: </l> 
+                    <l>Leave all like Chaos in Confusion hurl'd: </l>
                     <l>For 'tis not Reason now that Rules the World: </l>
                     <l>There's Order in all States but Man below, </l>
                     <l>And all things else do to Superiors bow; </l>
