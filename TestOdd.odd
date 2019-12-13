@@ -907,7 +907,7 @@
           </attList>
         </elementSpec>
         <!--"ref" restriction section. Currently, the following Schematron element doesn't 
-          work (document reads as valid, even when using invalid ref numbers. Needs further debugging-->
+          work (document reads as valid, even when using invalid ref numbers. Needs further debugging.)-->
         <elementSpec ident="speaker" module="drama" mode="change">
           <constraintSpec ident="WrongMissingRef" scheme="schematron">
            <constraint>
