@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-12-13T01:33:49Z. .  
+Schema generated from ODD source 2019-12-13T01:42:35Z. .  
 --><!---->
    <define name="macro.paraContent">
       <zeroOrMore>
@@ -5399,14 +5399,12 @@ relatedItem element must be empty</sch:report>
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sqf="http://www.schematron-quickfix.com/validator/process">
-            <sch:rule context="tei:body/tei:div/tei:sp/tei:speaker/tei:name/@ref"
-                      role="warning">
+            <sch:rule context="tei:text//tei:persName/@ref" role="warning">
                <sch:let name="IndexDoc"
                         value="doc('https://raw.githubusercontent.com/leliebe/DRD/master/DRD_Index.xml')"/>
-               <sch:let name="roleIDs"
-                        value="$IndexDoc//tei:listPerson/tei:person/tei:persona/@xml:id"/>
-               <sch:let name="roleRefValues" value="for $i in $roleIDs return concat('#', $i)"/>
-               <sch:assert test=". = $roleRefValues">
+               <sch:let name="persIDs" value="$IndexDoc//tei:listPerson//tei:person/@xml:id"/>
+               <sch:let name="persRefValues" value="for $i in $persIDs return concat('#', $i)"/>
+               <sch:assert test=". = $persRefValues">
             Acceptable values: <sch:value-of select="string-join($persRefValues, ', ')"/> If this is a new role, it needs to be added to the database.
           </sch:assert>
             </sch:rule>

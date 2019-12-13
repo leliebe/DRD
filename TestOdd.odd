@@ -912,11 +912,11 @@
           <constraintSpec ident="WrongMissingRef" scheme="schematron">
            <constraint>
              <sch:pattern>
-            <sch:rule context="tei:body/tei:div/tei:sp/tei:speaker/tei:name/@ref" role="warning">
+            <sch:rule context="tei:text//tei:persName/@ref" role="warning">
           <sch:let name="IndexDoc" value="doc('https://raw.githubusercontent.com/leliebe/DRD/master/DRD_Index.xml')"/>
-          <sch:let name="roleIDs" value="$IndexDoc//tei:listPerson/tei:person/tei:persona/@xml:id"/>
-          <sch:let name="roleRefValues" value="for $i in $roleIDs return concat('#', $i)"/>
-          <sch:assert test=". = $roleRefValues">
+          <sch:let name="persIDs" value="$IndexDoc//tei:listPerson//tei:person/@xml:id"/>
+          <sch:let name="persRefValues" value="for $i in $persIDs return concat('#', $i)"/>
+          <sch:assert test=". = $persRefValues">
             Acceptable values: <sch:value-of select="string-join($persRefValues, ', ')"/> If this is a new role, it needs to be added to the database.
           </sch:assert>
         </sch:rule>
