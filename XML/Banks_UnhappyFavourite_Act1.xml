@@ -64,12 +64,15 @@
                 <docTitle ref="#pt403">
                     <titlePart type="main">The Unhappy Favourite</titlePart>
                     <titlePart type="sub">OR THE Earl of Essex.</titlePart>
-                    <titlePart type="desc">A TRAGEDY. Acted at
-                            the Theatre Royal By their Majesty's
-                        Servants.</titlePart>
+                    <titlePart type="desc">
+                        <seg>A </seg>
+                        <seg>TRAGEDY.</seg> 
+                        <seg>Acted at the</seg>
+                        <seg>Theatre Royal </seg>
+                        <seg>By their Majesty's Servants.</seg>
+                    </titlePart>
                 </docTitle>
-                <byline>Written by <docAuthor><name ref="#p8"><hi rend="italic">John
-                            Bankes.</hi></name></docAuthor></byline>
+                <byline>Written by <docAuthor><name ref="#p8" rend="italic">John Bankes.</name></docAuthor></byline>
                 <epigraph>
                     <p><hi rend="italic"> #8212; quinimios optabat Honores, <lb/> Et nimias poscebat
                             Opes, numerousa parabat <lb/>Excelsæ turris tabulata, unde altior esset
@@ -82,24 +85,33 @@
                 </epigraph>
                 <docImprint>
                     <placeName ref="loc25"><hi rend="italic">London,</hi></placeName>
-                    <lb/>
-                    Printed for <persName rend="italic" ref="#p154">Richard Bentley</persName> and <persName rend="italic" ref="#p155">>Mary Magnes</persName> in <placeName ref="locl17"><hi rend="italic"
-                                >Russel-street</hi></placeName>
-                    <lb/>near the <hi rend="italic">Piazza</hi> in <hi rend="italic">Covent-Garden</hi>, 1682.
+                    <line>
+                        <seg>Printed for </seg>
+                        <seg><persName rend="italic" ref="#p154">Richard Bentley</persName></seg>
+                        <seg>and</seg>
+                        <seg><persName rend="italic" ref="#p155">>Mary Magnes</persName></seg> 
+                        <seg>in</seg>
+                        <seg><placeName ref="locl17"><hi rend="italic">Russel-street</hi></placeName></seg>
+                    </line>
+                    <line>
+                        <seg>near the </seg>
+                        <seg><hi rend="italic">Piazza </hi></seg>
+                        <seg>in </seg> 
+                        <seg><hi rend="italic">Covent-Garden</hi></seg>
+                        <seg>, </seg> 
+                        <seg><date when="1682">1682</date>.</seg>
                 </docImprint>
             </titlePage>
             <pb n="ii"/>
             <salute>
                 <head>
                     <p>
-                    <persName ref="#p164">
                         <seg>To the Most High, and Most Illustrious</seg>
                         <seg>PRINCESS</seg>
                         <seg>The LADY</seg>
-                        <seg>ANN,</seg>
+                        <seg><persName ref="#p164">ANN,</persName></seg>
                         <seg>Daughter to His</seg>
                         <seg>Royal Highness.</seg>
-                    </persName>
                     </p>
                 </head>
                 <p> rend="italic">MADAM,</p>
@@ -176,65 +188,101 @@
                 <head>PERSONS REPRESENTED</head>
                 <castGroup>
                 <castItem>
+                    <castItem>
                     <role>
                         <name ref="#r21"><hi rend="italic">The Earl of</hi> Essex.</name>
                     </role>
+                    </castItem>
+                    <castItem>
                     <actor><persName ref="#p157"><hi rend="italic">Mr</hi>.
                         Clarke</persName>.</actor>
+                    </castItem>
                 </castItem>
                 <castItem>
+                    <castItem>
                     <role>
                         <name ref="#r22"><hi rend="italic">Earl of</hi> Southampton.</name>
                     </role>
+                    </castItem>
+                    <castItem>
                     <actor><persName ref="#p158"><hi rend="italic">Mr</hi>.
                         Gryffin</persName>.</actor>
+                    </castItem>
                 </castItem>
                 <castItem>
+                    <castItem>
                     <role>
                         <name ref="#r23">Burleigh</name>
                     </role>
+                    </castItem>
+                    <castItem>
                     <actor><persName ref="#p159"><hi rend="italic">Major</hi>
                         Mohun</persName>.</actor>
+                    </castItem>
                 </castItem>
                 <castItem>
+                    <castItem>
                     <role>
                         <name ref="#r24"><hi rend="italic">Sir</hi> Walter Rawleigh.</name>
                     </role>
+                    </castItem>
+                    <castItem>
                     <actor><persName ref="#p160"><hi rend="italic">Mr</hi>.
                         Disney</persName>.</actor>
+                    </castItem>
                 </castItem>
                 <castItem>
+                    <castItem>
                     <role>
                         <name ref="#r25"><hi rend="italic">Lieutenant of the</hi> Tower.</name>
                     </role>
+                    </castItem>
                 </castItem>
                 <lb/>
                 <castItem>
+                    <castItem>
                     <role>
                         <name ref="#r26"><hi rend="italic">Queen</hi> Elizabeth</name>
                     </role>
+                    </castItem>
+                    <castItem>
                     <actor><persName ref="#p161"><hi rend="italic">Mrs</hi>. Quyn</persName>.</actor>
+                    </castItem>
                 </castItem>
                 <castItem>
+                    <castItem>
                     <role>
                         <name ref="#r27"><hi rend="italic">Countess of</hi> Rutland</name>
                     </role>
+                    </castItem>
+                    <castItem>
                     <roleDesc><hi rend="italic">Secretly Married to the Earl of</hi>
                         Essex.</roleDesc>
+                    </castItem>
+                    <castItem>
                     <actor><persName ref="#p162"><hi rend="italic">Mrs</hi>. Cook</persName>.</actor>
+                    </castItem>
                 </castItem>
                 <castItem>
+                    <castItem>
                     <role>
                         <name ref="#r28"><hi rend="italic">Countess of</hi> Nottingham</name>
                     </role>
+                    </castItem>
+                    <castItem>
                     <actor><persName ref="#p163"><hi rend="italic">Mrs</hi>.
                         Corbett</persName>.</actor>
+                    </castItem>
                 </castItem>
                 <castItem>
+                    <castItem>
                     <role>Women.</role>
+                    </castItem>
                 </castItem>
                 <castItem>
+                    <castItem>
                     <role>Gentlemen, Guards and Attendants.</role>
+                    </castItem>
                 </castItem>
                 </castGroup>
             </castList>
