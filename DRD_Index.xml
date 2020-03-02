@@ -52,7 +52,7 @@
                <forename>Joseph</forename>
                <surname>Arrowsmith</surname>
 						 </persName>
-            </person>  
+            </person>
             <person xml:id="p8">
                <persName role="histPers">
                   <forename>John</forename>
@@ -494,19 +494,33 @@
 								<country></country>
 								<region></region>
 							</location>
-                     <location xml:id="loc25">
-                        <street></street>
-                        <sign></sign>
-                        <city>London</city>
-                        <country></country>
-                        <region></region>
-                   </location>
-       	         </listPlace>
+            	<location xml:id="loc25">
+                <street></street>
+                <sign></sign>
+                <city>London</city>
+                <country></country>
+                <region></region>
+             	</location>
+						 <location xml:id="loc26">
+		 						<street></street>
+		 						<sign></sign>
+		 						<city></city>
+		 						<country>Turkey</country>
+		 						<region></region>
+		 					</location>
+							<location xml:id="loc27">
+								<street></street>
+								<sign></sign>
+								<city></city>
+								<country>Scotland</country>
+								<region></region>
+						</location>
+       	 </listPlace>
          <listText>
             <text xml:id="pt403">
                <title>The Unhappy Favourite; or, The Earl of Essex</title>
                <author ref="#p8">John Banks</author>
-            </text> 
+            </text>
          </listText>
       </body>
   </text>
