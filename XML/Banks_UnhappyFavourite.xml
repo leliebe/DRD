@@ -1312,7 +1312,7 @@
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r23"><italic>Burleigh</italic></name></speaker>
-                    <l> May't pleafe your Majesty, the Earl is come </l>
+                    <l> May't please your Majesty, the Earl is come </l>
                     <l>And waits your Pleasure. </l>
                 </sp>
                 <sp>
@@ -2113,144 +2113,208 @@
                     <l>Malitious Flames flasht in a moment from </l>
                     <l>Thy Eyes like Lightning from thy O'recharg'd Soul, </l>
                     <pb n="32"/>
-
-
-                    , And 5 2 The Unhappy
-                        Favourite ; or > And fir'd thy Breast, which like a hard ramm'd Piece, </l>
-                    <l>Difcharg'd unmannerly upon my face. </l>
+                    <l>And fir'd thy Breast, which like a hard ramm'd Piece, </l>
+                    <l>Discharg'd unmannerly upon my face. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r28"><italic>Nottingham</italic></name></speaker>
-                    <l> Pardon bright Queen, most Royal and belov 'd, </l>
-                    <l>The manner of expreffing of my Duty } </l>
-                    <l>But you your felf began and taught me first. ghteen. I am his Queen, and
-                        therefore may have leave: </l>
-                    <l>May not my felf have priviledge to mould </l>
-                    <l>The Thing I made, and ufe it as I pleafe ? </l>
-                    <l>Befides he has committed monstrous Crimes </l>
+                    <l>Pardon bright Queen, most Royal and belov'd, </l>
+                    <l>The manner of expressing of my Duty; </l>
+                    <l>But you your self began and taught me first. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
+                    <l>I am his Queen, and therefore may have leave: </l>
+                    <l>May not my self have priviledge to mould </l>
+                    <l>The Thing I made, and use it as I please? </l>
+                    <l>Besides he has committed monstrous Crimes </l>
                     <l>Against my Person, and has urg'd me far </l>
-                    <l>Beyond the power of Mortal differing. </l>
+                    <l>Beyond the power of Mortal suffering. </l>
                     <l>Me he has wrong'd, but thee he never wrong'd. </l>
-                    <l>What has poor Ejjex done to thee ? Thou hast </l>
+                    <l>What has poor <name type="role" ref="#r21"><italic>Essex</italic></name> done to thee? Thou hast </l>
                     <l>No Crown that he cou'd hope to gain, </l>
-                    <l>No Laws to break, no Subjects to moled, Nor Throne that he cou'd be ambitious
-                        of What pleasure cou'dst thou take to fee A drowning man knock'd on the
-                        head, and yet Not wistito (ave the miferable Wretch ! </l>
+                    <l>No Laws to break, no Subjects to molest, </l>
+                    <l>Nor Throne that he cou'd be ambitious of---</l>
+                    <l>What pleasure cou'dst thou take to see </l>
+                    <l>A drowning man knock'd on the head, and yet </l>
+                    <l>Not wish to save the miserable Wretch! </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r28"><italic>Nottingham</italic></name></speaker>
-                    <l> I was too blame. Qu. No more- Thou feelt thy Queen, the World, and Destiny </l>
-                    <l>It felf against this one bad Man, and him </l>
-                    <l>Thou canst not pity nor excufe. </l>
+                    <l> I was too blame. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
+                    <l>No more---</l>
+                    <l>Thou seest thy Queen, the World, and Destiny </l>
+                    <l>It self against this one bad Man, and him </l>
+                    <l>Thou canst not pity nor excuse. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r28"><italic>Nottingham</italic></name></speaker>
-                    <l> Madam Qtteen. Begone, I do forgive thee } and bid Rutland [Exit Not- </l>
-                    <l>Come to me straight ha! what have I difclos'd? " tingham. Why have I chid my
-                        Woman for a fault </l>
+                    <l>Madam---</l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
+                    <l>Begone, I do forgive thee; and bid <name type="role" ref="#r27"><italic>Rutland</italic></name></l>
+                    <stageLeft>[<italic>Exit</italic> <name type="role" ref="#r28">Nottingham</name>. </stageLeft>
+                    <l>Come to me straight---ha! what have I disclos'd? </l>
+                    <l>Why have I chid my Woman for a fault </l>
                     <l>Which I wrung from her, and committed first? </l>
                     <l>Why stands my jealous and tormented Soul </l>
-                    <l>.A Spie to listen, and divulge the Treasons Spoke against Ejjex ? O you
-                        mighty Powers! Protectors of the Fame of EngUnds Queen, </l>
-                    <l>Let me not know it for a thousand Worlds, 'Lis dangerous But yet it will
-                        difcover, And I feel fomething whifpering to my Reafon, That fays it is O
-                        blotted be the Name For ever from my Thoughts. If it be fo, </l>
-                    <l>And lam stung with thy Almighty Dart, </l>
-                    <l>Ml die, but I will tear thee from my Heart, Shake TbeEarlofEstex.^ g Shake
-                        off this hidious Vapour from my Soul, </l>
-                    <l>This haughty Earl, the Prince of my Controul 3 </l>
-                    <l>Banifli this Traytor to his Queens repofe, </l>
+                    <l>A Spie to listen, and divulge the Treasons </l>
+                    <l>Spoke against <name type="role" ref="#r21"><italic>Essex</italic></name>?---O you mighty Powers! </l>
+                    <l>Protectors of the Fame of <name type="place" ref="#loc20"><italic>Englands</italic></name> Queen, </l>
+                    <l>Let me not know it for a thousand Worlds, </l>
+                    <l>'Tis dangerous---But yet it will discover, </l>
+                    <l>And I feel something whispering to my Reason, </l>
+                    <l>That says it is O---blotted be the Name </l>
+                    <l>For ever from my Thoughts. If it be so, </l>
+                    <l>And I am stung with thy Almighty Dart, </l>
+                    <l>I'll die, but I will tear thee from my Heart, </l>
+                    <pb n="33"/>
+                    <l>Shake off this hidious Vapour from my Soul, </l>
+                    <l>This haughty Earl, the Prince of my Controul; </l>
+                    <l>Banish this Traytor to his Queens repose, </l>
                     <l>And blast him with the malice of his Foes; </l>
                     <l>Were there no other way his guilt to prove, </l>
-                    <l>Tis Treason to infect the Throne with Love, Enter Count ess 0/EiTex. How now
-                        my Rutland} I did fend for you -- I have obferv'd you have been fad of late.
-                        Why wearest thou black so long > and why that Cloud 9 That mourning Cloud
-                        about thy lovely Eyes > Come, I will find a noble Husband for thee. C.Eff.
-                        Ah mighty Princels, raost ador'd of Queens! Your Royal Goodness ought to
-                        blush, when it Defcends to care for such a Wretch as I am. </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
-                    <l> Why fayst thou (b, I love thee well, indeed I do, and thou (halt find by
-                        this 'tis truth Injurious Nottingham^ and I had some Difpute, and 'twas
-                        about my Lord of </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
-                    <l> C. Ejf. Ha ! [Afide. </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
-                    <l> So much that she difpleas'd me strangely, "j And I did fend her from my
-                        fight in anger. </l>
+                    <l>Tis Treason to infect the Throne with Love. </l>
+                    <stageCenter><italic>Enter </italic><name type="role" ref="#r27"><italic>Countess of </italic>Essex</name>.</stageCenter>
+                    <l>How now my <name type="role" ref="#r27"><italic>Rutland</italic></name>? I did send for you---</l>
+                    <l>I have observ'd you have been sad of late. </l>
+                    <l>Why wearest thou black so long? and why that Cloud, </l>
+                    <l>That mourning Cloud about thy lovely Eyes? </l>
+                    <l>Come, I will find a noble Husband for thee. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
-                    <l> O that dear Name oth* fudden how it star,ts me ! | Makes evry Vein within me
-                        leave its Channel, >Afide, To run, and to protect my feeble Heart 5 And now
-                        my Blood as foon retreats again To croud with blushes full my guilty Cheeks-
-                        — — -. Alas I fear. </l>
+                    <l>Ah mighty Princess, raost ador'd of Queens! </l>
+                    <l>Your Royal Goodness ought to blush, when it </l>
+                    <l>Descends to care for such a Wretch as I am. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
-                    <l> Thou blushest at my Story 1 C^Eff Not I, my Gracious Mistress, but my Eyes
-                        And Cheeks fir'd and amaz'd with joy, turn'd red At such a Grace that you
-                        were pleas'd to shew me. </l>
+                    <l>Why sayst thou so, I love thee well, indeed </l>
+                    <l>I do, and thou shalt find by this 'tis truth---</l>
+                    <l>Injurious <name type="role" ref="#r28"><italic>Nottingham</italic></name> and I had some </l>
+                    <l>Dispute, and 'twas about my Lord of <name type="role" ref="#r21"><italic>Essex</italic></name>---</l>
+                </sp>
+                <sp>
+                  <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                  <l>Ha! </l>
+                  <stageLeft>[<italic>Aside</italic>. </stageLeft>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
-                    <l> I'll tell thee then, and ask thee thy Advice. There is no doubt, dear Rut
-                        land, but thou hear'st The daily Clamours that my People vent Against the
-                        moil: unhappy Earl oFEflex, The Treasons that they wou'd impeach him of. And
-                        which is worse, this day he is arriv'd F Against j 4 ¥ he Vnhaffly Favourite
-                        \ or y Against my stri5r. Commands, and' left. Affairs- </l>
-                    <l>In Ireland defprate, headless, and undone. C Eff Might Iprefume to. tell my
-                        humble mind, </l>
+                    <brace>
+                      <l>So much that she displeas'd me strangely, </l>
+                      <stageLeft><italic>Aside</italic>.</stageLeft>
+                      <l>And I did send her from my sight in anger. </l>
+                    </brace>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                    <brace>
+                      <l>O that dear Name oth' sudden how it starts me! </l>
+                      <l>Makes ev'ry Vein within me leave its Channel, </l>
+                      <l>To run, and to protect my feeble Heart; </l>
+                      <stageLeft><italic>Aside</italic>.</stageLeft>
+                      <l>And now my Blood as soon retreats again </l>
+                      <l>To croud with blushes full my guilty Cheeks---</l>
+                    </brace>
+                    <l>Alas I fear. </l>
+                </sp>
+            </brace>
+                <sp>
+                    <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
+                    <l>Thou blushest at my Story! </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                    <l>Not I, my Gracious Mistress, but my Eyes </l>
+                    <l>And Cheeks fir'd and amaz'd with joy, turn'd red </l>
+                    <l>At such a Grace that you were pleas'd to shew me. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
+                    <l> I'll tell thee then, and ask thee thy Advice. </l>
+                    <l>There is no doubt, dear <name type="role" ref="#r27"><italic>Rutland</italic></name>, but thou hear'st </l>
+                    <l>The daily Clamours that my People vent </l>
+                    <l>Against the most unhappy Earl of <name type="role" ref="#r21"><italic>Essex</italic></name>, </l>
+                    <l>The Treasons that they wou'd impeach him of, </l>
+                    <l>And which is worse, this day he is arriv'd </l>
+                    <pb n="34"/>
+                    <l>Against my strict Commands, and left. Affairs </l>
+                    <l>In <name type="place" ref="#loc21"><italic>Ireland</italic></name> desp'rate, headless, and undone. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                    <l>Might I presume to tell my humble mind, </l>
                     <l>Such Clamours very often are design'd </l>
                     <l>More by the Peoples Hate than any Crimes </l>
-                    <l>In those they woud accufe. </l>
+                    <l>In those they wou'd accuse. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
-                    <l> Thou fpeak'st my fence 3 </l>
-                    <l>But oh dear Rutland, he has been to blame. — -- - .. Lend me thy Breast to
-                        lean upon Otis A heavy Yoke they woud impofe on me </l>
+                    <l>Thou speak'st my sence; </l>
+                    <l>But oh dear <name type="role" ref="#r27"><italic>Rutland</italic></name>, he has been to blame.---</l>
+                    <l>Lend me thy Breast to lean upon---O 'tis </l>
+                    <l>A heavy Yoke they woud impose on me </l>
                     <l>Their Queen, and I am weary of the Load, </l>
-                    <l>And want a Friend like thee to lull my Sorrows. C. Eff Behold these tears
-                        fprung from fierce Pain and Joy, </l>
-                    <l>To fee your- wondrous Grief, your wond rous Pitty. </l>
-                    <l>that kind Heav n wou'd but instruci my thoughts, </l>
-                    <l>And teach my Tongue such foft'ning, healing Words, </l>
-                    <l>That it might charm your Soul, and cure your Breast. </l>
-                    <l>For ever, </l>
+                    <l>And want a Friend like thee to lull my Sorrows. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                    <l>Behold these tears sprung from fierce Pain and Joy, </l>
+                    <l>To see your wond'rous Grief, your wond'rous Pitty. </l>
+                    <l>O that kind Heav'n wou'd but instruct my thoughts, </l>
+                    <l>And teach my Tongue such soft'ning, healing Words, </l>
+                    <l>That it might charm your Soul, and cure your Breast </l>
+                    <l>For ever. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
-                    <l> Thou art my better Angel then, And lent to give me everlasting quiet Say,
-                        is't not pkty that so brave a Man, </l>
-                    <l>And one that once was reckond as a God, ; </l>
-                    <l>That he should be the Author of such Treafbns V </l>
-                    <l>That he, that was like Cdfir, and so great, </l>
-                    <l>Has had the Power to make, and unmake Kings 2 . </l>
+                    <l>Thou art my better Angel then, </l>
+                    <l>And sent to give me everlasting quiet---</l>
+                    <l>Say, is't not pitty that so brave a Man, </l>
+                    <l>And one that once was reckon'd as a God, </l>
+                    <l>That he should be the Author of such Treasons! </l>
+                    <l>That he, that was like <name type="person" ref="#XXX"><italic>Cæsar</italic></name>, and so great, </l>
+                    <l>Has had the Power to make, and unmake Kings, </l>
                     <l>Shoud stoop to gain a petty Throne from me. </l>
-                    <l>C. Eff I can t believe 5 ti in his. Soul to think. </l>
-                    <l>Much less to act a Treafbn against you, </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                    <l>I can't believe 'tis in his Soul to think, </l>
+                    <l>Much less to act a Treason against you, </l>
                     <l>Your Majesty, whom I have heard him so </l>
                     <l>Commend, that Angels words did never flow </l>
-                    <l>With so much Eloquence,sorare,sosweet, </l>
-                    <l>That nothing but the Subject cou'd deserve. Omen. Hast thou then .heard him
-                        talk of me2 . </l>
-                    <l>C. Eff I have,. </l>
+                    <l>With so much Eloquence, so rare,so sweet, </l>
+                    <l>That nothing but the Subject cou'd deserve. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
+                    <l>Hast thou then heard him talk of me? </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                    <l>I have, </l>
                     <l>And as of so much Excellence as if </l>
-                    <l>He meant to make a rare; Encomium on </l>
-                    <l>The World, the.Stars, or what is brighter, Heaven* </l>
-                    <l>She is, laid he, theGoddess.of her Sex,. </l>
-                    <l>Sofar beyond all Woman- kind befide.^ </l>
-                    <l>'-Xhatrwhat in them is most adorkl, and lovcl, ; TbeEarlofEiTcx, 55 Their
-                        Beauties, Parts, and other Ornaments., </l>
+                    <l>He meant to make a rare Encomium on </l>
+                    <l>The World, the Stars, or what is brighter, Heaven. </l>
+                    <l>She is, said he, the Goddess of her Sex, </l>
+                    <l>So far beyond all Woman-kind beside, </l>
+                    <l>That what in them is most ador'd, and lov'd, </l>
+                <pb n="35"/>
+                    <l>Their Beauties, Parts, and other Ornaments, </l>
                     <l>Are but in her the Foyls to greater Luster, </l>
-                    <l>And all perfections elfe, how rare fbever, </l>
-                    <l>Are in her Person but as lester Gleams, </l>
+                    <l>And all perfections else, how rare soever, </l>
+                    <l>Are in her Person but as lesser Gleams, </l>
+
+
+
+
+
                     <l>And infinite Beams that uiher stillthe Sun, </l>
                     <l>But scarce are vifible amidst her other Brightneis. </l>
                     <l>And then she is so good it might be said, "" </l>
@@ -2298,7 +2362,7 @@
                     <l> Well,I will fee him then, andfeehimstraight— </l>
                     <l>Indeed my Rutland^ 1 would fain believe </l>
                     <l>That he is honest still, as he is brave. C. Ejf. O nouri-Qi that most kind
-                        belief, 'tis fprung From Justicein your Royal Soul Honest ! By your bright
+                        belief, 'tis sprung From Justicein your Royal Soul Honest ! By your bright
                         Majesty, he's faithful still, </l>
                     <l>The pure and Virgin Light is less unteinted 5 </l>
                     <l>The glorious Body of the Sun breeds Gnats, </l>
@@ -2348,7 +2412,7 @@
                     <l>. jj But like a loaded Bark finds no repofe, When 'tis becalm'd, nor when the
                         Weather blows. Enter Burleigh, Countejs of Nottingham, Rawleigh, Lords,
                         Atten- </l>
-                    <l>dants and Guards. Burl May't pleafe your Majesty the Earl of </l>
+                    <l>dants and Guards. Burl May't please your Majesty the Earl of </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
@@ -2393,7 +2457,7 @@
                     <l> I fee you want no cunning skill to talk, </l>
                     <l>And daub with words' a' Guilt you wou'd evade— But 3 8 The ZJnbafpy
                         ^Favourite; or, But yet my Lord if you woud have us think Tour virtues
-                        wronged, washofFthe {lain you carry, And clear your felf of Parlying with
+                        wronged, washofFthe {lain you carry, And clear your self of Parlying with
                         the Rebels ~ Grant Hcav'n he does but that, and I am happy. [Mde. Eff, My
                         Parlying with the Enemy > </l>
                     <l/>
@@ -2402,8 +2466,8 @@
                     <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
                     <l> Yes, your fecret treating with Tyrone I mean And making Articles with
                         Englands Rebels. </l>
-                    <l>Eff Is that alledg'd agamst mefora Fault, Put in your Royal Breast by fome
-                        that are My falle Accufers for a Crime ? Just Heaven ! How eafie 'tis to
+                    <l>Eff Is that alledg'd agamst mefora Fault, Put in your Royal Breast by some
+                        that are My falle accusers for a Crime ? Just Heaven ! How eafie 'tis to
                         make a Great Man Fall, Tis Wife, 'tis Turkiuh Policy in Courts, For Treating
                         I o Am T not yet your General, and was I not so there by virtue of this
                         StafT> -I thought -your Majesty had giv'n me Power, And my Commiflion had
@@ -2418,7 +2482,7 @@
                         in it no Power, </l>
                     <l>That gave you leave to Treat with Rebels, </l>
                     <l>Such as Tyrone, and wanted not Authority </l>
-                    <l>To Fight 'em on the le^Vc Advantage. Eff The Reafon why </l>
+                    <l>To Fight 'em on the le^Vc Advantage. Eff The Reason why </l>
                     <l>J lead not forth the Army to the North, </l>
                     <l>And fought not with Tyrone, was, that my Men </l>
                     <l>Were half confum'd with Fluxes and Difeafes, </l>
@@ -2439,13 +2503,13 @@
                     <l>That Loyter'd all the year without one Action, </l>
                     <l>Whilest all the Rebels in the North grew bold, </l>
                     <l>And Rally'd dayly to thy Queens DiThonour 5 </l>
-                    <l>Mean while thou stood'st and saw thy Army Rot In Fenny and unwholfome Camps
+                    <l>Mean while thou stood'st and saw thy Army Rot In Fenny and unwholsome Camps
                         Thou hast No doubt a Just Excufe for coming too, </l>
                     <l>In fpiteof all the Letters that I sent With my Commands to hinder thee — Be
                         filent If thou makest more.such Impudent Excuies, </l>
                     <l>ThouPt raife an Ano;er will be fatal to thee. Eff, Not speak ! Must I be
                         Tortur'd on the Wrack, </l>
-                    <l>And not befuffer'dto difchargea Groan ! </l>
+                    <l>And not befuffer'dto Dischargea Groan ! </l>
                     <l>Speak! Yes I will were there a thousand Deaths v </l>
                     <l>Stood ready to devour me 5 'tis too plain </l>
                     <l>My Life's Confpir'd, my Glories all betray'd : </l>
@@ -2536,7 +2600,7 @@
                     <l>The fubtilty, and Woman in your Sex </l>
                     <l>I Swear, that had you been a Man you durst not, </l>
                     <l>Nay, your bold Father Harry durst not this Have done Why fay I nim> not all
-                        the Harrys, Nor Alexanders felf were he alive, </l>
+                        the Harrys, Nor Alexanders self were he alive, </l>
                     <l>Shoud boast oi^strch a Deed on </l>
                 </sp>
                 <sp>
@@ -2751,8 +2815,8 @@
                     <l>Of all his Median Army to betray it. </l>
                     <l>His Head was bare, the Heat and Dust had made </l>
                     <l>His Manly Face companionate to behold, which he * </l>
-                    <l>So well did ufe, that fometimes with a voice </l>
-                    <l>That usher'd Tears both from himfelf and them,, i And fometimes with a
+                    <l>So well did ufe, that sometimes with a voice </l>
+                    <l>That usher'd Tears both from himfelf and them,, i And sometimes with a
                         popular Rage he ran </l>
                     <l>With Fury through the Streets. To those that flood; </l>
                     <l>Far off' he bended and made taking Stgnes : </l>
@@ -2844,7 +2908,7 @@
                 <sp>
                     <speaker><name type="role" ref="#r28"><italic>Nottingham</italic></name></speaker>
                     <l> Her Rage Ebbs out,and Pity flows apace. [Afide. Qmen. Do what you will my
-                        Stars, do as you pleafe - </l>
+                        Stars, do as you please - </l>
                     <l>Just Heav'n, and Senfure England's Queen for it, </l>
                     <l>Yet Ejfex I raust fee, and then who e're thou art </l>
                     <l>That when I'm dead lhall call this tender Fault, </l>
@@ -2881,7 +2945,7 @@
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
-                    <l> fpeak, </l>
+                    <l> speak, </l>
                     <l>And now receive his Sentence from your Lips, </l>
                     <l>Which let it be my Life or Death, they'r both </l>
                     <l>Alike to me, from you my Royal Mistress : </l>
@@ -2893,7 +2957,7 @@
                 <sp>
                     <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
                     <l> Pray rife my Lord. You fee that I dare venture </l>
-                    <l>To leave my felf without a Guard between us. Eff Fairestthat e re was England
+                    <l>To leave my self without a Guard between us. Eff Fairestthat e re was England
                         s Queen, you need not — =— </l>
                     <l>The time has been that </l>
                 </sp>
@@ -2906,7 +2970,7 @@
                     <l>Think me a Tray tor, if I can be (b </l>
                     <l>Without a thought against your Pretious Life, </l>
                     <l>But wrong me not with that.: For by your fel£ </l>
-                    <l>By your .bright felf that rules ©re all my Withes, </l>
+                    <l>By your .bright self that rules ©re all my Withes, </l>
                     <l>I Swear Lwould not touch that Life, to be </l>
                     <l>As Great as you, the Greatest Prince on Earth '•> </l>
                     <l>Lightning (hou d blast me first, </l>
@@ -2988,7 +3052,7 @@
                     <l>Than my lost Fame, and loofifig of my Queen* Queen, Tis lb, 'tis true, nor is
                         it in my Power To help him Ha! Why is it not? What hinders! Who dares, or
                         thinks to contradict my Will ! IS it my Subjeds or my Virtue stayes me t.
-                        No, Virtue's Patient and abhorres Revenge, yAfde Nay, fometimes weeps at
+                        No, Virtue's Patient and abhorres Revenge, yAfde Nay, sometimes weeps at
                         Justice- — 'Tis not Love — . Ah call lit any thing but that £ 'tis Mercy,,
                         Mercy that Pitties Foes when in distress, Mercy the Heav'ns Delights My Lord
                         I fear your hot-fpurr Violence </l>
@@ -3094,7 +3158,7 @@
                     <l> running and Weeping, then kneels before </l>
                     <l>the Queen and holds her by her Robe, C. Ejf. Where is my Queen ? Where is my
                         Royal Mistress % </l>
-                    <l>I throw my felf for mercy here. </l>
+                    <l>I throw my self for mercy here. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
@@ -3147,7 +3211,7 @@
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
-                    <l> Alas,I ask not mine , if that will pleafe you </l>
+                    <l> Alas,I ask not mine , if that will please you </l>
                     <l>I'll glut you with my torments ; a£t what e're </l>
                     <l>Your Fury can invent 5 but 'tis for him, </l>
                     <l>My Lord, my Love, the Soul of my Defires. </l>
@@ -3163,7 +3227,7 @@
                         any where ) In any Hell but this -Why fay I Hell ? C ^ Can there be melting
                         Lead, orSulpheryet f J 1 ^ To add more Pain to what my Bread indures I -*
                         Why dost thou hang on me, and tempt me (till? C. Eff O throw me not away Wou
-                        d you but pleafe To feel my throbbing Breast, you might perceive. </l>
+                        d you but please To feel my throbbing Breast, you might perceive. </l>
                     <l>At ev'ry name, and very thought of </l>
                 </sp>
                 <sp>
@@ -3235,7 +3299,7 @@
                     <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
                     <l> She's gone, but at her parting (hot a truth away by Women. Into my Breast,
                         has pierc't my Soul. — Why was I Queen? And why was I not Rutland} </l>
-                    <l>Then had my Princeis, as my felf did now, </l>
+                    <l>Then had my Princeis, as my self did now, </l>
                     <l>Giv'n </l>
                 </sp>
                 <sp>
@@ -3291,7 +3355,7 @@
                     <l>She sent for me, Commanding me to go </l>
                     <l>And tell my Lord from her, she cou'd refist </l>
                     <l>No longer her Subjects loud demands for Justice, </l>
-                    <l>And therefore wisht if he had any Reafons </l>
+                    <l>And therefore wisht if he had any Reasons </l>
                     <l>That were of weight to stay his Execution, </l>
                     <l>That he wou'd fend 'em straight by me 3 then bluGVd Again TheEarfof</l>
                 </sp>
@@ -3385,7 +3449,7 @@
                         the fecret from my Hearty TGhis pretious token Amidst my former Trhmiphs in
                         her favour </l>
                     <l>She took from off her Finger* and bestow!d TheEarlofRflhx, 59 On me Mark,
-                        with the Promife of a Queen, Osher bright felf lest failing than an Oracle, </l>
+                        with the Promife of a Queen, Osher bright self lest failing than an Oracle, </l>
                     <l>That in what Exigence or State foe re </l>
                     <l>My Life was in, that time when I gave back, - </l>
                     <l>Or shoud return this Ring again to her, </l>
@@ -3422,7 +3486,7 @@
                 <sp>
                     <speaker><name type="role" ref="#rXXXX"><italic>Gentleman</italic></name></speaker>
                     <l> Th'Earl of Southampton having Leave, </l>
-                    <l>Destres tofpeak with you my Lord. ott. Repofe </l>
+                    <l>Destres tospeak with you my Lord. ott. Repofe </l>
                     <l>Your mind, and take no thought but to be happy 5 </l>
                     <l>I'll fend you Tidings of a lasting Life. Ejf. A longer and much happier Life
                         attend </l>
@@ -3538,11 +3602,11 @@
                         Colour of his Treasonj </l>
                     <l>But aster he did paint himfelf to ttfLife. </l>
                     <l>Wou'd the Queen, said he, have me own a Treason a ; </l>
-                    <l>Impofe upon my felf a Crime, the Law </l>
+                    <l>impose upon my self a Crime, the Law </l>
                     <l>Has found me Guilty of by her Command 5 </l>
                     <l>And so by asking of my Forfeit Life, </l>
                     <l>Clear and Proclaim her JulHce to the World 3 </l>
-                    <l>Andstain my felf for every no I'll dye firjfc. '6-2 The Vnfitipfy favourite ;
+                    <l>Andstain my self for every no I'll dye firjfc. '6-2 The Vnfitipfy favourite ;
                         or , </l>
                 </sp>
                 <sp>
@@ -3580,7 +3644,7 @@
                     <l>On whatfoe're this huge ColoJJ'us (lands, </l>
                     <l>I'll pull the Scafibld down, tho o're my Head, And loofe my Life to be
                         reveng'd on his- . Well Nottingham, I have but one word more, </l>
-                    <l>Talkt not this wicked Creature of no Reafon^ </l>
+                    <l>Talkt not this wicked Creature of no Reason^ </l>
                     <l>No Obligation that I had to fave </l>
                     <l>His Life > </l>
                 </sp>
@@ -3594,7 +3658,7 @@
                     <l>No prorufe, nor no token did he (peak of> Nott, Not the lead word, and if
                         there are fiich things, </l>
                     <l>I do fuppofe he keeps 'em to himfelf </l>
-                    <l>jFor/Reafons that I know not. </l>
+                    <l>jFor/Reasons that I know not. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r26"><italic>Queen</italic></name></speaker>
@@ -3622,7 +3686,7 @@
                     <speaker><name type="role" ref="#r28"><italic>Nottingham</italic></name></speaker>
                     <l> I wou'd your Majesty in stead of me. </l>
                     <l>Had sent a Person that you cou d confide in, </l>
-                    <l>Or elfe that you wou'd lee the Eari your felf . Queen,, Prithee no more 5 Go
+                    <l>Or elfe that you wou'd lee the Eari your self . Queen,, Prithee no more 5 Go
                         to him I </l>
                     <l>No, bat I'll fend a MefTage for his Head. </l>
                     <l>His Head's the Token that my wrongs require, </l>
@@ -3765,7 +3829,7 @@
                     <l>Takedistant Paths, only this difference is 3 - Thine is the longest, mine the
                         (hortest way- - Mow let me go If there's a Throne in Heaven For the moil
                         brave of Men, and befl of Friends, </l>
-                    <l>Ij will befpeak it for Southampton. </l>
+                    <l>Ij will bespeak it for Southampton. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r22"><italic>Southampton</italic></name></speaker>
@@ -3790,7 +3854,7 @@
                     <l>This killing kindness now at sucha time. </l>
                     <l>: T;o add more Woes to thine and my misfortunes*. CEjJl The Queen my Lord has
                         been so .merciful?, </l>
-                    <l>Or cruel, name it as you pleafe, to let, </l>
+                    <l>Or cruel, name it as you please, to let, </l>
                     <l>Me fee my </l>
                 </sp>
                 <sp>
@@ -3843,9 +3907,9 @@
                     <l>While thou shalt grovel in the Den of Hell, </l>
                     <l>Roar like the Damn'd, and tremble to behold him. </l>
                     <l>Go (hare Dominions with the Powers of Hell, </l>
-                    <l>For Lucifer himfelf will ne're difpute </l>
+                    <l>For Lucifer himfelf will ne're Dispute </l>
                     <l>Thy great Defert in wickedneis above him, </l>
-                    <l>Nor who's the uglyer Fiend, thy felf or he/ </l>
+                    <l>Nor who's the uglyer Fiend, thy self or he/ </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r24"><italic>Rawleigh</italic></name></speaker>
@@ -3853,7 +3917,7 @@
                     <l>And can you (land thus unconcern'd, and hear </l>
                     <l>Your (elf so much abus'd* Burl Be patient Rawleigh, </l>
                     <l>The Pain is all her own, and hurts not Cecil, 2 She 72 I be Vnbam Favourite :
-                        or She will be weary fooner than my felf . Poor ionocent and most unhappy
+                        or She will be weary fooner than my self . Poor ionocent and most unhappy
                         Lady, </l>
                     <l>I pitty her. </l>
                 </sp>
@@ -3941,7 +4005,7 @@
                 <sp>
                     <speaker><name type="role" ref="#r23"><italic>Burleigh</italic></name></speaker>
                     <l> My Lord she will recover ? </l>
-                    <l>Pray leave her with her Women, and make ufe </l>
+                    <l>Pray leave her with her Women, and make use </l>
                     <l>Of this so kind an Opportunity </l>
                     <l>.To part with her. Eff Cruel hard-hearted Burleigh ! </l>
                     <l>Most Barbarous Cecil. </l>
@@ -4074,7 +4138,7 @@
                     <speaker><name type="role" ref="#r23"><italic>Burleigh</italic></name></speaker>
                     <l> Madam your Orders came too late The Earl was Dead ® cen. Then I wi(h thou
                         wer't dead that fay 'st it, But The Earl of Effete j ? But [H be jnst and
-                        curfe none but my felf . What said he when he came so fbon to dye > f?«r/.
+                        curfe none but my self . What said he when he came so fbon to dye > f?«r/.
                         Indeed his End,made so by woful Caiualties, </l>
                     <l>Was very fad and full of pitty, </l>
                     <l>But at the Block all Hero he appear'd, </l>
@@ -4099,7 +4163,7 @@
                     <l>To lay on Kings his hardest Task of Rule, </l>
                     <l>And yet has given em but a Humane Soul. </l>
                     <l>The fubtle Paths of Tray tors hearts to view </l>
-                    <l>Reafon's too dark, a hundred Eyes too few ; </l>
+                    <l>Reason's too dark, a hundred Eyes too few ; </l>
                     <l>Yet when by Subje swe have been betray'd, </l>
                     <l>The blame is ours, their Crimes on us are laid, </l>
                     <l>And that which makes a Monarchs happiness, </l>
@@ -4168,7 +4232,7 @@
                     <l>She woud not blufi to hear what, he has Writ,. J Therefore To all theserinwg
                         Sex thk Play's addrejh, </l>
                     <l>But more tkeQowvt, the PUnnets of the r ell y </l>
-                    <l>Tou who oti Earth are Mansbefi, fosteU Fate, y S o that whenHeavn with fome
+                    <l>Tou who oti Earth are Mansbefi, fosteU Fate, y S o that whenHeavn with some
                         ruff Peace has met, § </l>
                     <l>It fends him you to mould, and nem Create. y Strange wayesto Virtue, feme may
                         > thinly to prove*, } </l>
