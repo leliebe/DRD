@@ -67,7 +67,7 @@
                     <titlePartMain>The Unhappy Favourite</titlePartMain>
                     <titlePartSub>OR THE Earl of Essex.</titlePartSub>
                     <titlePartDesc>
-                      <seg><h5>A</seg>
+                      <seg><h5>A</h5></seg>
                       <seg><h2>TRAGEDY.</h2></seg>
                       <seg><h5>Acted at the </h5></seg>
                       <seg><h3>Theatre Royal </h3></seg>
@@ -99,7 +99,7 @@
             <pb n="ii"/>
             <salute>
                 <head>
-                    <name type="person"ref="#p164">
+                    <name type="person" ref="#p164">
                         <seg>To the Most High, and Most Illustrious</seg>
                         <seg>PRINCESS</seg>
                         <seg>The LADY</seg>
@@ -138,8 +138,8 @@
                     <seg>those beneath You, they speak their own Excel-</seg>
                     <seg>lencies with greater Art and Eloquence, and </seg>
                     <seg>attract more Admiration than ever <name type="person" ref="#pXXXXXXX"><italic>Virgil</italic></name> did in </seg>
-                    <seg>his Divinest Flight of Fancy, then <name type="person"ref="#pXXXXXXX"><italic>Ovid</italic></name> in speak-</seg>
-                    <seg>ing of his Princess, or <name type="person"ref="#pXXXXXXX"><italic>Appelles</italic></name> in drawing of his </seg>
+                    <seg>his Divinest Flight of Fancy, then <name type="person" ref="#pXXXXXXX"><italic>Ovid</italic></name> in speak-</seg>
+                    <seg>ing of his Princess, or <name type="person" ref="#pXXXXXXX"><italic>Appelles</italic></name> in drawing of his </seg>
                     <seg><italic>Venus</italic>; Nor are Your Virtues, or Your Royal </seg>
                     <seg>Blood less admirable, sprung from the Inestima-</seg>
                     <seg>ble Fountain of so many Illustrious Plantagenets, </seg>
@@ -165,8 +165,7 @@
                     <seg>but will Conclude, in hopes that, when hereafter </seg>
                     <seg>I may chance to Record the Memory of a Prin-</seg>
                     <seg>cess, whose Beauty, Fortune and Merits are grea-</seg>
-                    <seg>ter than <name type="person"ref="#pXXXXXXX"><italic>Homer</italic></name>
-                        ever feign'd, or <name type="person"ref="#pXXXXXXX"><italic>Tasso</italic></name> Copy'd, I </seg>
+                    <seg>ter than <name type="person" ref="#pXXXXXXX"><italic>Homer</italic></name> ever feign'd, or <name type="person" ref="#pXXXXXXX"><italic>Tasso</italic></name> Copy'd, I </seg>
                     <seg>may have leave to draw her Pattern from your </seg>
                     <seg>Highness, and when that is done, the rest of my </seg>
                     <seg>Life shall be employed in Prayers for your Eter-</seg>
@@ -177,7 +176,7 @@
                 <p>Your Highness's Most Obedient,</p>
                 <p>Most humble, and</p>
                 <p>Most Devoted Servant,</p>
-                <p><name type="person"ref="#p8"><italic>John Banks</italic></name></p>
+                <p><name type="person" ref="#p8"><italic>John Banks</italic></name></p>
             </salute>
             <castList>
                 <head>PERSONS REPRESENTED</head>
@@ -188,7 +187,7 @@
                     </role>
                 </castItem>
                 <castItem>
-                    <actor><name type="person"ref="#p157"><italic>Mr</italic>.
+                    <actor><name type="person" ref="#p157"><italic>Mr</italic>.
                         Clarke</name>.</actor>
                 </castItem>
                 <castItem>
@@ -197,7 +196,7 @@
                     </role>
                 </castItem>
                 <castItem>
-                    <actor><name type="person"ref="#p158"><italic>Mr</italic>.
+                    <actor><name type="person" ref="#p158"><italic>Mr</italic>.
                         Gryffin</name>.</actor>
                 </castItem>
                 <castItem>
@@ -206,7 +205,7 @@
                     </role>
                 </castItem>
                 <castItem>
-                    <actor><name type="person"ref="#p159"><italic>Major</italic>
+                    <actor><name type="person" ref="#p159"><italic>Major</italic>
                         Mohun</name>.</actor>
                 </castItem>
                 <castItem>
@@ -215,7 +214,7 @@
                     </role>
                 </castItem>
                 <castItem>
-                    <actor><name type="person"ref="#p160"><italic>Mr</italic>.
+                    <actor><name type="person" ref="#p160"><italic>Mr</italic>.
                         Disney</name>.</actor>
                 </castItem>
                 <castItem>
@@ -230,7 +229,7 @@
                     </role>
                 </castItem>
                 <castItem>
-                    <actor><name type="person"ref="#p161"><italic>Mrs</italic>. Quyn</name>.</actor>
+                    <actor><name type="person" ref="#p161"><italic>Mrs</italic>. Quyn</name>.</actor>
                 </castItem>
                 <castItem>
                     <role>
@@ -242,7 +241,7 @@
                         Essex.</roleDesc>
                 </castItem>
                 <castItem>
-                    <actor><name type="person"ref="#p162"><italic>Mrs</italic>. Cook</name>.</actor>
+                    <actor><name type="person" ref="#p162"><italic>Mrs</italic>. Cook</name>.</actor>
                 </castItem>
                 <castItem>
                     <role>
@@ -250,7 +249,7 @@
                     </role>
                 </castItem>
                 <castItem>
-                    <actor><name type="person"ref="#p163"><italic>Mrs</italic>.
+                    <actor><name type="person" ref="#p163"><italic>Mrs</italic>.
                         Corbett</name>.</actor>
                 </castItem>
                 <castItem>
@@ -271,7 +270,7 @@
             <prologue>
                 <head>
                     <seg>PROLOGUE,</seg>
-                    <seg>Spoken by <name type="person"ref="#p159">Major <italic>Mohun</italic></name>, the First Four Dayes.</seg>
+                    <seg>Spoken by <name type="person" ref="#p159">Major <italic>Mohun</italic></name>, the First Four Dayes.</seg>
                 </head>
                 <p>
                         <l><italic>THE Merchant, joyful with the Hopes of Gain, </italic></l>
@@ -305,10 +304,10 @@
             <prologue>
                 <head>
                     <seg>PROLOGUE</seg>
-                    <seg>Spoken to the <name type="person"ref="#pXXXXXXXX">King</name> and <persName
+                    <seg>Spoken to the <name type="person" ref="#pXXXXXXXX">King</name> and <persName
                             ref="#pXXXXXXXX">Queen</name> at their coming</seg>
                     <seg>to the House, and Written on purpose</seg>
-                    <seg>By <name type="person"ref="#p112">Mr. <italic>DRYDEN</italic></name>.</seg>
+                    <seg>By <name type="person" ref="#p112">Mr. <italic>DRYDEN</italic></name>.</seg>
                 </head>
                 <p>
                         <l><italic>WHEN first the Ark was Landed on the Shore, </italic></l>
@@ -691,7 +690,7 @@
                     <l>And <name type="role" ref="#r21"><italic>Essex</italic></name>'s Foes shee drives like Mists away.</l>
                 </sp>
                 <stage>
-                    <seg><italic>Enter the <name type="role" ref="#r26">Queen</name>,</italic> <name type="role" ref="#r23">Burleigh</name>, </italic><name>Lord Chancellor,</name> <name type="role" ref="#r28">Countess of</italic> Nottingham</name>,</seg>
+                    <seg><italic>Enter the </italic><name type="role" ref="#r26">Queen</name>, <name type="role" ref="#r23">Burleigh, Lord Chancellor,</name> <name type="role" ref="#r28">Countess of Nottingham</name>,</seg>
                     <seg><name type="role" ref="#r27"><italic>Countess of </italic>Rutland</name>, <italic>Lords and Attendants, Queen</italic></seg>
                     <seg><italic>on a Chair of State, Guards.</italic></seg>
                 </stage>
@@ -4128,210 +4127,269 @@
                     <l>Then't shall be done this Moment---Who attends? </l>
                     <l>Bid the Lieutenant have his Prisoners ready. </l>
                     <stageLeft><italic>Exit Officer. </italic></stageLeft>
-                    Now we may hope to see fair Day es again In
-                        England, when this hov ring Cloud is vanistiL, Which hung so long betwixt
-                        our Royal Sun And us, but foon will vifit us with fmiles, And raifeher
-                        drooping Subjects Hearts — — — Enter the two Earks, the Lieutenant and
-                        Guards* My Lord, We bring an Order for your Execution, And hope you are
-                        prepar'd } for you must dye This very hour. </l>
+                    <l>Now we may hope to see fair Dayes again </l>
+                    <l>In <name type="place" ref="#loc20"><italic>England</italic></name>, when this hov'ring Cloud is vanisht, </l>
+                    <l>Which hung so long betwixt our Royal Sun </l>
+                    <l>And us, but soon will visit us with smiles, </l>
+                    <l>And raise her drooping Subjects Hearts---</l>
+                    <stageCenter><italic>Enter the two Earls, the Lieutenant and Guards.</italic></stageCenter>
+                    <l>My Lord, </l>
+                    <l>We bring an Order for your Execution, </l>
+                    <l>And hope you are prepar'd; for you must dye </l>
+                    <l>This very hour. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r22"><italic>Southampton</italic></name></speaker>
-                    <l> Indeed the time is fudden ! Ejjl Is Death th' Event of all my flatter'd
-                        Hopes ! Falfe Sex, and Queen more perjur d than them all ! But dye I will
-                        without the least Complaint, My Soul (hall vanilh (ilent as the Dew
-                        Attracted by the Sun from verdent Fields, And leaves of weeping Flowers —
-                        Come my dear Friend, Partner in Fate, give me thy Body in </l>
-                    <l>. Thefe Faithful Armes, and O now let me tell thee j ' And The Earl o/E M 6
-                        Z) fy And you,my Lords, and Heav n's my Witness too* </l>
+                    <l>Indeed the time is sudden!---</l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
+                    <l>Is Death th' Event of all my flatter'd Hopes! </l>
+                    <l>False Sex, and Queen more perjur'd than them all!---</l>
+                    <l>But dye I will without the least Complaint, </l>
+                    <l>My Soul shall vanish silent as the Dew </l>
+                    <l>Attracted by the Sun from verdent Fields, </l>
+                    <l>And leaves of weeping Flowers---Come my dear Friend, </l>
+                    <l>Partner in Fate, give me thy Body in </l>
+                    <l>These Faithful Armes, and O now let me tell thee </l>
+                  <pb n="65"/>
+                    <l>And you,my Lords, and Heav n's my Witness too, </l>
                     <l>I have no weight, no heaviness on my Soul, </l>
                     <l>But that I've lost my dearest Friend his Life. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r22"><italic>Southampton</italic></name></speaker>
-                    <l> And I protest by the fame Powers Divine, </l>
+                    <l>And I protest by the same Powers Divine, </l>
                     <l>And to the World, 'tis all my Happiness, </l>
-                    <l>The greatest Bliss my mind yet ere enjoy'd, </l>
+                    <l>The greatest Bliss my mind yet e're enjoy'd, </l>
                     <l>Since we must dye my Lord, to dye together. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r23"><italic>Burleigh</italic></name></speaker>
-                    <l> The Queen, my Lord SW^/^/0# 3 has been pleas d </l>
-                    <l>To grant particular Mercy to your Perfbn 5 </l>
+                    <l>The Queen, my Lord <name type="role" ref="#r22"><italic>Southampton</italic></name>, has been pleas'd </l>
+                    <l>To grant particular Mercy to your Person; </l>
                     <l>And has by us lent you a Reprieve from Death, </l>
-                    <l>With Pardon of your Treafbns, and commands </l>
+                    <l>With Pardon of your Treasons, and commands </l>
                     <l>You to depart immediately from hence. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r22"><italic>Southampton</italic></name></speaker>
-                    <l> O my unguarded Soul ! Sure never was </l>
-                    <l>A man^vith mercy wounded so before. Ejjl Then I am loofe to steer my wandring
-                        Voyage, </l>
-                    <l>Like a glad VelTel that has long been crost, </l>
-                    <l>And bound by adverfe Winds, at last gets liberty, </l>
-                    <l>And Joyfully makes all the Sail she can </l>
-                    <l>To reach its wisht-for Port— — Angels protedt </l>
-                    <l>The Queen '-, for her my chiefest Prayers shall be, </l>
-                    <l>That as in time (h'as fpar'd my Noble Friend, </l>
-                    <l>And owns his Crimes worth Mercy, may she ne're Think so of me too late when I
-                        am dead Again Southampton, let me hold thee fast, </l>
+                    <l>O my unguarded Soul! Sure never was </l>
+                    <l>A man with mercy wounded so before. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
+                    <l>Then I am loose to steer my wandring Voyage, </l>
+                    <l>Like a glad Vessel that has long been crost, </l>
+                    <l>And bound by adverse Winds, at last gets liberty, </l>
+                    <l>And joyfully makes all the Sail she can </l>
+                    <l>To reach its wisht-for Port---Angels protect </l>
+                    <l>The Queen; for her my chiefest Prayers shall be, </l>
+                    <l>That as in time sh'as spar'd my Noble Friend, </l>
+                    <l>And owns his Crimes worth Mercy, may she ne're </l>
+                    <l>Think so of me too late when I am dead---</l>
+                    <l>Again <name type="role" ref="#r22"><italic>Southampton</italic></name>, let me hold thee fast, </l>
                     <l>For 'tis my last Embrace. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r22"><italic>Southampton</italic></name></speaker>
-                    <l> O be less kind my Friend, or move less Pitty, </l>
-                    <l>Or I (hall (ink beneath the weight of fadness 5 </l>
+                    <l>O be less kind my Friend, or move less Pitty, </l>
+                    <l>Or I shall sink beneath the weight of sadness; </l>
                     <l>Witness the Joy I have in Life to part </l>
-                    <l>With you 5 witness these Womans Throbs and Tears j </l>
+                    <l>With you; witness these Womans Throbs and Tears; </l>
                     <l>I weep that I am doom'd to live without you, </l>
-                    <l>And fnou'd have fmil'd to (hare the Death ofEjpx. EJf. O spare this
-                        tenderness for one that needs it, </l>
-                    <l>For her that I'll commit to all that I Can claim of my Southampton O my Wife!
-                        Methinks that very name (hou'd stop thy Pitty, </l>
-                    <l>And make thee covetous of all as lost That is not meant to her Be a kind
-                        Friend To her as we have been to one another 5 </l>
-                    <l>Name not the dying Ejfex to thy Queen </l>
-                    <l>Least it (hou'd cost a Tear, nor ne're offend her. $ South, jo The Vnhnffy
-                        Favourite ; or 3 </l>
+                    <l>And shou'd have smil'd to share the Death of <name type="role" ref="#r21"><italic>Essex</italic></name>. </l>
                 </sp>
                 <sp>
+                    <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
+                    <l>O spare this tenderness for one that needs it, </l>
+                    <l>For her that I'll commit to all that I </l>
+                    <l>Can claim of my <name type="role" ref="#r22"><italic>Southampton</italic></name>---O my Wife! </l>
+                    <l>Methinks that very name shou'd stop thy Pitty, </l>
+                    <l>And make thee covetous of all as lost </l>
+                    <l>That is not meant to her---Be a kind Friend </l>
+                    <l>To her as we have been to one another; </l>
+                    <l>Name not the dying <name type="role" ref="#r21"><italic>Essex</italic></name> to thy Queen </l>
+                    <l>Least it shou'd cost a Tear, nor ne're offend her. </l>
+                </sp>
+                <pb n="66"/>
+                <sp>
                     <speaker><name type="role" ref="#r22"><italic>Southampton</italic></name></speaker>
-                    <l> O stay my Lord, let me have one word more^ </l>
+                    <l>O stay my Lord, let me have one word more, </l>
                     <l>One last farewel before the greedy Axe </l>
-                    <l>Shall part my Friend, my only Friend from me^ And Ejfex from himself 1 know
-                        not what Are calf d the Pangs of Death, but fure I am I; feel an Agony
-                        that's worse than Death- Farewell, Ejf. Why that's well said" — FarewelTto
-                        thee *. Then let us part, just like two Travellors </l>
-                    <l>Takedistant Paths, only this difference is 3 - Thine is the longest, mine the
-                        (hortest way- - Mow let me go If there's a Throne in Heaven For the moil
-                        brave of Men, and befl of Friends, </l>
-                    <l>Ij will bespeak it for Southampton. </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" ref="#r22"><italic>Southampton</italic></name></speaker>
-                    <l> And I, while I have Life will hoard thy Memory £; </l>
-                    <l>When I am dead, we then (hall meet again., Eff Till then Farewell. South,
-                        Till then Farewell Ejf. Now on my Lords, and execute your Office -—[Exit
-                    </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" ref="#r22"><italic>Southampton</italic></name></speaker>
-                    <l> </l>
-                    <l>Enter Coiwtefeof</l>
+                    <l>Shall part my Friend, my only Friend from me, </l>
+                    <l>And <name type="role" ref="#r21"><italic>Essex</italic></name> from himself---I know not what </l>
+                    <l>Are call'd the Pangs of Death, but sure I am </l>
+                    <l>I feel an Agony that's worse than Death---</l>
+                    <l>Farewell. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
-                    <l> and Women* </l>
-                    <l>My Wife!; Nay then my Stars will ne're have done, ; </l>
-                    <l>Malitious Planets reign, fll bear it all To your last drop of Venom on my
-                        Head . — Why cruel lovely Creature dost thou come </l>
-                    <l>To add to forrow if't be poffible : </l>
-                    <l>A, Figure more lamenting? Why this kindness, . </l>
-                    <l>This killing kindness now at sucha time. </l>
-                    <l>: T;o add more Woes to thine and my misfortunes*. CEjJl The Queen my Lord has
-                        been so .merciful?, </l>
+                    <l>Why that's well said---Farewell to thee---</l>
+                    <l>Then let us part, just like two Travellors </l>
+                    <l>Take distant Paths, only this difference is, </l>
+                    <l>Thine is the longest, mine the shortest way---</l>
+                    <l>Now let me go---If there's a Throne in Heaven </l>
+                    <l>For the most brave of Men, and best of Friends, </l>
+                    <l>I will bespeak it for <name type="role" ref="#r22"><italic>Southampton</italic></name>. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r22"><italic>Southampton</italic></name></speaker>
+                    <l>And I, while I have Life will hoard thy Memory; </l>
+                    <l>When I am dead, we then shall meet again. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
+                    <l>Till then Farewell. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r22"><italic>Southampton</italic></name></speaker>
+                    <l>Till then Farewell. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
+                    <l>Now on my Lords, and execute your Office---</l>
+                    <stageLeft>[<italic>Exit </italic><name type="role" ref="#r22">Southampton.</name></stageLeft>
+                    <stageCenter><italic>Enter Countess of </italic><name type="role" ref="#r27">Essex</name> <italic>and Women.</italic></stageCenter>
+                    <l>My Wife! Nay then my Stars will ne're have done. </l>
+                    <l>Malitious Planets reign, I'll bear it all </l>
+                    <l>To your last drop of Venom on my Head---</l>
+                    <l>Why cruel lovely Creature dost thou come </l>
+                    <l>To add to sorrow if't be possible: </l>
+                    <l>A Figure more lamenting? Why this kindness, </l>
+                    <l>This killing kindness now at such a time. </l>
+                    <l>To add more Woes to thine and my misfortunes. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                    <l>The Queen my Lord has been so merciful, </l>
                     <l>Or cruel, name it as you please, to let, </l>
-                    <l>Me see my </l>
+                    <l>Me see my <name type="role" ref="#r21"><italic>Essex</italic></name> e're he dyes. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
-                    <l> e're he dyes, . Ef. Has she,.. </l>
+                    <l>Has she, </l>
                     <l>Then lets improve this very little Time </l>
-                    <l>Our niegard Fate allows us : For w'are owing </l>
-                    <l>io this ihort fpace all the dear love we had </l>
-                    <l>In (tore for many happy promis'd years. CEjf., What hinders then but that we
-                        shou d be happy 5 </l>
-                    <l>Whilest others live long years, and fip, and tast </l>
-                    <l>liike Niggards of their Loves, we'll take whole Draughts. Eff.. Then, .let's
-                        embrace in Extafies and Jeyes, Diink The Earl of</l>
+                    <l>Our niggard Fate allows us: For w'are owing </l>
+                    <l>io this short space all the dear love we had </l>
+                    <l>In store for many happy promis'd years. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                    <l>What hinders then but that we shou'd be happy, </l>
+                    <l>Whilest others live long years, and sip, and tast </l>
+                    <l>like Niggards of their Loves, we'll take whole Draughts. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
-                    <l>s j X Drink all our Honey up in one short moment, </l>
-                    <l>That shoud have fervd us for our Winter {tore. </l>
-                    <l>Be laviih, and profufe like wanton Heirs * </l>
+                    <l>Then let's embrace in Extasies and Joyes, </l>
+                  <pb n="67"/>
+                    <l>Drink all our Honey up in one short moment, </l>
+                    <l>That shou'd have serv'd us for our Winter store, </l>
+                    <l>Be lavish, and profuse like wanton Heirs </l>
                     <l>That wast their whole Estates at once, </l>
-                    <l>For the kind Queen takes care and has ordain d </l>
-                    <l>That we (hall never live to want. </l>
+                    <l>For the kind Queen takes care and has ordain'd </l>
+                    <l>That we shall never live to want. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r23"><italic>Burleigh</italic></name></speaker>
                     <l>My Lord, </l>
                     <l>Prepare, the very utmost Time's at hand, </l>
-                    <l>And we mud: straight perform the Queens Command </l>
-                    <l>In leading you to Justice. C. EjJ'. Hold good Lucifir, </l>
+                    <l>And we must straight perform the Queens Command </l>
+                    <l>In leading you to Justice. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                    <l>Hold good <italic>Lucifer</italic>, </l>
                     <l>Be kind a little, and defer Damnation, </l>
                     <l>Thou canst not think how I will Worship thee, </l>
-                    <l>No Indian (hall adore thee as I will, </l>
-                    <l>Thou (halt have Martyrs, and whole Heccatombs </l>
-                    <l>Of flaughter d Innocents to (uck their Blood, </l>
+                    <l>No <italic>Indian</italic> shall adore thee as I will, </l>
+                    <l>Thou shalt have Martyrs, and whole Heccatombs </l>
+                    <l>Of slaughter'd Innocents to suck their Blood, </l>
                     <l>Widdows Estates, and Orphans without number, </l>
-                    <l>Mannors and Parks more than thy Lust requires 5 </l>
+                    <l>Mannors and Parks more than thy Lust requires, </l>
                     <l>Till thou shalt dye and leave a Kings Estate </l>
-                    <l>Behind thee. Ejf. Pr'y thee spare thy pretious Heart, </l>
-                    <l>That fluttering so with Paffion in thy Breast, </l>
-                    <l>Has almost bruis'd its tenderness to Death. CEff. Why ask I him, and think of
-                        Pitty there! </l>
-                    <l>From him on whom kind Heav'n has fet a Mark, </l>
-                    <l>A heap of Rubbilh at the door to {hew No cleanly Virtue can inhabite there-
-                        Malitious Toad, and which is worse, foul Cecil* </l>
-                    <l>I tell thee </l>
+                    <l>Behind thee. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
-                    <l> foon (hall reign in Heav'n, </l>
+                    <l>Pr'y thee spare thy pretious Heart, </l>
+                    <l>That fluttering so with Passion in thy Breast, </l>
+                    <l>Has almost bruis'd its tenderness to Death. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
+                    <l>Why ask I him, and think of Pitty there! </l>
+                    <l>From him on whom kind Heav'n has set a Mark, </l>
+                    <l>A heap of Rubbish at the door to shew </l>
+                    <l>No cleanly Virtue can inhabite there---</l>
+                    <l>Malitious Toad, and which is worse, foul <name type="role" ref="#r23"><italic>Cecil</italic></name>, </l>
+                    <l>I tell thee <name type="role" ref="#r21"><italic>Essex</italic></name> soon shall reign in Heav'n, </l>
                     <l>While thou shalt grovel in the Den of Hell, </l>
                     <l>Roar like the Damn'd, and tremble to behold him. </l>
-                    <l>Go (hare Dominions with the Powers of Hell, </l>
-                    <l>For Lucifer himself will ne're Dispute </l>
-                    <l>Thy great Defert in wickedneis above him, </l>
-                    <l>Nor who's the uglyer Fiend, thy self or he/ </l>
+                    <l>Go share Dominions with the Powers of Hell; </l>
+                    <l>For <italic>Lucifer</italic> himself will ne're dispute </l>
+                    <l>Thy great Desert in wickedness above him, </l>
+                    <l>Nor who's the uglyer Fiend, thy self or he. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r24"><italic>Rawleigh</italic></name></speaker>
-                    <l> My Lord,you thiak not of the Queens Commands, </l>
-                    <l>And can you (land thus unconcern'd, and hear </l>
-                    <l>Your (elf so much abus'd* Burl Be patient Rawleigh, </l>
-                    <l>The Pain is all her own, and hurts not Cecil, 2 She 72 I be Vnbam Favourite :
-                        or She will be weary fooner than my self . Poor ionocent and most unhappy
-                        Lady, </l>
+                    <l>My Lord, you think not of the Queens Commands, </l>
+                    <l>And can you stand thus unconcern'd, and hear </l>
+                    <l>Your self so much abus'd. </l>
+                </sp>
+                <sp>
+                    <speaker><name type="role" ref="#r23"><italic>Burleigh</italic></name></speaker>
+                    <l>Be patient <name type="role" ref="#r24"><italic>Rawleigh</italic></name>, </l>
+                    <l>The Pain is all her own, and hurts not <name type="role" ref="#r23"><italic>Burleigh</italic></name>, </l>
+                  <pb n="68"/>
+                    <l>She will be weary sooner than my self---</l>
+                    <l>Poor ionocent and most unhappy Lady, </l>
                     <l>I pitty her. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
-                    <l> Why dost thou pitty me ! </l>
-                    <l>Nay then I'm fain into a low Estate </l>
-                    <l>Indeed 5 if Hell compaflionates my Miferies, They must be greater than the
-                        Damn'd indure> . . I Prithee Pardon me Ah my lov'd Lord, My Heart begins to
-                        break j let me go with thee </l>
-                    <l>And see the fatal Blow given to my </l>
+                    <l>Why dost thou pitty me! </l>
+                    <l>Nay then I'm faln into a low Estate </l>
+                    <l>Indeed; if Hell compassionates my Miseries, </l>
+                    <l>They must be greater than the Damn'd indure---</l>
+                    <l>I Prithee Pardon me---Ah my lov'd Lord, </l>
+                    <l>My Heart begins to break; let me go with thee </l>
+                    <l>And see the fatal Blow given to my <name type="role" ref="#r21"><italic>Essex</italic></name>, </l>
+                    <l>That will be sure to rid me soon of Torments; </l>
+                    <l>And 'twill be kindness in thee---do my Lord </l>
+                    <l>Then we shall both be quit of pain together. </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
-                    <l>, </l>
-                    <l>That will be fure to rid mefoon of Torments 5 And 'twill be kindness in thee
-                        — - do my Lord Then we (hall both be quit of pain together. Eff. Ah why was
-                        I condemrid to this, What Man </l>
-                    <l>But </l>
-                </sp>
-                <sp>
-                    <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
-                    <l> ever felt a weight like this ! </l>
+                    <l>Ah why was I condemn'd to this, What Man </l>
+                    <l>But <name type="role" ref="#r21"><italic>Essex</italic></name> ever felt a weight like this! </l>
                 </sp>
                 <sp>
                     <speaker><name type="role" ref="#r27"><italic>Rutland</italic></name></speaker>
-                    <l> O we must never part Support my Head. My (inking Head, and lay it to the
-                        Pulfe, </l>
-                    <l>The throbbing Pulfe that beats about thy Heart, Tis Mufick to my Sences— O my
-                        Love .' I have no tears lest in me that (hou'd ea(e A wretch that longs for
-                        Pitty- 1 am past All Pitty, and my poor tormented Heart </l>
-                    <l>And Spirits within are quite confurn d , and Tears </l>
+                    <l>O we must never part---Support my Head, </l>
+                    <l>My sinking Head, and lay it to the Pulse, </l>
+                    <l>The throbbing Pulse that beats about thy Heart, </l>
+                    <l>Tis Musick to my Sences---O my Love! </l>
+                    <l>I have no tears left in me that shou'd ease </l>
+                    <l>A wretch that longs for Pitty---I am past </l>
+                    <l>All Pitty, and my poor tormented Heart </l>
+                    <l>And Spirits within are quite consum'd; and Tears </l>
                     <l>Which is the Balm, the Scorpions blood that cures </l>
-                    <l>The biting pain of fbrrow, quite have lest me, </l>
+                    <l>The biting pain of sorrow, quite have left me, </l>
                     <l>And I am now a wretched hopeless Creature, </l>
-                    <l>Full of fubstantial Mifery without </l>
-                    <l>One drop of Remedy. Eff. Th'art pale, thy Breath </l>
-                    <l>Grows chill, and like the Morning Air on Rofes, Leaves a cold Dew upon thy
+                    <l>Full of substantial Misery without </l>
+                    <l>One drop of Remedy. </l>
+                </sp>
+
+
+
+
+
+                <sp>
+                    <speaker><name type="role" ref="#r21"><italic>Essex</italic></name></speaker>
+                    <l>Th'art pale, thy Breath </l>
+                    <l>Grows chill, and like the Morning Air on Roses, Leaves a cold Dew upon thy
                         redder Lips . She strives, and holds me like a drowning wretch O now my
                         Lords, if pitty ever blest you, • If you were never nurst by Tygers, help
                         me- . Now now, you cruel Heavns I plainly see y </l>
