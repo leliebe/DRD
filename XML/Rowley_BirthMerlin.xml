@@ -1,10 +1,490 @@
+<<<<<<< Updated upstream
 
 <body>
   <pb n="1"/>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../out/TestOdd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!--Note, you haven't fully edited the teiHeader for this document -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Birth of Merlin; or The Childe Hath Found His Father---Digital Restoration Drama</title>
+                <author>William Rowley</author>
+                <author>William Shakespeare</author>
+                <editor>Lauren Liebe</editor>
+                <funder>Texas A amp;M University Center of Digital Humanities Research</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">Transcribed and encoded from photographs of the original</edition>
+                <editor>Lauren Liebe</editor>
+                <respStmt>
+                    <resp>Transcribed from photographs of Folger Library R2096 copy 3 (main text) and copy 1 (title page) and encoded by</resp>
+                    <name ref="#p1002">Adalynn Loo</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Digital Restoration Drama</publisher>
+                <address>
+                    <addrLine>
+                        <!--Website goes here-->
+                    </addrLine>
+                    <addrLine>
+                        <!--email goes here-->
+                    </addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International License.</licence>
+                    <!--What do I have to do to make certain this is available under Creative Commons? -->
+                </availability>
+                <date>
+                    <!--Date of publication/upload goes here -->
+                </date>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Digital Restoration Drama</title>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                      <title>The Birth of Merlin; or The Childe Hath Found His Father---Digital Restoration Drama</title>
+                      <author>William Rowley</author>
+                      <author>William Shakespeare</author>
+                    </titleStmt>
+                    <publicationStmt>
+                        <printer>Thomas Johnson</printer>
+                        <publisher>Francis Kirkman</publisher>
+                        <publisher>Henry Marsh</publisher>
+                        <pubPlace>the Princes Arms in Chancery-Lane</pubPlace>
+                        <date when="1662">1662</date>
+                    </publicationStmt>
+                    <notesStmt>
+                        <note>Folger Shakespeare Library call number R2096 copy 3 (main text) and copy 1 (title page)</note>
+                    </notesStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+          <titlePage>
+            <docTitle ref="#pt52">
+              <titlePartMain>
+                <seg><h3>THE</h3></seg>
+                <seg><h1>BIRTH</h1></seg>
+                <seg><h3>OF</h3></seg>
+                <seg><h1>MERLIN:</h1></seg>
+              </titlePartMain>
+              <titlePartSub>
+                <seg><h3>OR,</h3></seg>
+                <seg><h2><italic>The Childe hath found his Father.</italic></h2></seg>
+              </titlePartSub>
+              <titlePartDesc>
+                <seg><h2>As it hath been several times Acted</h2></seg>
+                <seg><h2>with great Applause.</h2></seg>
+              </titlePartDesc>
+            </docTitle>
+            <byline>
+              <seg>
+                <seg>Written by</seg>
+                <seg>
+                  <docAuthor>
+                    <name type="person" ref="#pXXXXX"><italic>William Shakespear</italic></name>
+                  </docAuthor>
+                </seg>
+                <seg>, and</seg>
+              </seg>
+              <seg>
+                <seg>
+                  <docAuthor>
+                    <name type="person" ref="#pXXXXX"><italic>William Rowley</italic></name>
+                  </docAuthor>
+                </seg>
+                <seg>.</seg>
+              </seg>
+            </byline>
+            <epigraph>
+              <p>
+                <seg><italic>Placere cupio.</italic></seg>
+              </p>
+            </epigraph>
+            <docImprint>
+              <seg>
+                <seg><name type="place" ref="#locXXXXX"><italic>LONDON</italic></name></seg>
+                <seg>: Printed by </seg>
+                <seg><name type="person" ref="#pXXXXX"><italic>Tho. Johnson</italic></name></seg>
+                <seg> for </seg>
+                <seg><name type="person" ref="#pXXXXX"><italic>Francis Kirkman</italic></name></seg>
+                <seg>, and</seg>
+              </seg>
+              <seg>
+                <seg><name type="person" ref="#pXXXXX"><italic>Henry Marsh</italic></name></seg>
+                <seg>, and are to be sold at the </seg>
+                <seg><name type="place" ref="#locXXXXX"><italic>Princes Arms</italic></name></seg>
+                <seg> in </seg>
+              </seg>
+              <seg>
+                <seg><name type="place" ref="#locXXXXX"><italic>Chancery-Lane</italic></name></seg>
+                <seg>. 1662. </seg>
+              </seg>
+            </docImprint>
+          </titlePage>
+          <castList>
+            <head><italic>Drammatis Personæ</italic></head>
+            <set><seg>The Scene </seg><seg><name type="place" ref="#locXXXXX">BRITTAIN</name></seg><seg>.</seg></set>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r30">
+                    <italic>Aurelius</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>King of </seg><name type="place" ref="#locXXXXX"><italic>Brittain</italic></name></seg><seg>.</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r31">
+                    <italic>Vortiger</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>King of </seg><name type="place" ref="#locXXXXX"><italic>Brittain</italic></name></seg><seg>.</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r32">
+                    <italic>Uter Pendragon</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>the Prince, Brother to </seg><name type="role" ref="#r30"><italic>Aurelius</italic></name></seg><seg>.</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r33">
+                    <italic>Donobert</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>a Nobleman, and Father to </seg><name type="role" ref="#r58"><italic>Constantia</italic></name></seg><seg> and </seg><seg><name type="role" ref="#r59"><italic>Modestia</italic></name></seg><seg>.</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r34">
+                    <seg>The Earl of</seg>
+                    <seg><italic>Gloster</italic></seg>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>and Father to </seg><name type="role" ref="#r37"><italic>Edwyn</italic></name></seg><seg>.</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r35">
+                    <seg><italic>Edoll</italic></seg>
+                    <seg>Earl of </seg>
+                    <seg><italic>Chester</italic></seg>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>and General to King </seg><name type="role" ref="#r30"><italic>Aurelius</italic></name></seg><seg>.</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r36">
+                    <seg><italic>Cador</italic></seg>
+                    <seg>Earl of </seg>
+                    <seg><italic>Cornwall</italic></seg>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>and Suitor to </seg><name type="role" ref="#r58"><italic>Constantia</italic></name></seg><seg>.</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r37">
+                    <italic>Edwyn</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>and General to King </seg><name type="role" ref="#r30"><italic>Aurelius</italic></name></seg><seg>.</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r38">
+                    <italic>Toclio</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>a Nobleman</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r39">
+                    <italic>Oswald</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>a Nobleman</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r40">
+                    <italic>Merlin</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>the Prophet</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r41">
+                    <italic>Anselme</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>the Hermit, after Bishop of </seg><seg><name type="place" ref="#locXXXXX"><italic>Winchester</italic></name></seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r42">
+                    Clown
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>brother to </seg><seg><name type="role" ref="#r60"><italic>Jone</italic></name></seg><seg>, mother of </seg><seg><name type="role" ref="#r40"><italic>Merlin</italic></name></seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r43">
+                    <seg>Sir</seg>
+                    <seg><italic>Nichodemus Nothing</italic></seg>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>a Courtier</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r44">
+                    <italic>The Devil</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>father of </seg><seg><name type="role" ref="#r40"><italic>Merlin</italic></name></seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r45">
+                    <italic>Ostorius</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>the Saxon General</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r46">
+                    <italic>Octa</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>a Saxon Nobleman</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r47">
+                    <italic>Proximus</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>a Saxon Magician</seg></roleDesc>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name>
+                    Two Bishops
+                  </name>
+                </role>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name>
+                    Two Saxon Lords
+                  </name>
+                </role>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name>
+                    <seg>Two of </seg>
+                    <seg><name type="role" ref="#r35"><italic>Edolls</italic></name></seg>
+                    <seg>Captains</seg>
+                  </name>
+                </role>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name>
+                    Two Gentlemen
+                  </name>
+                </role>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r56">
+                  A little Antick Spirit
+                  </name>
+                </role>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r57">
+                    <italic>Artesia</italic>
+                  </name>
+                </role>
+              </castItem>
+              <castItem>
+                <roleDesc><seg>Sister to </seg><seg><name type="role" ref="#r57"><italic>Ostorius</italic></name></seg><seg> the Saxon General</seg></roleDesc>
+              </castItem>
+            </castGroup>
+        <castGroup>
+          <brace>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r58">
+                    <italic>Constantia</italic>
+                  </name>
+                </role>
+              </castItem>
+            </castGroup>
+            <castGroup>
+              <castItem>
+                <role>
+                  <name type="role" ref="#r59">
+                    <italic>Modestia</italic>
+                  </name>
+                </role>
+              </castItem>
+            </castGroup>
+            <castItem>
+              <roleDesc><seg>Daughters to Donobert</seg></roleDesc>
+            </castItem>
+          </brace>
+        </castGroup>
+        <castGroup>
+          <castItem>
+            <role>
+              <name type="role" ref="#r60">
+                <italic>Jone Goe-too't</italic>
+              </name>
+            </role>
+          </castItem>
+          <castItem>
+            <roleDesc><seg>Mother of </seg><seg><name type="role" ref="#r40"><italic>Merlin</italic></name></seg></roleDesc>
+          </castItem>
+        </castGroup>
+        <castGroup>
+          <castItem>
+            <role>
+              <name type="role" ref="#r61">
+                A Waiting Woman
+              </name>
+            </role>
+          </castItem>
+          <castItem>
+            <roleDesc><seg>to </seg><seg><name type="role" ref="#r57"><italic>Artesia</italic></name></seg></roleDesc>
+          </castItem>
+        </castGroup>
+        <castGroup>
+          <castItem>
+            <role>
+              <name type="role" ref="#r60">
+                <italic>Lucina</italic>
+              </name>
+            </role>
+          </castItem>
+          <castItem>
+            <roleDesc><seg>Queen of the Shades</seg></roleDesc>
+          </castItem>
+        </castGroup>
+        </castList>
+        </front>
+        <body>
+          <pb n="1"/>
+>>>>>>> Stashed changes
     <head>
       <seg>The BIRTH of MERLIN</seg>
       <seg>OR,</seg>
       <seg><italic>The Childe hath found his Father.</italic><seg>
+    </head>
 
 <seg><stageCenter><italic>Enter </italic><name type="role" ref="#rXXX"><italic>Donobert,</italic></name><name type="role" ref="#rXXX"><italic>Gloster,</italic></name><name type="role" ref="#rXXX"><italic>Cador,</italic></name><name type="role" ref="#rXXX">
 <italic>Edwin,</italic></name><name type="role" ref="#rXXX"><italic>Constantia,</italic></name><italic>and</italic><name type="role" ref="#rXXX"><italic>Modestia</italic></name></stageCenter></seg>
