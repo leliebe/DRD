@@ -22,10 +22,10 @@ this multi line form or */
 */
 
 /* Set the variables for your database connection. */
-$dbname = 'DRD';
-$dbuser = 'leliebe';
-$dbpass = 'Merm9!87rl1';
-$dbhost = 'localhost';
+$dbname = '****';
+$dbuser = '****';
+$dbpass = '****';
+$dbhost = '****';
 
 /* Set up the connection string to the database. */
 // $conn = mysqli_connect($dbhost, $dbuser, $dbpass) or die("Unable to Connect to '$dbhost'");
